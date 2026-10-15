@@ -1,17 +1,56 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Task 2</title>
-  <link rel="stylesheet" href="assets/student.css">
-</head>
-<body>
-  <main class="task-canvas" id="main-content">
-    <h1 class="visually-hidden" id="page-title">Task 2 visualisation</h1>
-    <div id="visualisation" role="region" aria-labelledby="page-title">
-      <!-- Add your task solution here. -->
-    </div>
-  </main>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Barcelona road accidents - the audience</title><style>
+body { margin: 0; background: #f3f6f8; color: #18324a; font-family: Arial, sans-serif; }
+main { max-width: 960px; margin: 40px auto; padding: 32px; background: white; box-shadow: 0 8px 30px #18324a20; }
+h1 { margin: 0 0 8px; font-size: 30px; }
+p { color: #435466; line-height: 1.55; }
+img { width: 800px; max-width: 100%; height: auto; display: block; margin: 28px auto 12px; }
+.note { font-size: 14px; color: #68737d; }
+a { color: #2f6b9a; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 20px 0; }
+th, td { border: 1px solid #c8d0d6; padding: 8px; text-align: left; vertical-align: top; color: #435466; }
+th { background: #eef3f7; color: #18324a; }
+.persona { display: flex; width: 800px; max-width: 100%; height: 450px; margin: 28px auto 12px; background: #f3f6f8; border-right: 0; overflow: hidden; }
+.persona img { width: 290px; height: 450px; object-fit: cover; object-position: top; margin: 0; flex: none; border-right: 8px solid #e8a317; }
+.persona-text { padding: 20px 22px; flex: 1; }
+.persona-label { margin: 0; font-size: 12px; font-weight: bold; letter-spacing: 1px; color: #2f6b9a; }
+.persona h2 { margin: 4px 0 0; font-size: 32px; }
+.persona-role { margin: 4px 0 12px; font-size: 16px; color: #435466; }
+.persona dl { margin: 0; border-top: 1px solid #c8d0d6; padding-top: 6px; display: grid; grid-template-columns: 125px 1fr; row-gap: 0; }
+.persona dt { font-weight: bold; padding: 9px 0; }
+.persona dd { margin: 0; padding: 9px 0; color: #435466; font-size: 15px; }
+</style></head>
+<body><main>
+<h1>Barcelona road accidents: the audience</h1>
+<section class="persona">
+<img src="assets/policy_eda/07_mayor_collboni_photo.jpg" alt="Jaume Collboni, Mayor of Barcelona">
+<div class="persona-text">
+<p class="persona-label">PERSONA</p>
+<h2>Jaume Collboni</h2>
+<p class="persona-role">Mayor of Barcelona</p>
+<dl>
+<dt>Goal</dt><dd>Cut serious road injuries; decide where to act</dd>
+<dt>Domain</dt><dd>Expert in city policy, not in road-safety data</dd>
+<dt>Charts</dt><dd>Reads simple charts; no statistics background</dd>
+<dt>Platform</dt><dd>Tablet, landscape, in meetings and on the move</dd>
+<dt>Frequency</dt><dd>Weekly briefing + before council sessions</dd>
+<dt>Pain points</dt><dd>Little time; fewer incidents can hide worse outcomes</dd>
+<dt>Needs to know</dt><dd>Is it improving, where, when, and what to do</dd>
+</dl>
+</div>
+</section>
+<p><strong>Scenario.</strong> Before a council debate on road safety, the mayor opens the dashboard on his tablet. In under a minute he sees that incidents are down 23% but seriously injured people are up 23%, which districts and time slots concentrate the problem, and what is reliable enough to announce.</p>
+<h2>Questions the dashboard must answer</h2>
+<table>
+<tr><th>#</th><th>Function</th><th>Question</th><th>Fit with the user's goal</th><th>Selected chart</th></tr>
+<tr><td>01</td><td>Trend</td><td>How are incidents and serious injuries evolving since 2019?</td><td>Tells him whether policy is working, beyond raw counts.</td><td>Two small line charts</td></tr>
+<tr><td>02</td><td>Compare</td><td>Which districts have the most accidents and the highest serious or fatal share?</td><td>Shows where to send resources first.</td><td>Choropleth map + sorted bars</td></tr>
+<tr><td>03</td><td>Patterns</td><td>When do accidents concentrate during the week and day?</td><td>Guides timing of police and enforcement.</td><td>Weekday-hour heatmap</td></tr>
+<tr><td>04</td><td>Compare</td><td>Which weekdays are the most severe?</td><td>Separates frequent days from dangerous ones.</td><td>Horizontal bar chart</td></tr>
+<tr><td>05</td><td>Composition</td><td>Who is most affected: pedestrians, cyclists, motorcyclists, drivers?</td><td>Targets campaigns and street design to vulnerable users.</td><td>Stacked bar chart</td></tr>
+<tr><td>06</td><td>Location</td><td>Where are the hotspots inside each district?</td><td>Supports concrete street-level interventions.</td><td>Point or density map</td></tr>
+<tr><td>07</td><td>Quality</td><td>How reliable are the figures behind these answers?</td><td>Lets him defend decisions in public.</td><td>Annotated notes and flags</td></tr>
+</table>
+<p><a href="task02-explanation.html">Read the 200-300 word explanation</a></p>
+</main></body></html>
