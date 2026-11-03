@@ -1,17 +1,112 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Task 3</title>
-  <link rel="stylesheet" href="assets/student.css">
-</head>
-<body>
-  <main class="task-canvas" id="main-content">
-    <h1 class="visually-hidden" id="page-title">Task 3 visualisation</h1>
-    <div id="visualisation" role="region" aria-labelledby="page-title">
-      <!-- Add your task solution here. -->
-    </div>
-  </main>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Barcelona road accidents - dashboard draft</title><style>
+body { margin: 0; background: #f3f6f8; color: #18324a; font-family: Arial, sans-serif; }
+main { max-width: 960px; margin: 40px auto; padding: 32px; background: white; box-shadow: 0 8px 30px #18324a20; }
+h1 { margin: 0 0 8px; font-size: 30px; }
+h2 { margin: 32px 0 8px; font-size: 20px; }
+h3 { margin: 22px 0 4px; font-size: 16px; }
+p { color: #435466; line-height: 1.55; }
+img { width: 800px; max-width: 100%; height: auto; display: block; margin: 28px auto 12px; border: 1px solid #c8d0d6; }
+.note { font-size: 14px; color: #68737d; }
+a { color: #2f6b9a; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 12px 0 20px; }
+th, td { border: 1px solid #c8d0d6; padding: 8px; text-align: left; vertical-align: top; color: #435466; }
+th { background: #eef3f7; color: #18324a; }
+.goal { margin: 0 0 6px; }
+</style></head>
+<body><main>
+<h1>Barcelona road accidents: the dashboard draft</h1>
+<img src="assets/policy_eda/08_dashboard_draft.png" width="800" height="450" alt="Low-fidelity dashboard draft: key figures, two trend lines, weekday severity, pedestrian causes, weekday-hour heatmap, district bars, density map and a data-reliability strip">
+<p class="note">Low-fi prototype for the mayor's tablet (landscape). Numbered badges 1-7 match the seven questions of the audience task. Values come from the 54,928 unique incidents of 2019-2025.</p>
+
+<h2>1) Charts and encoding</h2>
+
+<h3>Chart 1 (Q1): Two small line charts</h3>
+<p class="goal"><strong>Goal:</strong> show the trend of incident volume and of serious harm side by side, to see that fewer incidents do not mean safer outcomes.</p>
+<p><strong>Decisions:</strong> one row per unique incident ID (26 duplicates removed); incidents counted per year, seriously injured people summed per year; integer precision. Two panels with independent y axes (not one dual axis) so the opposite trends are not distorted. Only the first, middle and last year are labelled; start and end values are written on the line.</p>
+<table>
+<tr><th>Field</th><th>Encoding</th><th>Function</th><th>Relation with perception theory</th><th>Legend</th></tr>
+<tr><td>nk_any (year)</td><td>Position on x, ordered</td><td>Show order and trend</td><td>Position on a common axis is the most accurate channel; line connects ordered points (continuity).</td><td>Axis ticks 2019, 2022, 2025</td></tr>
+<tr><td>Incidents / seriously injured (count)</td><td>Position on y</td><td>Compare change over time</td><td>Slope is read pre-attentively; direct labels avoid lookup.</td><td>Panel titles + end labels</td></tr>
+<tr><td>Measure</td><td>Hue: blue = volume, red = serious harm</td><td>Tell the two measures apart</td><td>Hue is selective (categorical) and consistent across the dashboard.</td><td>Panel title</td></tr>
+</table>
+
+<h3>Chart 2 (Q2): Sorted horizontal bars of districts</h3>
+<p class="goal"><strong>Goal:</strong> compare districts by volume and by serious or fatal share, to decide where to act first.</p>
+<p><strong>Decisions:</strong> ten districts (232 incidents without district are left out and noted); bars sorted by count; share shown to one decimal. The share is a text label because it is a rate and cannot share the count axis. The full choropleth from Task 1.1 stays as the detailed view; a map shades by area and makes large, empty districts dominate.</p>
+<table>
+<tr><th>Field</th><th>Encoding</th><th>Function</th><th>Relation with perception theory</th><th>Legend</th></tr>
+<tr><td>nom_districte</td><td>Vertical position, sorted by value</td><td>Identify and rank</td><td>Sorting makes the ranking readable at a glance.</td><td>Labels on the axis</td></tr>
+<tr><td>Incidents (count)</td><td>Bar length (blue)</td><td>Compare volume</td><td>Length on a common baseline: highest accuracy (Cleveland and McGill).</td><td>Chart title</td></tr>
+<tr><td>Serious/fatal share (%)</td><td>Red numeric label; maximum in bold</td><td>Spot the most severe district</td><td>Red against grey is pre-attentive; only the outlier (Horta-Guinardo, 3.4%) is emphasised.</td><td>Subtitle in red</td></tr>
+</table>
+
+<h3>Chart 3 (Q3): Weekday-by-hour heatmap</h3>
+<p class="goal"><strong>Goal:</strong> reveal when incidents concentrate, to time enforcement and campaigns.</p>
+<p><strong>Decisions:</strong> counts of unique incidents per weekday (Monday to Sunday, natural order) and hour 0-23; no binning beyond the hour, so the afternoon peak (Friday 14:00) stays visible.</p>
+<table>
+<tr><th>Field</th><th>Encoding</th><th>Function</th><th>Relation with perception theory</th><th>Legend</th></tr>
+<tr><td>dia_semana</td><td>Row position</td><td>Group by weekday</td><td>Ordered rows keep the weekly cycle.</td><td>Row labels</td></tr>
+<tr><td>hora_dia</td><td>Column position</td><td>Group by hour</td><td>Regular grid; similarity forms visible bands (weekday rush, weekend night).</td><td>Ticks 0, 6, 12, 18, 23</td></tr>
+<tr><td>Incidents (count)</td><td>Lightness of a single blue hue</td><td>Find peaks</td><td>Lightness is ordered; less precise than position, but enough for patterns, not exact values.</td><td>Colour bar in the final version</td></tr>
+</table>
+
+<h3>Chart 4 (Q4): Weekday severity bars</h3>
+<p class="goal"><strong>Goal:</strong> separate the most frequent days from the most dangerous ones.</p>
+<p><strong>Decisions:</strong> share of incidents with serious or fatal outcome per weekday (2.3% to 3.1%), one decimal. A rate, not a count, so busy days do not look worse by volume alone. The axis starts at zero to avoid exaggerating small differences.</p>
+<table>
+<tr><th>Field</th><th>Encoding</th><th>Function</th><th>Relation with perception theory</th><th>Legend</th></tr>
+<tr><td>dia_semana</td><td>Vertical position, calendar order</td><td>Identify the day</td><td>Natural order is easier than sorting by value here.</td><td>Labels</td></tr>
+<tr><td>Serious/fatal share (%)</td><td>Bar length from zero</td><td>Compare severity</td><td>Length on a common baseline.</td><td>Value labels</td></tr>
+<tr><td>Highest day</td><td>Hue: red for Sunday, amber for the rest</td><td>Highlight</td><td>Colour contrast guides the eye (figure-ground).</td><td>Title</td></tr>
+</table>
+
+<h3>Chart 5 (Q5): Pedestrian-cause bars</h3>
+<p class="goal"><strong>Goal:</strong> show which pedestrian behaviours are behind pedestrian-related incidents.</p>
+<p><strong>Decisions:</strong> we use the pedestrian-cause field (17% of incidents are pedestrian-caused). "Unknown" is excluded from the shares and noted; the four known causes are shown, rounded to whole percent.</p>
+<table>
+<tr><th>Field</th><th>Encoding</th><th>Function</th><th>Relation with perception theory</th><th>Legend</th></tr>
+<tr><td>descripcio_causa_vianant</td><td>Vertical position, sorted</td><td>Identify the cause</td><td>Short English labels reduce reading effort.</td><td>Labels</td></tr>
+<tr><td>Share of pedestrian-caused incidents</td><td>Bar length (blue)</td><td>Compare composition</td><td>Length is more accurate than the angle of a pie.</td><td>Value labels</td></tr>
+</table>
+
+<h3>Chart 6 (Q6): Density map of hotspots</h3>
+<p class="goal"><strong>Goal:</strong> locate concentrations of incidents inside the city.</p>
+<p><strong>Decisions:</strong> hexagonal binning of longitude and latitude instead of 55,000 points, to avoid overplotting; 0.08% of rows without coordinates are left out; the aspect ratio corrects for latitude.</p>
+<table>
+<tr><th>Field</th><th>Encoding</th><th>Function</th><th>Relation with perception theory</th><th>Legend</th></tr>
+<tr><td>longitud, latitud</td><td>Position on a map (x, y)</td><td>Locate</td><td>Spatial position is intuitive for a city policy maker.</td><td>None (outline of the city)</td></tr>
+<tr><td>Incidents per hexagon</td><td>Lightness of blue</td><td>Find hotspots</td><td>Same blue as the other volume charts (similarity).</td><td>Colour bar in the final version</td></tr>
+</table>
+
+<h3>Chart 7 (Q7): Reliability strip</h3>
+<p class="goal"><strong>Goal:</strong> let the mayor know how far the figures can be trusted.</p>
+<p><strong>Decisions:</strong> a text strip, not a chart: missing district 0.42%, missing coordinates 0.08%, 26 duplicate IDs removed, zeros in 2024-2025 that may mean unknown, and the fact that all values are observed records, not forecasts. Amber background marks it as a caution.</p>
+
+<h3>Use of colour</h3>
+<p>Colour has one meaning per hue. <strong>Blue</strong> is volume (incidents), in line and bar charts and as a single sequential scale in the heatmap and map. <strong>Red</strong> is serious harm or alert: the injury line, the highest district share and the highest weekday. <strong>Amber</strong> is the secondary severity rate and the caution strip. <strong>Grey</strong> is context (axes, grids, other districts). Hue is never the only cue: values are labelled, and blue and red differ in lightness, so the design also works for colour-blind readers.</p>
+
+<h2>2) Layout and Gestalt laws</h2>
+<table>
+<tr><th>Gestalt principle</th><th>How is it applied in the dashboard?</th><th>Why?</th></tr>
+<tr><td>Proximity</td><td>Key figures at the top; the three "trend and severity" charts in one row; the three "where and when" charts in the next row.</td><td>Related questions are read together and unrelated ones are separated by white space.</td></tr>
+<tr><td>Similarity</td><td>Same hue for the same measure (blue volume, red harm); same badge style and title style on every chart.</td><td>The mayor learns the code once and applies it to every panel.</td></tr>
+<tr><td>Common region</td><td>Key-figure cards and the amber reliability strip are enclosed in boxes.</td><td>Separates summary and caveats from the charts.</td></tr>
+<tr><td>Continuity and alignment</td><td>Charts sit on a grid with left-aligned titles; the two trend lines share the same height and x range.</td><td>The eye moves left to right, top to bottom, in the order of the questions.</td></tr>
+<tr><td>Figure-ground</td><td>Muted blues and grey as background; red only on the few items that matter.</td><td>Draws attention to the key warning (serious injuries up 23%) within seconds.</td></tr>
+</table>
+
+<h2>3) Draft and the questions it answers</h2>
+<table>
+<tr><th>Question</th><th>How this question will be answered with the dashboard?</th></tr>
+<tr><td>01 How are incidents and serious injuries evolving?</td><td>The two lines show 10,027 to 7,741 incidents (-23%) next to 202 to 249 seriously injured (+23%). The key-figure cards repeat the 2025 values.</td></tr>
+<tr><td>02 Which districts have the most accidents and the highest serious share?</td><td>The sorted bars put Eixample first (15,080 incidents); the red labels show Horta-Guinardo as the highest share (3.4%).</td></tr>
+<tr><td>03 When do accidents concentrate?</td><td>The heatmap shows dark cells on weekday afternoons (Friday around 14:00) and light cells at night.</td></tr>
+<tr><td>04 Which weekdays are the most severe?</td><td>The weekday bars show Sunday as the most severe (3.1%) and Tuesday as the least (2.3%), even though weekdays have more incidents.</td></tr>
+<tr><td>05 Which pedestrian behaviours are behind pedestrian-caused accidents?</td><td>The pedestrian-cause bars show red-light disobedience (38%) and crossing outside crossings (32%) as the main known causes.</td></tr>
+<tr><td>06 Where are the hotspots?</td><td>The density map shows the concentration in the central districts and along the main avenues.</td></tr>
+<tr><td>07 How reliable are the figures?</td><td>The amber strip lists missing values, removed duplicates, ambiguous zeros and the observed-data status.</td></tr>
+</table>
+<p><a href="task03-explanation.html">Read the 200-300 word explanation</a></p>
+</main></body></html>

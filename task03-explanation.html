@@ -1,17 +1,19 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Task 3 explanation</title>
-  <link rel="stylesheet" href="assets/student.css">
-</head>
-<body>
-  <main class="explanation-page" id="main-content">
-    <h1>Task 3 explanation</h1>
-    <div id="explanation-text">
-      <p>Replace this text with your 200–300 word explanation.</p>
-    </div>
-  </main>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Barcelona road accidents - dashboard explanation</title><style>
+body { margin: 0; background: #f3f6f8; color: #18324a; font-family: Arial, sans-serif; }
+main { max-width: 960px; margin: 40px auto; padding: 32px; background: white; box-shadow: 0 8px 30px #18324a20; }
+h1 { margin: 0 0 8px; font-size: 30px; }
+p { color: #435466; line-height: 1.55; }
+.note { font-size: 14px; color: #68737d; }
+a { color: #2f6b9a; }
+</style></head>
+<body><main>
+<h1>Chart selection and encoding: our decisions</h1>
+<p>The draft is a one-screen tablet dashboard for the mayor, built around the warning found in our EDA: incidents fell 23% between 2019 and 2025, but seriously injured people rose 23%. It follows a top-down order, from the headline to the detail, and each of the seven audience questions has its own numbered panel.</p>
+<p>The top row answers whether things are improving. Two separate line charts, blue for volume and red for serious harm, show the opposite trends without a misleading dual axis. Next to them, weekday bars show the serious or fatal share, which separates frequent days from dangerous ones: Sunday reaches 3.1%. The second row shows when and where. The weekday-hour heatmap shows the afternoon peak, the sorted district bars show Eixample with most incidents and Horta-Guinardo with the highest serious share (3.4%), and a density map locates hotspots without overplotting 55,000 points.</p>
+<p>We chose position and length for the quantities that must be compared exactly, and colour lightness only where patterns matter more than exact values, following perception theory. Each hue keeps one meaning, and red is reserved for harm, so the eye goes first to what matters. Proximity groups related charts, similarity links measures through colour, and common regions frame the key figures and the caution strip.</p>
+<p>The draft also exposes limits. A reliability strip reports missing values, removed duplicates and ambiguous zeros. As a low-fidelity prototype, it still needs colour legends, interaction and user testing.</p>
+<p class="note">240 words. Source: Open Data BCN, 2019-2025.</p>
+<p><a href="task03-claude.html">Return to the dashboard draft</a></p>
+</main></body></html>
