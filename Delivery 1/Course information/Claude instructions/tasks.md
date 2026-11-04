@@ -5,7 +5,7 @@ One task at a time (see `aiRules.md`). Mark a task `[x]` only when its check pas
 Text for the parts follows `spec.md` and `architecture.md`.
 
 ## Phase 0 — Setup
-- [ ] **0.1** Read all instructions, the brief and the course files for Part 1. Create the folder skeleton, empty `log.md` and `ACKNOWLEDGMENTS.md`. *Check: the tree matches `architecture.md`.*
+- [ ] **0.1** Read all instructions, every file in `skills/`, the brief and the course files for Part 1. Create the folder skeleton, empty `log.md` and `ACKNOWLEDGMENTS.md`. *Check: the tree matches `architecture.md`.*
 - [ ] **0.2** Load the raw dataset with `pandas`. *Check: 119,390 rows x 32 columns; the raw file is untouched.*
 
 ## Phase 1 — Part 1: Exploratory Data Analysis
@@ -39,12 +39,14 @@ Text for the parts follows `spec.md` and `architecture.md`.
 - [ ] **5.3** Update the prototype and write the Part 5 `.md` and `.pdf`. *Check: same text in both.*
 
 ## Phase 6 — Part 6: Implementation and delivery
-- [ ] **6.1** Data-preparation script producing the file for Power BI. *Check: row counts and key totals agree with Part 1.*
-- [ ] **6.2** Power BI build sheet and DAX measures for screen 1. The student builds it. *Check: numbers on the dashboard equal the Python results.*
-- [ ] **6.3** Same for screen 2. *Check: same as 6.2.*
-- [ ] **6.4** Interaction and accessibility setup (theme, contrast, alternative text, tab order, titles). *Check: accessibility list in `spec.md` passes.*
-- [ ] **6.5** ◆ Review of both screens from screenshots. *Check: the student approved.*
-- [ ] **6.6** Write the Part 6 `.md` and `.pdf`; save the code, DAX and screenshots. *Check: folder matches `architecture.md`.*
+Before 6.1, re-read every file in `skills/`. All Part 6 tasks follow them; each task's report says which skill was applied.
+- [ ] **6.1** ◆ Data-preparation script that aggregates the data into small tables in `data/processed/`; the level of aggregation is proposed so that the planned interactions still work. *Check: each table has fewer than 5,000 rows; totals agree with Part 1.*
+- [ ] **6.2** Notebook skeleton and the charts of screen 1, assembled into the screen. *Check: runs top to bottom; the numbers in the charts equal the pandas results.*
+- [ ] **6.3** Charts of screen 2. *Check: same as 6.2.*
+- [ ] **6.4** Interactions planned in Part 5 (selections, tooltips, linked views, filters). *Check: each interaction exists in the chart code; the student gets a list of what to test in the browser.*
+- [ ] **6.5** Accessibility setup (colours, contrast, text size, titles, `description` of each chart, long descriptions as visible text). *Check: accessibility list in `spec.md` passes.*
+- [ ] **6.6** Export `screen1_main.html` and `screen2_detail.html` and render a PNG of each. ◆ Review of both screens. *Check: the HTML files open locally; the student approved.*
+- [ ] **6.7** Write the Part 6 `.md` and `.pdf`; save the notebook (after "Restart and run all"), the code and the screenshots. *Check: folder matches `architecture.md`.*
 
 ## Phase 7 — Part 7 and packaging
 - [ ] **7.1** The AI asks questions; the students write their reflections; the AI only formats them. *Check: the content is the students'.*

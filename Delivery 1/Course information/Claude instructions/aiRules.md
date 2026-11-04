@@ -2,7 +2,7 @@
 
 ## General rules
 
-1. **Read first.** At the start of a session, read all the `.md` files and the notebook, say which task is next, and wait.
+1. **Read first.** At the start of a session, read all the `.md` files, every file in `skills/` and the notebook, say which task is next, and wait.
 2. **One task at a time**, in the order of `tasks.md`. Never start the next task until the student says so.
 3. **Plan, the file.** State in 2–3 lines what the task adds; ask if something isn't covered by the documents.
 4. **Verify honestly** Execute all the code, given it exists, and check that all the files are correct and their content is true and follows the guidelines.
@@ -13,7 +13,13 @@
 
 ### Allowed tools
 
-- Power BI, python
+- python (pandas, matplotlib / seaborn, vega-altair) and Jupyter notebooks
+
+### Vega-Altair skills
+
+- Read every file in `skills/` before starting, and follow them throughout Part 6.
+- If a skill conflicts with `spec.md`, `architecture.md` or the course PDFs, point it out once and ask the student. Record the answer in `log.md`.
+- If a skill does not cover what the chart needs, say so instead of guessing.
 
 ## Communication
 
