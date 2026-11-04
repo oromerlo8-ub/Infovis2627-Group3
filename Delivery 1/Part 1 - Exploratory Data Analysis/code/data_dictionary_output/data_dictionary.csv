@@ -1,0 +1,33 @@
+field,meaning,data_type,order,nature,range_domain,units,precision,# Missing,Missing placeholder
+hotel,Hotel of the booking: Resort Hotel (Algarve) or City Hotel (Lisbon). Added when the two datasets of the paper were joined,"Categorical, nominal",No order,Geographic (hotel location),"2: City Hotel, Resort Hotel",No unit,Label,0,—
+is_canceled,The booking was cancelled (1) or not (0),"Categorical, nominal (binary)",No order,Neither,"0 = no, 1 = yes",No unit,Count; rate in % with 1 decimal,0,—
+lead_time,Days between the booking entering the hotel system and the arrival date,"Numerical, discrete, ratio",Sequential,Temporal (duration),0 to 737,Days,Whole days,0,—
+arrival_date_year,Year of the arrival date,"Numerical, discrete, interval",Sequential,Temporal,2015 to 2017,Year,Year,0,—
+arrival_date_month,Month of the arrival date (written as the month name),"Categorical, ordinal",Cyclic,Temporal,January to December (12 months),Month,Month,0,—
+arrival_date_week_number,Week number of the arrival date in its year,"Numerical, discrete, interval",Cyclic,Temporal,1 to 53,Week of the year,Week,0,—
+arrival_date_day_of_month,Day of the month of the arrival date,"Numerical, discrete, interval",Cyclic,Temporal,1 to 31,Day of the month,Day,0,—
+stays_in_weekend_nights,Weekend nights (Saturday or Sunday) stayed or booked to stay,"Numerical, discrete, ratio",Sequential,Temporal (duration),0 to 19,Nights,Whole nights,0,—
+stays_in_week_nights,Week nights (Monday to Friday) stayed or booked to stay,"Numerical, discrete, ratio",Sequential,Temporal (duration),0 to 50,Nights,Whole nights,0,—
+adults,Number of adults,"Numerical, discrete, ratio",Sequential,Neither,0 to 55,Persons,Whole persons,0,—
+children,Number of children (paying and non-paying),"Numerical, discrete, ratio",Sequential,Neither,0 to 10,Persons,Whole persons,4,NA
+babies,Number of babies,"Numerical, discrete, ratio",Sequential,Neither,0 to 10,Persons,Whole persons,0,—
+meal,"Meal package: SC or Undefined = no meal, BB = bed and breakfast, HB = half board, FB = full board","Categorical, ordinal (meals included)",Sequential,Neither,"5: BB, HB, SC, Undefined, FB",No unit,Label,1169,Undefined
+country,"Country of origin of the guest, as an ISO three-letter country code","Categorical, nominal",No order,Geographic (guest origin),"177 codes (most frequent: PRT, GBR, FRA)",No unit,Country,488,NULL
+market_segment,"Market segment of the booking (TA = travel agents, TO = tour operators)","Categorical, nominal",No order,Neither,"8: Online TA, Offline TA/TO, Groups, Direct, Corporate, Complementary, Aviation, Undefined",No unit,Label,2,Undefined
+distribution_channel,"Channel used to make the booking (TA = travel agents, TO = tour operators, GDS = global distribution system)","Categorical, nominal",No order,Neither,"5: TA/TO, Direct, Corporate, GDS, Undefined",No unit,Label,5,Undefined
+is_repeated_guest,The booking name belongs to a repeated guest (1) or not (0),"Categorical, nominal (binary)",No order,Neither,"0 = no, 1 = yes",No unit,Count; share in % with 1 decimal,0,—
+previous_cancellations,Earlier bookings of the same customer that were cancelled,"Numerical, discrete, ratio",Sequential,Neither,0 to 26,Bookings,Whole bookings,0,—
+previous_bookings_not_canceled,Earlier bookings of the same customer that were not cancelled,"Numerical, discrete, ratio",Sequential,Neither,0 to 72,Bookings,Whole bookings,0,—
+reserved_room_type,"Code of the room type reserved (letters, anonymised)","Categorical, nominal",No order,Neither,"10: A, D, E, F, G, B, C, H, P, L",No unit,Label,0,—
+assigned_room_type,"Code of the room type assigned; can differ from the reserved one (overbooking, guest request)","Categorical, nominal",No order,Neither,"12: A, D, E, F, G, C, B, H, I, K, P, L",No unit,Label,0,—
+booking_changes,Changes made to the booking until check-in or cancellation,"Numerical, discrete, ratio",Sequential,Neither,0 to 21,Changes,Whole changes,0,—
+deposit_type,"Deposit to guarantee the booking: No Deposit, Non Refund (covers the whole stay) or Refundable (covers part of it)","Categorical, nominal",No order,Neither,"3: No Deposit, Non Refund, Refundable",No unit,Label,0,—
+agent,ID of the travel agency that made the booking; NULL = not made by an agency,"Categorical, nominal (identifier)",No order,Neither,"333 IDs, from 1 to 535",No unit,Label,16340,NULL
+company,ID of the company that made or pays the booking; NULL = no company,"Categorical, nominal (identifier)",No order,Neither,"352 IDs, from 6 to 543",No unit,Label,112593,NULL
+days_in_waiting_list,Days the booking waited before it was confirmed to the customer,"Numerical, discrete, ratio",Sequential,Temporal (duration),0 to 391,Days,Whole days,0,—
+customer_type,"Type of booking: Transient, Transient-Party, Contract or Group","Categorical, nominal",No order,Neither,"4: Transient, Transient-Party, Contract, Group",No unit,Label,0,—
+adr,Average daily rate: lodging revenue of the booking divided by its number of nights,"Numerical, continuous, ratio",Sequential,Neither,-6.38 to 5400,Money per night (currency not stated; probably euros),Whole euros (file has 2 decimals),0,—
+required_car_parking_spaces,Car parking spaces the customer asked for,"Numerical, discrete, ratio",Sequential,Neither,0 to 8,Parking spaces,Whole spaces,0,—
+total_of_special_requests,Special requests made by the customer (for example a twin bed or a high floor),"Numerical, discrete, ratio",Sequential,Neither,0 to 5,Requests,Whole requests,0,—
+reservation_status,"Last status of the booking: Canceled, Check-Out or No-Show. Repeats is_canceled","Categorical, nominal",No order,Neither,"3: Check-Out, Canceled, No-Show",No unit,Label,0,—
+reservation_status_date,Date on which the last status was set,"Numerical, discrete, interval (date)",Sequential,Temporal,2014-10-17 to 2017-09-14,Date (YYYY-MM-DD),Day,0,—

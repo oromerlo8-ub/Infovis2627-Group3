@@ -1,0 +1,8 @@
+,bookings
+Check-Out: status date = arrival + nights,75139
+Check-Out: status date different,27
+Canceled: status date on or before arrival,43017
+Canceled: status date after arrival,0
+No-Show: status date = arrival,1206
+No-Show: status date different,1
+Status date before the first arrival (2015-07-01),2350

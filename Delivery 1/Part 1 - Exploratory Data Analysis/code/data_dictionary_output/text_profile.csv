@@ -1,0 +1,13 @@
+,distinct,most frequent
+hotel,2,City Hotel
+arrival_date_month,12,August
+meal,5,BB
+country,178,PRT
+market_segment,8,Online TA
+distribution_channel,5,TA/TO
+reserved_room_type,10,A
+assigned_room_type,12,A
+deposit_type,3,No Deposit
+customer_type,4,Transient
+reservation_status,3,Check-Out
+reservation_status_date,926,2015-10-21

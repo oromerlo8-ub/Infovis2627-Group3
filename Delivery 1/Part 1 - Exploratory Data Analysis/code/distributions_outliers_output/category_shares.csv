@@ -1,0 +1,33 @@
+,,% of bookings
+hotel,City Hotel,66.4
+hotel,Resort Hotel,33.6
+reservation_status,Check-Out,63.0
+reservation_status,Canceled,36.0
+reservation_status,No-Show,1.0
+market_segment,Online TA,47.3
+market_segment,Offline TA/TO,20.3
+market_segment,Groups,16.6
+market_segment,Direct,10.6
+market_segment,Corporate,4.4
+market_segment,Complementary,0.6
+market_segment,Aviation,0.2
+market_segment,Undefined,0.0
+distribution_channel,TA/TO,82.0
+distribution_channel,Direct,12.3
+distribution_channel,Corporate,5.6
+distribution_channel,GDS,0.2
+distribution_channel,Undefined,0.0
+customer_type,Transient,75.1
+customer_type,Transient-Party,21.0
+customer_type,Contract,3.4
+customer_type,Group,0.5
+deposit_type,No Deposit,87.6
+deposit_type,Non Refund,12.2
+deposit_type,Refundable,0.1
+meal,BB,77.3
+meal,HB,12.1
+meal,SC,8.9
+meal,Undefined,1.0
+meal,FB,0.7
+is_repeated_guest,0,96.8
+is_repeated_guest,1,3.2

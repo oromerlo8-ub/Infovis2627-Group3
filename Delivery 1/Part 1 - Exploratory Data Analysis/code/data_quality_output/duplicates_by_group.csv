@@ -1,0 +1,12 @@
+,,% duplicated
+hotel,City Hotel,32.7
+hotel,Resort Hotel,15.2
+is_canceled,0,15.7
+is_canceled,1,45.7
+deposit_type,No Deposit,17.6
+deposit_type,Non Refund,92.9
+deposit_type,Refundable,34.0
+customer_type,Contract,23.0
+customer_type,Group,5.7
+customer_type,Transient,19.7
+customer_type,Transient-Party,53.3
