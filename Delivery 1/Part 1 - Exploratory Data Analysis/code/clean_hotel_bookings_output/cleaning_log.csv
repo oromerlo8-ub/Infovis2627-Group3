@@ -1,0 +1,9 @@
+rule,description,rows before,rows after,rows removed,rows with a changed value
+2,"Remove rows with 0 guests, adr < 0, adr = 5,400 or 9-10 babies",119390,119206,184,0
+6,Remove rows with children = NA or Undefined market segment or channel,119206,119201,5,0
+3,"agent NULL -> 'No agent', company NULL -> 'No company' (128,710 cells)",119201,119201,0,118984
+4,meal Undefined -> SC,119201,119201,0,1169
+5,"country NULL -> 'Unknown', CN -> CHN (assumption: CN = China)",119201,119201,0,1757
+7,"Keep odd but possible values (adr = 0, 0 nights, 0 adults with children, large groups)",119201,119201,0,0
+1,"Keep duplicated rows, no flag (31,980 rows repeat an earlier row)",119201,119201,0,0
+8,"Add arrival_date, total_nights and total_guests",119201,119201,0,119201

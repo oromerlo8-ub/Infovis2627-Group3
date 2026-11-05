@@ -14,22 +14,22 @@ The final documents of Parts 1 to 5 have at most 500 words (the aim is 250 to 35
 - [x] **1.1** Data dictionary: for each of the 32 fields, type (course taxonomy), temporal / geographic nature, range, domain, units, precision. It is delivered as several images, so that it fits in the PDF, and is also saved as a `.csv` in the notebook's output folder. *Check: all 32 fields covered; the images are readable at their size in the PDF.*
 - [x] **1.2** Data quality: missing values, `NULL` placeholders, duplicates, impossible or odd values, overlap between `is_canceled` and `reservation_status`. *Check: every number comes from a notebook and its output.*
 - [x] **1.3** Distributions and outliers, with exploratory charts. *Check: each chart has title, axis labels, source and a comment in the text.*
-- [ ] **1.4** Relationships and groupings between fields (time, hotel, market segment, country, cancellations, price). *Check: each relationship has a chart and a comment.*
-- [ ] **1.5** Currency and update frequency of the data, and whether it is real or forecast. *Check: stated in the text, with the evidence from the data.*
-- [ ] **1.6** ◆ Cleaning rules. The AI lists the problems found in 1.2 (duplicates, `NULL` placeholders, missing values, odd values) with options for each, and the student chooses. The cleaning is done only by a plain Python script, `clean_hotel_bookings.py`, in Part 1's `code` folder, run with `python` from the raw file; never by hand and never decided by the AI alone. It saves `data/processed/hotel_bookings_clean.csv` and a log of how many rows each rule changes. *Check: the student approved every rule; the row counts before and after each rule are printed; the raw file is untouched.*
-- [ ] **1.7** ◆ Fields and relationships proposed for the dashboard. *Check: the student approved the list.*
-- [ ] **1.8** Write `part1_eda.md` and the `.pdf`. *Check: same text in both; every image referenced; at most 500 words (aim 250–350), not counting the data dictionary images.*
+- [x] **1.4** Relationships and groupings between fields (time, hotel, market segment, country, cancellations, price). *Check: each relationship has a chart and a comment.*
+- [x] **1.5** Currency and update frequency of the data, and whether it is real or forecast. *Check: stated in the text, with the evidence from the data.*
+- [x] **1.6** ◆ Cleaning rules. The AI lists the problems found in 1.2 (duplicates, `NULL` placeholders, missing values, odd values) with options for each, and the student chooses. The cleaning is done only by a plain Python script, `clean_hotel_bookings.py`, in Part 1's `code` folder, run with `python` from the raw file; never by hand and never decided by the AI alone. It saves `data/processed/hotel_bookings_clean.csv` and a log of how many rows each rule changes. *Check: the student approved every rule; the row counts before and after each rule are printed; the raw file is untouched.*
+- [x] **1.7** ◆ Fields and relationships proposed for the dashboard. *Check: the student approved the list.*
+- [x] **1.8** Write `part1_eda.md` and the `.pdf`. *Check: same text in both; every image referenced; at most 500 words (aim 250–350), not counting the data dictionary images.*
 
 ## Phase 2 — Part 2: Audience
-- [ ] **2.1** ◆ Audience, platform (one only) and frequency of use. *Check: the student chose among the options.*
-- [ ] **2.2** ◆ Persona, goal and scenario of use. *Check: consistent with 2.1.*
-- [ ] **2.3** ◆ Goals of the dashboard and 5–7 questions from the user's perspective. *Check: between 5 and 7; each answerable with the dataset.*
-- [ ] **2.4** Write the Part 2 `.md` and `.pdf`. *Check: same text in both; at most 500 words (aim 250–350).*
+- [x] **2.1** ◆ Audience, platform (one only) and frequency of use. *Check: the student chose among the options.*
+- [x] **2.2** ◆ Persona, goal and scenario of use. *Check: consistent with 2.1.*
+- [x] **2.3** ◆ Goals of the dashboard and 5–7 questions from the user's perspective. *Check: between 5 and 7; each answerable with the dataset.*
+- [x] **2.4** Write the Part 2 `.md` and `.pdf`. *Check: same text in both; at most 500 words (aim 250–350).*
 
 ## Phase 3 — Part 3: Reflection and adjustment
-- [ ] **3.1** ◆ Review Parts 1 and 2: is more data or a merge needed? *Check: decision recorded.*
-- [ ] **3.2** If needed, add or merge data, or change a cleaning rule (by changing the cleaning script and running it again) and describe any new data in detail. *Check: new file in `data/processed/`, loads correctly.*
-- [ ] **3.3** Write the Part 3 `.md` and `.pdf`, with the small changes to Part 1. *Check: same text in both; at most 500 words (aim 250–350).*
+- [x] **3.1** ◆ Review Parts 1 and 2: is more data or a merge needed? *Check: decision recorded.*
+- [x] **3.2** If needed, add or merge data, or change a cleaning rule (by changing the cleaning script and running it again) and describe any new data in detail. *Check: new file in `data/processed/`, loads correctly.*
+- [x] **3.3** Write the Part 3 `.md` and `.pdf`, with the small changes to Part 1. *Check: same text in both; at most 500 words (aim 250–350).*
 
 ## Phase 4 — Part 4: Chart selection and encoding
 - [ ] **4.1** ◆ For each of the questions, the function of the chart (Visual Vocabulary) and the chart type. *Check: every question is covered by a chart; every chart passes the DRACO hard rules.*

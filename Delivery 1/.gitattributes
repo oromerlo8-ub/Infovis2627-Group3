@@ -1,0 +1,2 @@
+# Keep data files byte-for-byte: no line-ending conversion by Git
+*.csv -text
