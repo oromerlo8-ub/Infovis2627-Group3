@@ -1,0 +1,4 @@
+use,hex,contrast on white,compared with,CIELAB distance with deuteranopia,passes 3:1
+"Selected country (bars, C6 line)",#B35900,4.83,bar blue,90.13,True
+All guests (C6 line),#595959,7.0,selected orange,58.1,True
+Bars,#1F4E79,8.66,selected orange,90.13,True

@@ -1,0 +1,15 @@
+chart,check,passes
+C4,"order ""guests"" (both hotels, all years)",True
+C4,"order ""alphabetical"" (both hotels, all years)",True
+C4,France selected: orange bars = 2,True
+C4,Other selected: orange bars = 2,True
+C7,"order ""guests"" (both hotels, all years)",True
+C7,"order ""alphabetical"" (both hotels, all years)",True
+C7,France selected: orange bars = 1,True
+C7,Other selected: orange bars = 1,True
+C8,"order ""guests"" (both hotels, all years)",True
+C8,"order ""alphabetical"" (both hotels, all years)",True
+C8,France selected: orange bars = 1,True
+C8,Other selected: orange bars = 1,True
+C6,"France selected: orange line and label ""France""",True
+C5,France selected: one country outlined,True

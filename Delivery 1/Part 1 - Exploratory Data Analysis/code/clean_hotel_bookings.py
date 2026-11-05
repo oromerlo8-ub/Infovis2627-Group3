@@ -81,10 +81,11 @@ bookings['meal'] = bookings['meal'].replace('Undefined', 'SC')
 log_rule(4, "meal Undefined -> SC", len(bookings), len(bookings), rows_changed)
 
 # ── Rule 5: country ───────────────────────────────────────────────────────────
-# NULL is a real gap -> 'Unknown'; CN is taken as China (assumption) -> CHN
+# NULL is a real gap -> 'Unknown'; CN is taken as Canada -> CAN (students' decision: the data has no CAN code,
+# while China already appears as CHN)
 rows_changed = int(bookings['country'].isin(['NULL', 'CN']).sum())
-bookings['country'] = bookings['country'].replace({'NULL': 'Unknown', 'CN': 'CHN'})
-log_rule(5, "country NULL -> 'Unknown', CN -> CHN (assumption: CN = China)", len(bookings), len(bookings), rows_changed)
+bookings['country'] = bookings['country'].replace({'NULL': 'Unknown', 'CN': 'CAN'})
+log_rule(5, "country NULL -> 'Unknown', CN -> CAN (CN taken as Canada)", len(bookings), len(bookings), rows_changed)
 
 # ── Rule 7: odd but possible values are kept ──────────────────────────────────
 # adr = 0, 0 nights, 0 adults with children, large groups, 27 check-out dates: nothing is changed

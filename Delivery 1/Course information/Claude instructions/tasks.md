@@ -32,22 +32,22 @@ The final documents of Parts 1 to 5 have at most 500 words (the aim is 250 to 35
 - [x] **3.3** Write the Part 3 `.md` and `.pdf`, with the small changes to Part 1. *Check: same text in both; at most 500 words (aim 250–350).*
 
 ## Phase 4 — Part 4: Chart selection and encoding
-- [ ] **4.1** ◆ For each of the questions, the function of the chart (Visual Vocabulary) and the chart type. *Check: every question is covered by a chart; every chart passes the DRACO hard rules.*
-- [ ] **4.2** Encoding, colour and accessibility decisions, with perception and Gestalt reasons. *Check: accessibility list in `spec.md` and the `wcag-accessibility` checklist reviewed item by item; colours and patterns follow the skills.*
-- [ ] **4.3** ◆ Low-fidelity prototype of both screens (a clean sketch). *Check: each screen respects the limits in `spec.md` (at most 4 KPIs, 2 or 3 charts visible); the student approved the layout.*
-- [ ] **4.4** Write the Part 4 `.md` and `.pdf`, including how the prototype answers the questions. *Check: same text in both; at most 500 words (aim 250–350).*
+- [x] **4.1** ◆ For each of the questions, the function of the chart (Visual Vocabulary) and the chart type. *Check: every question is covered by a chart; every chart passes the DRACO hard rules.*
+- [x] **4.2** Encoding, colour and accessibility decisions, with perception and Gestalt reasons. *Check: accessibility list in `spec.md` and the `wcag-accessibility` checklist reviewed item by item; colours and patterns follow the skills.*
+- [x] **4.3** ◆ Low-fidelity prototype of both screens (a clean sketch). *Check: each screen respects the limits in `spec.md` (at most 4 KPIs, 2 or 3 charts visible); the student approved the layout.*
+- [x] **4.4** Write the Part 4 `.md` and `.pdf`, including how the prototype answers the questions. *Check: same text in both; at most 500 words (aim 250–350).*
 
 ## Phase 5 — Part 5: Interaction planning
-- [ ] **5.1** ◆ Interactions inside each chart and between charts. *Check: each one has trigger, action and reason, is feasible in Altair, and has a keyboard equivalent.*
-- [ ] **5.2** Link each interaction to the course models. *Check: Shneiderman's mantra and the interaction types are used correctly.*
-- [ ] **5.3** Update the prototype and write the Part 5 `.md` and `.pdf`. *Check: same text in both; at most 500 words (aim 250–350).*
+- [x] **5.1** ◆ Interactions inside each chart and between charts. *Check: each one has trigger, action and reason, is feasible in Altair, and has a keyboard equivalent.*
+- [x] **5.2** Link each interaction to the course models. *Check: Shneiderman's mantra and the interaction types are used correctly.*
+- [x] **5.3** Update the prototype and write the Part 5 `.md` and `.pdf`. *Check: same text in both; at most 500 words (aim 250–350).*
 
 ## Phase 6 — Part 6: Implementation and delivery
 Before 6.1, re-read every file in `skills/`. All Part 6 tasks follow them and the decisions in the "Skills" section of `architecture.md`; each task's report says which skill was applied.
-- [ ] **6.1** ◆ Notebook `build_dashboard.ipynb`: skeleton (title, index, imports, sections as in the notebook skill) and data preparation with `pandas`. The aggregation level is proposed so that the planned interactions still work; the aggregated tables go in `data/processed/`. *Check: runs top to bottom; totals agree with the cleaned data of Part 1.*
-- [ ] **6.2** Charts of screen 1 in the notebook, with palette, titles, `description` and tooltips. *Check: each chart passes the DRACO hard rules; the numbers equal the pandas results.*
-- [ ] **6.3** Charts of screen 2. *Check: same as 6.2.*
-- [ ] **6.4** Export `data.js` and `specs.js` and build `index.html` and `detail.html`: layout (KPIs, main chart, secondary charts, filters, reset button, active filters, source and date), `lang="en"`, skip link, headings, local `lib/` copies of the libraries (downloaded once; if they cannot be downloaded, ask the student). *Check: both pages open by double-click, with no server and no internet, and show data at first load.*
+- [x] **6.1** ◆ Notebook `build_dashboard.ipynb`: skeleton (title, index, imports, sections as in the notebook skill) and data preparation with `pandas`. The aggregation level is proposed so that the planned interactions still work; the aggregated tables go in `data/processed/`. *Check: runs top to bottom; totals agree with the cleaned data of Part 1.*
+- [x] **6.2** Charts of screen 1 in the notebook, with palette, titles, `description` and tooltips. *Check: each chart passes the DRACO hard rules; the numbers equal the pandas results.*
+- [x] **6.3** Charts of screen 2. *Check: same as 6.2.*
+- [x] **6.4** Export `data.js` and `specs.js` and build `index.html` and `detail.html`: layout (KPIs, main chart, secondary charts, filters, reset button, active filters, source and date), `lang="en"`, skip link, headings, local `lib/` copies of the libraries (downloaded once; if they cannot be downloaded, ask the student). *Check: both pages open by double-click, with no server and no internet, and show data at first load.*
 - [ ] **6.5** The interactions planned in Part 5 (selections, tooltips, linked views, filters, expand button). *Check: each one works in the browser and its changes are announced.*
 - [ ] **6.6** Keyboard and focus layer from `wcag-accessibility`: keyboard navigation of the data points (and between series with `Alt` + arrows), focus overlay, `aria-live` announcements, selected category and value always visible, skip link, visible focus on every control, reduced motion. *Check: tested in a browser with the keyboard only; the Operability items of the WCAG checklist are reviewed; any item not met is listed.*
 - [ ] **6.7** Alternative texts and help: each chart in a figure with short and long alternative text, collapsible data table, fill patterns where colour encodes categories, contrast and text-size check, `accessibility.html`, 200 % zoom and minimum tablet width. *Check: the Perception, Comprehensibility, Robustness and help-page items of the WCAG checklist are reviewed in a browser; any item not met is listed.*

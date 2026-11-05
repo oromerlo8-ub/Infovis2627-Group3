@@ -1,0 +1,570 @@
+country_group,hotel,year,calendar_month,bookings,cancelled,guests
+Belgium,City Hotel,2015,8,18,0,35
+Belgium,City Hotel,2015,9,37,0,72
+Belgium,City Hotel,2015,10,27,0,46
+Belgium,City Hotel,2015,11,18,0,38
+Belgium,City Hotel,2015,12,24,2,44
+Belgium,City Hotel,2016,1,31,4,50
+Belgium,City Hotel,2016,2,42,6,74
+Belgium,City Hotel,2016,3,79,15,132
+Belgium,City Hotel,2016,4,77,16,119
+Belgium,City Hotel,2016,5,70,13,110
+Belgium,City Hotel,2016,6,64,14,93
+Belgium,City Hotel,2016,7,130,25,245
+Belgium,City Hotel,2016,8,131,20,248
+Belgium,City Hotel,2016,9,108,20,179
+Belgium,City Hotel,2016,10,114,34,157
+Belgium,City Hotel,2016,11,73,15,108
+Belgium,City Hotel,2016,12,30,9,44
+Belgium,City Hotel,2017,1,36,6,59
+Belgium,City Hotel,2017,2,57,13,89
+Belgium,City Hotel,2017,3,58,8,95
+Belgium,City Hotel,2017,4,132,49,179
+Belgium,City Hotel,2017,5,154,36,222
+Belgium,City Hotel,2017,6,96,26,144
+Belgium,City Hotel,2017,7,183,52,312
+Belgium,City Hotel,2017,8,105,32,173
+Belgium,Resort Hotel,2015,7,8,0,19
+Belgium,Resort Hotel,2015,8,6,0,14
+Belgium,Resort Hotel,2015,9,32,15,32
+Belgium,Resort Hotel,2015,10,24,0,47
+Belgium,Resort Hotel,2015,11,10,0,18
+Belgium,Resort Hotel,2015,12,7,0,13
+Belgium,Resort Hotel,2016,1,3,0,6
+Belgium,Resort Hotel,2016,2,4,0,7
+Belgium,Resort Hotel,2016,3,17,0,37
+Belgium,Resort Hotel,2016,4,27,1,46
+Belgium,Resort Hotel,2016,5,13,1,29
+Belgium,Resort Hotel,2016,6,12,0,29
+Belgium,Resort Hotel,2016,7,12,0,24
+Belgium,Resort Hotel,2016,8,3,0,10
+Belgium,Resort Hotel,2016,9,24,3,43
+Belgium,Resort Hotel,2016,10,33,8,47
+Belgium,Resort Hotel,2016,11,20,2,38
+Belgium,Resort Hotel,2016,12,16,2,26
+Belgium,Resort Hotel,2017,1,17,2,26
+Belgium,Resort Hotel,2017,2,12,1,20
+Belgium,Resort Hotel,2017,3,39,2,66
+Belgium,Resort Hotel,2017,4,15,6,15
+Belgium,Resort Hotel,2017,5,24,5,38
+Belgium,Resort Hotel,2017,6,18,3,29
+Belgium,Resort Hotel,2017,7,41,7,86
+Belgium,Resort Hotel,2017,8,11,1,23
+France,City Hotel,2015,7,2,0,4
+France,City Hotel,2015,8,138,1,283
+France,City Hotel,2015,9,264,29,406
+France,City Hotel,2015,10,253,1,512
+France,City Hotel,2015,11,187,2,326
+France,City Hotel,2015,12,172,8,327
+France,City Hotel,2016,1,115,10,194
+France,City Hotel,2016,2,274,32,521
+France,City Hotel,2016,3,294,43,485
+France,City Hotel,2016,4,450,82,803
+France,City Hotel,2016,5,465,71,779
+France,City Hotel,2016,6,356,52,609
+France,City Hotel,2016,7,362,78,640
+France,City Hotel,2016,8,532,147,903
+France,City Hotel,2016,9,362,79,549
+France,City Hotel,2016,10,567,137,835
+France,City Hotel,2016,11,348,34,610
+France,City Hotel,2016,12,313,65,525
+France,City Hotel,2017,1,213,57,292
+France,City Hotel,2017,2,417,95,701
+France,City Hotel,2017,3,554,92,864
+France,City Hotel,2017,4,471,127,770
+France,City Hotel,2017,5,521,129,785
+France,City Hotel,2017,6,395,110,576
+France,City Hotel,2017,7,324,90,524
+France,City Hotel,2017,8,442,151,659
+France,Resort Hotel,2015,7,18,0,38
+France,Resort Hotel,2015,8,41,0,91
+France,Resort Hotel,2015,9,129,1,241
+France,Resort Hotel,2015,10,69,0,131
+France,Resort Hotel,2015,11,42,0,68
+France,Resort Hotel,2015,12,27,0,54
+France,Resort Hotel,2016,1,26,0,49
+France,Resort Hotel,2016,2,48,0,95
+France,Resort Hotel,2016,3,28,1,48
+France,Resort Hotel,2016,4,66,2,135
+France,Resort Hotel,2016,5,79,3,154
+France,Resort Hotel,2016,6,30,0,64
+France,Resort Hotel,2016,7,33,8,59
+France,Resort Hotel,2016,8,70,12,130
+France,Resort Hotel,2016,9,33,6,54
+France,Resort Hotel,2016,10,56,12,95
+France,Resort Hotel,2016,11,135,8,247
+France,Resort Hotel,2016,12,118,21,180
+France,Resort Hotel,2017,1,64,10,104
+France,Resort Hotel,2017,2,72,15,122
+France,Resort Hotel,2017,3,96,12,157
+France,Resort Hotel,2017,4,86,21,143
+France,Resort Hotel,2017,5,82,21,122
+France,Resort Hotel,2017,6,34,10,51
+France,Resort Hotel,2017,7,44,16,64
+France,Resort Hotel,2017,8,84,32,121
+Germany,City Hotel,2015,7,6,0,12
+Germany,City Hotel,2015,8,67,0,125
+Germany,City Hotel,2015,9,93,1,173
+Germany,City Hotel,2015,10,135,0,255
+Germany,City Hotel,2015,11,53,0,91
+Germany,City Hotel,2015,12,53,0,83
+Germany,City Hotel,2016,1,70,10,88
+Germany,City Hotel,2016,2,101,12,171
+Germany,City Hotel,2016,3,229,30,395
+Germany,City Hotel,2016,4,251,40,398
+Germany,City Hotel,2016,5,299,53,476
+Germany,City Hotel,2016,6,338,39,575
+Germany,City Hotel,2016,7,270,29,506
+Germany,City Hotel,2016,8,385,70,663
+Germany,City Hotel,2016,9,415,60,672
+Germany,City Hotel,2016,10,521,73,879
+Germany,City Hotel,2016,11,162,47,206
+Germany,City Hotel,2016,12,131,59,135
+Germany,City Hotel,2017,1,102,19,153
+Germany,City Hotel,2017,2,135,37,185
+Germany,City Hotel,2017,3,296,86,404
+Germany,City Hotel,2017,4,380,98,584
+Germany,City Hotel,2017,5,363,91,511
+Germany,City Hotel,2017,6,391,57,650
+Germany,City Hotel,2017,7,493,94,784
+Germany,City Hotel,2017,8,343,67,570
+Germany,Resort Hotel,2015,7,12,0,26
+Germany,Resort Hotel,2015,8,2,0,4
+Germany,Resort Hotel,2015,9,36,1,64
+Germany,Resort Hotel,2015,10,22,0,40
+Germany,Resort Hotel,2015,11,21,0,32
+Germany,Resort Hotel,2015,12,24,0,36
+Germany,Resort Hotel,2016,1,15,0,27
+Germany,Resort Hotel,2016,2,24,0,44
+Germany,Resort Hotel,2016,3,54,1,98
+Germany,Resort Hotel,2016,4,176,1,279
+Germany,Resort Hotel,2016,5,150,1,273
+Germany,Resort Hotel,2016,6,36,2,64
+Germany,Resort Hotel,2016,7,25,4,47
+Germany,Resort Hotel,2016,8,36,15,48
+Germany,Resort Hotel,2016,9,38,10,55
+Germany,Resort Hotel,2016,10,61,12,98
+Germany,Resort Hotel,2016,11,56,7,85
+Germany,Resort Hotel,2016,12,20,8,18
+Germany,Resort Hotel,2017,1,29,7,39
+Germany,Resort Hotel,2017,2,28,6,40
+Germany,Resort Hotel,2017,3,103,2,171
+Germany,Resort Hotel,2017,4,86,15,136
+Germany,Resort Hotel,2017,5,61,22,72
+Germany,Resort Hotel,2017,6,36,14,45
+Germany,Resort Hotel,2017,7,26,8,43
+Germany,Resort Hotel,2017,8,26,10,31
+Ireland,City Hotel,2015,8,3,0,6
+Ireland,City Hotel,2015,9,10,0,17
+Ireland,City Hotel,2015,10,25,0,44
+Ireland,City Hotel,2015,11,5,0,7
+Ireland,City Hotel,2015,12,4,0,7
+Ireland,City Hotel,2016,1,8,1,13
+Ireland,City Hotel,2016,2,15,6,20
+Ireland,City Hotel,2016,3,44,10,72
+Ireland,City Hotel,2016,4,43,17,51
+Ireland,City Hotel,2016,5,51,10,79
+Ireland,City Hotel,2016,6,37,11,56
+Ireland,City Hotel,2016,7,60,16,92
+Ireland,City Hotel,2016,8,46,17,63
+Ireland,City Hotel,2016,9,58,21,74
+Ireland,City Hotel,2016,10,92,57,69
+Ireland,City Hotel,2016,11,43,12,60
+Ireland,City Hotel,2016,12,32,13,25
+Ireland,City Hotel,2017,1,21,5,30
+Ireland,City Hotel,2017,2,39,8,61
+Ireland,City Hotel,2017,3,98,27,141
+Ireland,City Hotel,2017,4,106,29,149
+Ireland,City Hotel,2017,5,103,35,131
+Ireland,City Hotel,2017,6,100,39,129
+Ireland,City Hotel,2017,7,91,39,114
+Ireland,City Hotel,2017,8,74,27,99
+Ireland,Resort Hotel,2015,7,70,0,145
+Ireland,Resort Hotel,2015,8,68,0,147
+Ireland,Resort Hotel,2015,9,166,41,253
+Ireland,Resort Hotel,2015,10,87,25,131
+Ireland,Resort Hotel,2015,11,15,0,30
+Ireland,Resort Hotel,2015,12,32,0,60
+Ireland,Resort Hotel,2016,1,24,0,45
+Ireland,Resort Hotel,2016,2,28,0,53
+Ireland,Resort Hotel,2016,3,31,0,64
+Ireland,Resort Hotel,2016,4,102,6,178
+Ireland,Resort Hotel,2016,5,147,5,288
+Ireland,Resort Hotel,2016,6,104,6,204
+Ireland,Resort Hotel,2016,7,68,6,137
+Ireland,Resort Hotel,2016,8,63,11,112
+Ireland,Resort Hotel,2016,9,138,20,236
+Ireland,Resort Hotel,2016,10,153,55,183
+Ireland,Resort Hotel,2016,11,58,8,99
+Ireland,Resort Hotel,2016,12,42,9,56
+Ireland,Resort Hotel,2017,1,46,10,69
+Ireland,Resort Hotel,2017,2,39,12,51
+Ireland,Resort Hotel,2017,3,65,7,104
+Ireland,Resort Hotel,2017,4,86,33,103
+Ireland,Resort Hotel,2017,5,193,53,272
+Ireland,Resort Hotel,2017,6,195,79,254
+Ireland,Resort Hotel,2017,7,81,28,118
+Ireland,Resort Hotel,2017,8,65,18,101
+Italy,City Hotel,2015,7,56,49,13
+Italy,City Hotel,2015,8,188,67,236
+Italy,City Hotel,2015,9,95,2,171
+Italy,City Hotel,2015,10,68,0,118
+Italy,City Hotel,2015,11,19,0,34
+Italy,City Hotel,2015,12,49,4,93
+Italy,City Hotel,2016,1,79,11,126
+Italy,City Hotel,2016,2,84,28,108
+Italy,City Hotel,2016,3,131,50,162
+Italy,City Hotel,2016,4,185,73,247
+Italy,City Hotel,2016,5,130,41,174
+Italy,City Hotel,2016,6,84,33,112
+Italy,City Hotel,2016,7,116,54,146
+Italy,City Hotel,2016,8,216,98,274
+Italy,City Hotel,2016,9,217,32,332
+Italy,City Hotel,2016,10,137,60,144
+Italy,City Hotel,2016,11,146,58,165
+Italy,City Hotel,2016,12,199,97,228
+Italy,City Hotel,2017,1,157,69,179
+Italy,City Hotel,2017,2,91,38,109
+Italy,City Hotel,2017,3,138,48,182
+Italy,City Hotel,2017,4,182,91,201
+Italy,City Hotel,2017,5,140,47,176
+Italy,City Hotel,2017,6,98,39,127
+Italy,City Hotel,2017,7,128,84,99
+Italy,City Hotel,2017,8,169,80,199
+Italy,Resort Hotel,2015,7,8,0,17
+Italy,Resort Hotel,2015,8,9,0,19
+Italy,Resort Hotel,2015,9,22,0,44
+Italy,Resort Hotel,2015,10,5,0,10
+Italy,Resort Hotel,2015,11,13,3,17
+Italy,Resort Hotel,2015,12,12,0,23
+Italy,Resort Hotel,2016,1,14,0,30
+Italy,Resort Hotel,2016,2,2,0,4
+Italy,Resort Hotel,2016,3,16,0,30
+Italy,Resort Hotel,2016,4,7,0,13
+Italy,Resort Hotel,2016,5,11,0,21
+Italy,Resort Hotel,2016,6,9,2,14
+Italy,Resort Hotel,2016,7,14,0,28
+Italy,Resort Hotel,2016,8,44,12,75
+Italy,Resort Hotel,2016,9,13,2,23
+Italy,Resort Hotel,2016,10,15,3,26
+Italy,Resort Hotel,2016,11,18,1,30
+Italy,Resort Hotel,2016,12,18,7,19
+Italy,Resort Hotel,2017,1,53,2,90
+Italy,Resort Hotel,2017,2,26,14,22
+Italy,Resort Hotel,2017,3,23,4,32
+Italy,Resort Hotel,2017,4,25,1,40
+Italy,Resort Hotel,2017,5,14,1,28
+Italy,Resort Hotel,2017,6,13,4,20
+Italy,Resort Hotel,2017,7,19,6,27
+Italy,Resort Hotel,2017,8,36,18,37
+Netherlands,City Hotel,2015,7,1,0,2
+Netherlands,City Hotel,2015,8,12,0,25
+Netherlands,City Hotel,2015,9,29,0,49
+Netherlands,City Hotel,2015,10,38,0,80
+Netherlands,City Hotel,2015,11,15,0,26
+Netherlands,City Hotel,2015,12,7,0,13
+Netherlands,City Hotel,2016,1,17,2,25
+Netherlands,City Hotel,2016,2,50,6,83
+Netherlands,City Hotel,2016,3,51,10,76
+Netherlands,City Hotel,2016,4,84,16,136
+Netherlands,City Hotel,2016,5,79,20,108
+Netherlands,City Hotel,2016,6,85,14,121
+Netherlands,City Hotel,2016,7,88,19,157
+Netherlands,City Hotel,2016,8,103,14,211
+Netherlands,City Hotel,2016,9,78,21,111
+Netherlands,City Hotel,2016,10,85,27,120
+Netherlands,City Hotel,2016,11,82,15,118
+Netherlands,City Hotel,2016,12,46,16,48
+Netherlands,City Hotel,2017,1,54,15,74
+Netherlands,City Hotel,2017,2,53,7,102
+Netherlands,City Hotel,2017,3,78,21,109
+Netherlands,City Hotel,2017,4,102,24,139
+Netherlands,City Hotel,2017,5,91,16,143
+Netherlands,City Hotel,2017,6,94,24,133
+Netherlands,City Hotel,2017,7,82,26,119
+Netherlands,City Hotel,2017,8,85,18,164
+Netherlands,Resort Hotel,2015,7,13,0,27
+Netherlands,Resort Hotel,2015,8,12,0,26
+Netherlands,Resort Hotel,2015,9,24,0,39
+Netherlands,Resort Hotel,2015,10,20,0,33
+Netherlands,Resort Hotel,2015,11,20,0,32
+Netherlands,Resort Hotel,2015,12,9,0,17
+Netherlands,Resort Hotel,2016,1,8,0,13
+Netherlands,Resort Hotel,2016,2,24,0,46
+Netherlands,Resort Hotel,2016,3,22,0,39
+Netherlands,Resort Hotel,2016,4,37,3,62
+Netherlands,Resort Hotel,2016,5,22,1,45
+Netherlands,Resort Hotel,2016,6,15,4,24
+Netherlands,Resort Hotel,2016,7,17,2,30
+Netherlands,Resort Hotel,2016,8,15,4,25
+Netherlands,Resort Hotel,2016,9,17,1,34
+Netherlands,Resort Hotel,2016,10,23,1,46
+Netherlands,Resort Hotel,2016,11,33,3,54
+Netherlands,Resort Hotel,2016,12,18,2,28
+Netherlands,Resort Hotel,2017,1,25,1,52
+Netherlands,Resort Hotel,2017,2,29,7,43
+Netherlands,Resort Hotel,2017,3,49,7,79
+Netherlands,Resort Hotel,2017,4,17,8,16
+Netherlands,Resort Hotel,2017,5,11,3,16
+Netherlands,Resort Hotel,2017,6,9,3,11
+Netherlands,Resort Hotel,2017,7,16,5,24
+Netherlands,Resort Hotel,2017,8,9,1,21
+Other,City Hotel,2015,7,11,0,22
+Other,City Hotel,2015,8,154,5,273
+Other,City Hotel,2015,9,364,2,613
+Other,City Hotel,2015,10,373,15,650
+Other,City Hotel,2015,11,166,1,240
+Other,City Hotel,2015,12,128,8,238
+Other,City Hotel,2016,1,253,65,337
+Other,City Hotel,2016,2,426,136,548
+Other,City Hotel,2016,3,541,172,726
+Other,City Hotel,2016,4,665,259,814
+Other,City Hotel,2016,5,641,158,908
+Other,City Hotel,2016,6,636,189,789
+Other,City Hotel,2016,7,600,200,957
+Other,City Hotel,2016,8,584,212,849
+Other,City Hotel,2016,9,639,206,876
+Other,City Hotel,2016,10,748,292,899
+Other,City Hotel,2016,11,674,200,811
+Other,City Hotel,2016,12,588,236,730
+Other,City Hotel,2017,1,602,244,707
+Other,City Hotel,2017,2,483,202,533
+Other,City Hotel,2017,3,702,232,893
+Other,City Hotel,2017,4,810,319,1028
+Other,City Hotel,2017,5,934,378,1055
+Other,City Hotel,2017,6,762,263,1015
+Other,City Hotel,2017,7,861,303,1279
+Other,City Hotel,2017,8,566,205,795
+Other,Resort Hotel,2015,7,146,0,335
+Other,Resort Hotel,2015,8,96,0,222
+Other,Resort Hotel,2015,9,158,16,282
+Other,Resort Hotel,2015,10,115,14,185
+Other,Resort Hotel,2015,11,121,0,199
+Other,Resort Hotel,2015,12,73,0,133
+Other,Resort Hotel,2016,1,119,0,213
+Other,Resort Hotel,2016,2,87,0,158
+Other,Resort Hotel,2016,3,148,2,272
+Other,Resort Hotel,2016,4,127,9,224
+Other,Resort Hotel,2016,5,151,16,270
+Other,Resort Hotel,2016,6,197,23,376
+Other,Resort Hotel,2016,7,259,50,468
+Other,Resort Hotel,2016,8,199,48,335
+Other,Resort Hotel,2016,9,238,35,409
+Other,Resort Hotel,2016,10,307,98,403
+Other,Resort Hotel,2016,11,187,29,289
+Other,Resort Hotel,2016,12,126,24,202
+Other,Resort Hotel,2017,1,142,39,202
+Other,Resort Hotel,2017,2,151,29,233
+Other,Resort Hotel,2017,3,180,32,263
+Other,Resort Hotel,2017,4,256,45,402
+Other,Resort Hotel,2017,5,266,62,411
+Other,Resort Hotel,2017,6,254,60,409
+Other,Resort Hotel,2017,7,408,154,606
+Other,Resort Hotel,2017,8,266,99,385
+Portugal,City Hotel,2015,7,1299,890,761
+Portugal,City Hotel,2015,8,1540,1115,834
+Portugal,City Hotel,2015,9,2291,1507,1338
+Portugal,City Hotel,2015,10,2203,1305,1454
+Portugal,City Hotel,2015,11,673,298,540
+Portugal,City Hotel,2015,12,943,614,585
+Portugal,City Hotel,2016,1,644,309,523
+Portugal,City Hotel,2016,2,1134,639,776
+Portugal,City Hotel,2016,3,1111,595,879
+Portugal,City Hotel,2016,4,1425,894,983
+Portugal,City Hotel,2016,5,1529,954,1035
+Portugal,City Hotel,2016,6,1896,1247,1162
+Portugal,City Hotel,2016,7,947,428,1083
+Portugal,City Hotel,2016,8,659,427,497
+Portugal,City Hotel,2016,9,1348,939,736
+Portugal,City Hotel,2016,10,1433,1137,471
+Portugal,City Hotel,2016,11,1189,873,516
+Portugal,City Hotel,2016,12,669,349,591
+Portugal,City Hotel,2017,1,851,547,533
+Portugal,City Hotel,2017,2,824,457,612
+Portugal,City Hotel,2017,3,990,635,599
+Portugal,City Hotel,2017,4,1131,961,286
+Portugal,City Hotel,2017,5,1547,1233,481
+Portugal,City Hotel,2017,6,1336,1035,536
+Portugal,City Hotel,2017,7,640,395,423
+Portugal,City Hotel,2017,8,603,280,574
+Portugal,Resort Hotel,2015,7,776,320,1011
+Portugal,Resort Hotel,2015,8,897,366,1221
+Portugal,Resort Hotel,2015,9,595,382,428
+Portugal,Resort Hotel,2015,10,662,293,616
+Portugal,Resort Hotel,2015,11,621,182,721
+Portugal,Resort Hotel,2015,12,785,305,866
+Portugal,Resort Hotel,2016,1,515,119,639
+Portugal,Resort Hotel,2016,2,969,402,972
+Portugal,Resort Hotel,2016,3,963,351,1049
+Portugal,Resort Hotel,2016,4,905,444,781
+Portugal,Resort Hotel,2016,5,746,426,544
+Portugal,Resort Hotel,2016,6,535,310,428
+Portugal,Resort Hotel,2016,7,610,302,725
+Portugal,Resort Hotel,2016,8,745,317,1031
+Portugal,Resort Hotel,2016,9,531,314,423
+Portugal,Resort Hotel,2016,10,603,292,524
+Portugal,Resort Hotel,2016,11,520,152,588
+Portugal,Resort Hotel,2016,12,647,178,842
+Portugal,Resort Hotel,2017,1,645,86,817
+Portugal,Resort Hotel,2017,2,730,223,887
+Portugal,Resort Hotel,2017,3,641,272,548
+Portugal,Resort Hotel,2017,4,571,264,532
+Portugal,Resort Hotel,2017,5,488,234,415
+Portugal,Resort Hotel,2017,6,602,313,516
+Portugal,Resort Hotel,2017,7,622,289,765
+Portugal,Resort Hotel,2017,8,697,302,958
+Spain,City Hotel,2015,7,18,0,33
+Spain,City Hotel,2015,8,335,40,604
+Spain,City Hotel,2015,9,219,0,439
+Spain,City Hotel,2015,10,120,0,224
+Spain,City Hotel,2015,11,53,0,87
+Spain,City Hotel,2015,12,232,32,408
+Spain,City Hotel,2016,1,84,22,110
+Spain,City Hotel,2016,2,131,39,187
+Spain,City Hotel,2016,3,311,106,441
+Spain,City Hotel,2016,4,131,63,147
+Spain,City Hotel,2016,5,120,46,141
+Spain,City Hotel,2016,6,141,52,166
+Spain,City Hotel,2016,7,185,77,255
+Spain,City Hotel,2016,8,363,125,588
+Spain,City Hotel,2016,9,167,50,237
+Spain,City Hotel,2016,10,164,43,211
+Spain,City Hotel,2016,11,156,44,194
+Spain,City Hotel,2016,12,316,158,348
+Spain,City Hotel,2017,1,185,47,213
+Spain,City Hotel,2017,2,224,32,324
+Spain,City Hotel,2017,3,118,35,143
+Spain,City Hotel,2017,4,204,90,239
+Spain,City Hotel,2017,5,119,33,136
+Spain,City Hotel,2017,6,102,47,111
+Spain,City Hotel,2017,7,174,65,243
+Spain,City Hotel,2017,8,232,80,377
+Spain,Resort Hotel,2015,7,168,0,365
+Spain,Resort Hotel,2015,8,162,0,352
+Spain,Resort Hotel,2015,9,95,4,188
+Spain,Resort Hotel,2015,10,192,56,272
+Spain,Resort Hotel,2015,11,140,0,260
+Spain,Resort Hotel,2015,12,196,0,416
+Spain,Resort Hotel,2016,1,81,0,157
+Spain,Resort Hotel,2016,2,184,3,379
+Spain,Resort Hotel,2016,3,270,7,550
+Spain,Resort Hotel,2016,4,136,24,218
+Spain,Resort Hotel,2016,5,69,12,125
+Spain,Resort Hotel,2016,6,63,19,95
+Spain,Resort Hotel,2016,7,167,59,241
+Spain,Resort Hotel,2016,8,288,104,436
+Spain,Resort Hotel,2016,9,97,34,136
+Spain,Resort Hotel,2016,10,114,32,160
+Spain,Resort Hotel,2016,11,92,21,140
+Spain,Resort Hotel,2016,12,190,34,320
+Spain,Resort Hotel,2017,1,116,19,196
+Spain,Resort Hotel,2017,2,152,33,252
+Spain,Resort Hotel,2017,3,62,15,96
+Spain,Resort Hotel,2017,4,196,71,280
+Spain,Resort Hotel,2017,5,83,26,115
+Spain,Resort Hotel,2017,6,111,42,154
+Spain,Resort Hotel,2017,7,209,84,291
+Spain,Resort Hotel,2017,8,323,152,413
+United Kingdom,City Hotel,2015,7,3,0,5
+United Kingdom,City Hotel,2015,8,11,0,23
+United Kingdom,City Hotel,2015,9,75,1,109
+United Kingdom,City Hotel,2015,10,97,0,170
+United Kingdom,City Hotel,2015,11,33,0,62
+United Kingdom,City Hotel,2015,12,25,0,49
+United Kingdom,City Hotel,2016,1,46,4,72
+United Kingdom,City Hotel,2016,2,85,19,127
+United Kingdom,City Hotel,2016,3,176,63,228
+United Kingdom,City Hotel,2016,4,184,60,250
+United Kingdom,City Hotel,2016,5,227,55,331
+United Kingdom,City Hotel,2016,6,191,48,272
+United Kingdom,City Hotel,2016,7,285,93,439
+United Kingdom,City Hotel,2016,8,293,99,449
+United Kingdom,City Hotel,2016,9,373,111,531
+United Kingdom,City Hotel,2016,10,267,71,401
+United Kingdom,City Hotel,2016,11,185,49,241
+United Kingdom,City Hotel,2016,12,92,47,86
+United Kingdom,City Hotel,2017,1,89,26,115
+United Kingdom,City Hotel,2017,2,236,77,318
+United Kingdom,City Hotel,2017,3,296,76,407
+United Kingdom,City Hotel,2017,4,308,104,418
+United Kingdom,City Hotel,2017,5,427,168,524
+United Kingdom,City Hotel,2017,6,472,139,680
+United Kingdom,City Hotel,2017,7,463,123,717
+United Kingdom,City Hotel,2017,8,367,128,546
+United Kingdom,Resort Hotel,2015,7,141,0,292
+United Kingdom,Resort Hotel,2015,8,98,0,210
+United Kingdom,Resort Hotel,2015,9,318,91,445
+United Kingdom,Resort Hotel,2015,10,364,23,654
+United Kingdom,Resort Hotel,2015,11,96,0,171
+United Kingdom,Resort Hotel,2015,12,94,0,182
+United Kingdom,Resort Hotel,2016,1,71,0,128
+United Kingdom,Resort Hotel,2016,2,144,1,278
+United Kingdom,Resort Hotel,2016,3,227,7,448
+United Kingdom,Resort Hotel,2016,4,268,32,442
+United Kingdom,Resort Hotel,2016,5,394,9,751
+United Kingdom,Resort Hotel,2016,6,342,8,671
+United Kingdom,Resort Hotel,2016,7,195,16,380
+United Kingdom,Resort Hotel,2016,8,195,48,327
+United Kingdom,Resort Hotel,2016,9,369,28,673
+United Kingdom,Resort Hotel,2016,10,596,54,1027
+United Kingdom,Resort Hotel,2016,11,206,44,318
+United Kingdom,Resort Hotel,2016,12,170,37,259
+United Kingdom,Resort Hotel,2017,1,161,30,251
+United Kingdom,Resort Hotel,2017,2,325,45,546
+United Kingdom,Resort Hotel,2017,3,287,39,438
+United Kingdom,Resort Hotel,2017,4,387,68,588
+United Kingdom,Resort Hotel,2017,5,508,110,801
+United Kingdom,Resort Hotel,2017,6,371,94,557
+United Kingdom,Resort Hotel,2017,7,248,58,416
+United Kingdom,Resort Hotel,2017,8,237,49,423
+United States,City Hotel,2015,8,4,0,7
+United States,City Hotel,2015,9,47,0,69
+United States,City Hotel,2015,10,42,0,71
+United States,City Hotel,2015,11,11,0,19
+United States,City Hotel,2015,12,12,0,29
+United States,City Hotel,2016,1,16,0,29
+United States,City Hotel,2016,2,23,6,33
+United States,City Hotel,2016,3,73,13,115
+United States,City Hotel,2016,4,63,18,87
+United States,City Hotel,2016,5,62,15,89
+United States,City Hotel,2016,6,93,21,145
+United States,City Hotel,2016,7,76,19,120
+United States,City Hotel,2016,8,58,18,91
+United States,City Hotel,2016,9,103,28,142
+United States,City Hotel,2016,10,84,16,107
+United States,City Hotel,2016,11,45,12,62
+United States,City Hotel,2016,12,49,20,71
+United States,City Hotel,2017,1,56,8,68
+United States,City Hotel,2017,2,26,4,41
+United States,City Hotel,2017,3,65,17,86
+United States,City Hotel,2017,4,85,29,118
+United States,City Hotel,2017,5,149,51,185
+United States,City Hotel,2017,6,118,28,195
+United States,City Hotel,2017,7,117,53,160
+United States,City Hotel,2017,8,137,53,177
+United States,Resort Hotel,2015,7,17,0,43
+United States,Resort Hotel,2015,8,18,0,38
+United States,Resort Hotel,2015,9,10,0,22
+United States,Resort Hotel,2015,10,9,0,18
+United States,Resort Hotel,2015,11,5,0,7
+United States,Resort Hotel,2015,12,5,0,10
+United States,Resort Hotel,2016,1,8,0,16
+United States,Resort Hotel,2016,2,5,0,10
+United States,Resort Hotel,2016,3,2,0,4
+United States,Resort Hotel,2016,4,16,0,32
+United States,Resort Hotel,2016,5,20,5,33
+United States,Resort Hotel,2016,6,26,2,57
+United States,Resort Hotel,2016,7,41,9,75
+United States,Resort Hotel,2016,8,27,7,44
+United States,Resort Hotel,2016,9,25,2,49
+United States,Resort Hotel,2016,10,23,0,47
+United States,Resort Hotel,2016,11,6,0,13
+United States,Resort Hotel,2016,12,16,4,25
+United States,Resort Hotel,2017,1,9,0,15
+United States,Resort Hotel,2017,2,19,3,44
+United States,Resort Hotel,2017,3,10,2,16
+United States,Resort Hotel,2017,4,17,5,22
+United States,Resort Hotel,2017,5,27,8,40
+United States,Resort Hotel,2017,6,32,9,52
+United States,Resort Hotel,2017,7,40,5,76
+United States,Resort Hotel,2017,8,46,11,88

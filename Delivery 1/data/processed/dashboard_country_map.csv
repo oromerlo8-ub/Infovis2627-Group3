@@ -1,0 +1,587 @@
+country,country_name,hotel,year,guests,iso_numeric
+ABW,Aruba,City Hotel,2016,3,533
+ABW,Aruba,City Hotel,2017,2,533
+AGO,Angola,City Hotel,2015,72,24
+AGO,Angola,City Hotel,2016,88,24
+AGO,Angola,City Hotel,2017,87,24
+AGO,Angola,Resort Hotel,2015,3,24
+AGO,Angola,Resort Hotel,2016,19,24
+AGO,Angola,Resort Hotel,2017,15,24
+AIA,Anguilla,City Hotel,2016,4,660
+ALB,Albania,City Hotel,2015,2,8
+ALB,Albania,City Hotel,2016,4,8
+ALB,Albania,City Hotel,2017,7,8
+ALB,Albania,Resort Hotel,2015,2,8
+ALB,Albania,Resort Hotel,2016,3,8
+AND,Andorra,Resort Hotel,2016,4,20
+AND,Andorra,Resort Hotel,2017,3,20
+ARE,United Arab Emirates,City Hotel,2016,7,784
+ARE,United Arab Emirates,City Hotel,2017,2,784
+ARE,United Arab Emirates,Resort Hotel,2016,5,784
+ARG,Argentina,City Hotel,2015,9,32
+ARG,Argentina,City Hotel,2016,117,32
+ARG,Argentina,City Hotel,2017,102,32
+ARG,Argentina,Resort Hotel,2015,17,32
+ARG,Argentina,Resort Hotel,2016,58,32
+ARG,Argentina,Resort Hotel,2017,31,32
+ARM,Armenia,City Hotel,2016,6,51
+ARM,Armenia,City Hotel,2017,5,51
+ARM,Armenia,Resort Hotel,2015,2,51
+ARM,Armenia,Resort Hotel,2016,2,51
+ASM,American Samoa,City Hotel,2017,2,16
+ATA,Antarctica,City Hotel,2016,1,10
+ATA,Antarctica,City Hotel,2017,1,10
+ATF,French Southern Territories,City Hotel,2017,2,260
+AUS,Australia,City Hotel,2015,30,36
+AUS,Australia,City Hotel,2016,200,36
+AUS,Australia,City Hotel,2017,260,36
+AUS,Australia,Resort Hotel,2015,22,36
+AUS,Australia,Resort Hotel,2016,77,36
+AUS,Australia,Resort Hotel,2017,52,36
+AUT,Austria,City Hotel,2015,108,40
+AUT,Austria,City Hotel,2016,1020,40
+AUT,Austria,City Hotel,2017,571,40
+AUT,Austria,Resort Hotel,2015,62,40
+AUT,Austria,Resort Hotel,2016,111,40
+AUT,Austria,Resort Hotel,2017,142,40
+AZE,Azerbaijan,City Hotel,2015,3,31
+AZE,Azerbaijan,City Hotel,2016,6,31
+AZE,Azerbaijan,City Hotel,2017,5,31
+AZE,Azerbaijan,Resort Hotel,2016,2,31
+AZE,Azerbaijan,Resort Hotel,2017,3,31
+BDI,Burundi,Resort Hotel,2016,2,108
+BEL,Belgium,City Hotel,2015,235,56
+BEL,Belgium,City Hotel,2016,1559,56
+BEL,Belgium,City Hotel,2017,1273,56
+BEL,Belgium,Resort Hotel,2015,143,56
+BEL,Belgium,Resort Hotel,2016,342,56
+BEL,Belgium,Resort Hotel,2017,303,56
+BFA,Burkina Faso,City Hotel,2016,2,854
+BGD,Bangladesh,City Hotel,2016,5,50
+BGD,Bangladesh,City Hotel,2017,1,50
+BGR,Bulgaria,City Hotel,2015,6,100
+BGR,Bulgaria,City Hotel,2016,63,100
+BGR,Bulgaria,City Hotel,2017,40,100
+BGR,Bulgaria,Resort Hotel,2016,3,100
+BGR,Bulgaria,Resort Hotel,2017,6,100
+BHR,Bahrain,City Hotel,2016,2,48
+BHS,Bahamas,Resort Hotel,2017,2,44
+BIH,Bosnia and Herzegovina,City Hotel,2016,8,70
+BIH,Bosnia and Herzegovina,City Hotel,2017,6,70
+BIH,Bosnia and Herzegovina,Resort Hotel,2016,2,70
+BLR,Belarus,City Hotel,2015,8,112
+BLR,Belarus,City Hotel,2016,5,112
+BLR,Belarus,City Hotel,2017,7,112
+BLR,Belarus,Resort Hotel,2015,4,112
+BLR,Belarus,Resort Hotel,2016,3,112
+BOL,Bolivia,City Hotel,2016,18,68
+BRA,Brazil,City Hotel,2015,190,76
+BRA,Brazil,City Hotel,2016,1164,76
+BRA,Brazil,City Hotel,2017,926,76
+BRA,Brazil,Resort Hotel,2015,105,76
+BRA,Brazil,Resort Hotel,2016,305,76
+BRA,Brazil,Resort Hotel,2017,310,76
+BRB,Barbados,City Hotel,2016,4,52
+BWA,Botswana,Resort Hotel,2015,3,72
+CAF,Central African Republic,City Hotel,2017,3,140
+CAF,Central African Republic,Resort Hotel,2016,1,140
+CAF,Central African Republic,Resort Hotel,2017,3,140
+CAN,Canada,City Hotel,2015,92,124
+CAN,Canada,City Hotel,2016,349,124
+CAN,Canada,City Hotel,2017,390,124
+CAN,Canada,Resort Hotel,2015,150,124
+CAN,Canada,Resort Hotel,2016,508,124
+CAN,Canada,Resort Hotel,2017,618,124
+CHE,Switzerland,City Hotel,2015,135,756
+CHE,Switzerland,City Hotel,2016,1093,756
+CHE,Switzerland,City Hotel,2017,770,756
+CHE,Switzerland,Resort Hotel,2015,143,756
+CHE,Switzerland,Resort Hotel,2016,285,756
+CHE,Switzerland,Resort Hotel,2017,254,756
+CHL,Chile,City Hotel,2015,8,152
+CHL,Chile,City Hotel,2016,46,152
+CHL,Chile,City Hotel,2017,14,152
+CHL,Chile,Resort Hotel,2015,8,152
+CHL,Chile,Resort Hotel,2016,12,152
+CHL,Chile,Resort Hotel,2017,11,152
+CHN,China,City Hotel,2015,51,156
+CHN,China,City Hotel,2016,429,156
+CHN,China,City Hotel,2017,329,156
+CHN,China,Resort Hotel,2015,27,156
+CHN,China,Resort Hotel,2016,115,156
+CHN,China,Resort Hotel,2017,111,156
+CIV,Côte d'Ivoire,City Hotel,2016,2,384
+CIV,Côte d'Ivoire,City Hotel,2017,2,384
+CIV,Côte d'Ivoire,Resort Hotel,2016,4,384
+CMR,Cameroon,City Hotel,2015,7,120
+CMR,Cameroon,City Hotel,2016,4,120
+CMR,Cameroon,City Hotel,2017,6,120
+CMR,Cameroon,Resort Hotel,2016,4,120
+COL,Colombia,City Hotel,2015,6,170
+COL,Colombia,City Hotel,2016,35,170
+COL,Colombia,City Hotel,2017,40,170
+COL,Colombia,Resort Hotel,2015,2,170
+COL,Colombia,Resort Hotel,2016,10,170
+COL,Colombia,Resort Hotel,2017,12,170
+COM,Comoros,City Hotel,2017,4,174
+COM,Comoros,Resort Hotel,2016,3,174
+CPV,Cabo Verde,City Hotel,2015,1,132
+CPV,Cabo Verde,City Hotel,2016,5,132
+CPV,Cabo Verde,City Hotel,2017,3,132
+CPV,Cabo Verde,Resort Hotel,2015,2,132
+CPV,Cabo Verde,Resort Hotel,2016,2,132
+CPV,Cabo Verde,Resort Hotel,2017,6,132
+CRI,Costa Rica,City Hotel,2015,10,188
+CRI,Costa Rica,City Hotel,2016,10,188
+CRI,Costa Rica,City Hotel,2017,11,188
+CRI,Costa Rica,Resort Hotel,2015,4,188
+CUB,Cuba,City Hotel,2016,5,192
+CUB,Cuba,City Hotel,2017,2,192
+CUB,Cuba,Resort Hotel,2016,3,192
+CUB,Cuba,Resort Hotel,2017,4,192
+CYM,Cayman Islands,Resort Hotel,2015,2,136
+CYP,Cyprus,City Hotel,2016,16,196
+CYP,Cyprus,City Hotel,2017,36,196
+CYP,Cyprus,Resort Hotel,2016,10,196
+CYP,Cyprus,Resort Hotel,2017,2,196
+CZE,Czechia,City Hotel,2015,24,203
+CZE,Czechia,City Hotel,2016,119,203
+CZE,Czechia,City Hotel,2017,55,203
+CZE,Czechia,Resort Hotel,2015,22,203
+CZE,Czechia,Resort Hotel,2016,9,203
+CZE,Czechia,Resort Hotel,2017,17,203
+DEU,Germany,City Hotel,2015,739,276
+DEU,Germany,City Hotel,2016,5164,276
+DEU,Germany,City Hotel,2017,3841,276
+DEU,Germany,Resort Hotel,2015,202,276
+DEU,Germany,Resort Hotel,2016,1136,276
+DEU,Germany,Resort Hotel,2017,577,276
+DJI,Djibouti,Resort Hotel,2017,4,262
+DMA,Dominica,City Hotel,2016,2,212
+DNK,Denmark,City Hotel,2015,54,208
+DNK,Denmark,City Hotel,2016,255,208
+DNK,Denmark,City Hotel,2017,260,208
+DNK,Denmark,Resort Hotel,2015,16,208
+DNK,Denmark,Resort Hotel,2016,50,208
+DNK,Denmark,Resort Hotel,2017,54,208
+DOM,Dominican Republic,City Hotel,2015,2,214
+DOM,Dominican Republic,City Hotel,2016,2,214
+DOM,Dominican Republic,City Hotel,2017,2,214
+DOM,Dominican Republic,Resort Hotel,2015,2,214
+DOM,Dominican Republic,Resort Hotel,2016,2,214
+DOM,Dominican Republic,Resort Hotel,2017,2,214
+DZA,Algeria,City Hotel,2015,28,12
+DZA,Algeria,City Hotel,2016,56,12
+DZA,Algeria,City Hotel,2017,40,12
+DZA,Algeria,Resort Hotel,2015,4,12
+DZA,Algeria,Resort Hotel,2016,8,12
+ECU,Ecuador,City Hotel,2015,2,218
+ECU,Ecuador,City Hotel,2016,17,218
+ECU,Ecuador,City Hotel,2017,20,218
+ECU,Ecuador,Resort Hotel,2016,1,218
+ECU,Ecuador,Resort Hotel,2017,1,218
+EGY,Egypt,City Hotel,2015,6,818
+EGY,Egypt,City Hotel,2016,25,818
+EGY,Egypt,Resort Hotel,2016,2,818
+ESP,Spain,City Hotel,2015,1795,724
+ESP,Spain,City Hotel,2016,3025,724
+ESP,Spain,City Hotel,2017,1786,724
+ESP,Spain,Resort Hotel,2015,1853,724
+ESP,Spain,Resort Hotel,2016,2957,724
+ESP,Spain,Resort Hotel,2017,1797,724
+EST,Estonia,City Hotel,2016,39,233
+EST,Estonia,City Hotel,2017,27,233
+EST,Estonia,Resort Hotel,2015,8,233
+EST,Estonia,Resort Hotel,2016,43,233
+EST,Estonia,Resort Hotel,2017,11,233
+ETH,Ethiopia,City Hotel,2015,3,231
+ETH,Ethiopia,City Hotel,2017,2,231
+FIN,Finland,City Hotel,2015,38,246
+FIN,Finland,City Hotel,2016,257,246
+FIN,Finland,City Hotel,2017,199,246
+FIN,Finland,Resort Hotel,2015,45,246
+FIN,Finland,Resort Hotel,2016,148,246
+FIN,Finland,Resort Hotel,2017,67,246
+FRA,France,City Hotel,2015,1858,250
+FRA,France,City Hotel,2016,7453,250
+FRA,France,City Hotel,2017,5171,250
+FRA,France,Resort Hotel,2015,623,250
+FRA,France,Resort Hotel,2016,1310,250
+FRA,France,Resort Hotel,2017,884,250
+FRO,Faroe Islands,City Hotel,2017,3,234
+GAB,Gabon,City Hotel,2016,4,266
+GBR,United Kingdom,City Hotel,2015,418,826
+GBR,United Kingdom,City Hotel,2016,3427,826
+GBR,United Kingdom,City Hotel,2017,3725,826
+GBR,United Kingdom,Resort Hotel,2015,1954,826
+GBR,United Kingdom,Resort Hotel,2016,5702,826
+GBR,United Kingdom,Resort Hotel,2017,4020,826
+GEO,Georgia,City Hotel,2015,1,268
+GEO,Georgia,City Hotel,2016,4,268
+GEO,Georgia,Resort Hotel,2017,10,268
+GHA,Ghana,City Hotel,2017,3,288
+GIB,Gibraltar,Resort Hotel,2015,8,292
+GIB,Gibraltar,Resort Hotel,2016,8,292
+GNB,Guinea-Bissau,City Hotel,2016,9,624
+GRC,Greece,City Hotel,2015,34,300
+GRC,Greece,City Hotel,2016,56,300
+GRC,Greece,City Hotel,2017,43,300
+GRC,Greece,Resort Hotel,2015,4,300
+GRC,Greece,Resort Hotel,2016,6,300
+GRC,Greece,Resort Hotel,2017,2,300
+GTM,Guatemala,City Hotel,2017,9,320
+GUY,Guyana,City Hotel,2016,1,328
+HKG,Hong Kong,City Hotel,2017,4,344
+HKG,Hong Kong,Resort Hotel,2017,2,344
+HRV,Croatia,City Hotel,2015,11,191
+HRV,Croatia,City Hotel,2016,62,191
+HRV,Croatia,City Hotel,2017,47,191
+HRV,Croatia,Resort Hotel,2015,2,191
+HRV,Croatia,Resort Hotel,2016,8,191
+HRV,Croatia,Resort Hotel,2017,10,191
+HUN,Hungary,City Hotel,2015,21,348
+HUN,Hungary,City Hotel,2016,111,348
+HUN,Hungary,City Hotel,2017,94,348
+HUN,Hungary,Resort Hotel,2015,11,348
+HUN,Hungary,Resort Hotel,2016,24,348
+HUN,Hungary,Resort Hotel,2017,45,348
+IDN,Indonesia,City Hotel,2015,3,360
+IDN,Indonesia,City Hotel,2016,1,360
+IDN,Indonesia,City Hotel,2017,9,360
+IDN,Indonesia,Resort Hotel,2015,4,360
+IDN,Indonesia,Resort Hotel,2017,3,360
+IND,India,City Hotel,2015,23,356
+IND,India,City Hotel,2016,91,356
+IND,India,City Hotel,2017,61,356
+IND,India,Resort Hotel,2015,11,356
+IND,India,Resort Hotel,2016,32,356
+IND,India,Resort Hotel,2017,39,356
+IRL,Ireland,City Hotel,2015,81,372
+IRL,Ireland,City Hotel,2016,674,372
+IRL,Ireland,City Hotel,2017,854,372
+IRL,Ireland,Resort Hotel,2015,766,372
+IRL,Ireland,Resort Hotel,2016,1655,372
+IRL,Ireland,Resort Hotel,2017,1072,372
+IRN,Iran,City Hotel,2015,14,364
+IRN,Iran,City Hotel,2016,58,364
+IRN,Iran,City Hotel,2017,36,364
+IRN,Iran,Resort Hotel,2016,4,364
+IRN,Iran,Resort Hotel,2017,6,364
+IRQ,Iraq,City Hotel,2015,12,368
+IRQ,Iraq,City Hotel,2016,7,368
+IRQ,Iraq,City Hotel,2017,4,368
+ISL,Iceland,City Hotel,2016,38,352
+ISL,Iceland,City Hotel,2017,53,352
+ISL,Iceland,Resort Hotel,2017,11,352
+ISR,Israel,City Hotel,2015,224,376
+ISR,Israel,City Hotel,2016,333,376
+ISR,Israel,City Hotel,2017,391,376
+ISR,Israel,Resort Hotel,2015,8,376
+ISR,Israel,Resort Hotel,2016,16,376
+ISR,Israel,Resort Hotel,2017,8,376
+ITA,Italy,City Hotel,2015,665,380
+ITA,Italy,City Hotel,2016,2218,380
+ITA,Italy,City Hotel,2017,1272,380
+ITA,Italy,Resort Hotel,2015,130,380
+ITA,Italy,Resort Hotel,2016,313,380
+ITA,Italy,Resort Hotel,2017,296,380
+JAM,Jamaica,City Hotel,2016,2,388
+JAM,Jamaica,Resort Hotel,2016,4,388
+JAM,Jamaica,Resort Hotel,2017,8,388
+JOR,Jordan,City Hotel,2015,9,400
+JOR,Jordan,City Hotel,2016,4,400
+JOR,Jordan,City Hotel,2017,15,400
+JOR,Jordan,Resort Hotel,2016,2,400
+JOR,Jordan,Resort Hotel,2017,2,400
+JPN,Japan,City Hotel,2015,39,392
+JPN,Japan,City Hotel,2016,164,392
+JPN,Japan,City Hotel,2017,106,392
+JPN,Japan,Resort Hotel,2015,4,392
+JPN,Japan,Resort Hotel,2016,2,392
+JPN,Japan,Resort Hotel,2017,12,392
+KAZ,Kazakhstan,City Hotel,2015,4,398
+KAZ,Kazakhstan,City Hotel,2016,12,398
+KAZ,Kazakhstan,City Hotel,2017,2,398
+KAZ,Kazakhstan,Resort Hotel,2015,2,398
+KAZ,Kazakhstan,Resort Hotel,2017,3,398
+KEN,Kenya,City Hotel,2016,3,404
+KEN,Kenya,City Hotel,2017,6,404
+KIR,Kiribati,City Hotel,2017,1,296
+KNA,Saint Kitts and Nevis,City Hotel,2015,1,659
+KNA,Saint Kitts and Nevis,City Hotel,2017,2,659
+KOR,South Korea,City Hotel,2015,18,410
+KOR,South Korea,City Hotel,2016,69,410
+KOR,South Korea,City Hotel,2017,55,410
+KOR,South Korea,Resort Hotel,2015,2,410
+KOR,South Korea,Resort Hotel,2016,6,410
+KOR,South Korea,Resort Hotel,2017,4,410
+KWT,Kuwait,City Hotel,2015,2,414
+KWT,Kuwait,City Hotel,2016,11,414
+KWT,Kuwait,City Hotel,2017,4,414
+KWT,Kuwait,Resort Hotel,2016,2,414
+KWT,Kuwait,Resort Hotel,2017,2,414
+LAO,Laos,City Hotel,2017,4,418
+LBN,Lebanon,City Hotel,2015,12,422
+LBN,Lebanon,City Hotel,2016,10,422
+LBN,Lebanon,City Hotel,2017,12,422
+LBN,Lebanon,Resort Hotel,2016,6,422
+LBN,Lebanon,Resort Hotel,2017,2,422
+LBY,Libya,City Hotel,2016,7,434
+LBY,Libya,City Hotel,2017,3,434
+LCA,Saint Lucia,City Hotel,2016,2,662
+LIE,Liechtenstein,City Hotel,2015,2,438
+LIE,Liechtenstein,City Hotel,2016,2,438
+LKA,Sri Lanka,City Hotel,2015,2,144
+LKA,Sri Lanka,City Hotel,2016,2,144
+LKA,Sri Lanka,City Hotel,2017,4,144
+LKA,Sri Lanka,Resort Hotel,2015,2,144
+LTU,Lithuania,City Hotel,2015,3,440
+LTU,Lithuania,City Hotel,2016,27,440
+LTU,Lithuania,City Hotel,2017,21,440
+LTU,Lithuania,Resort Hotel,2015,27,440
+LTU,Lithuania,Resort Hotel,2016,50,440
+LTU,Lithuania,Resort Hotel,2017,17,440
+LUX,Luxembourg,City Hotel,2015,37,442
+LUX,Luxembourg,City Hotel,2016,107,442
+LUX,Luxembourg,City Hotel,2017,121,442
+LUX,Luxembourg,Resort Hotel,2015,28,442
+LUX,Luxembourg,Resort Hotel,2016,50,442
+LUX,Luxembourg,Resort Hotel,2017,45,442
+LVA,Latvia,City Hotel,2015,3,428
+LVA,Latvia,City Hotel,2016,16,428
+LVA,Latvia,City Hotel,2017,15,428
+LVA,Latvia,Resort Hotel,2015,21,428
+LVA,Latvia,Resort Hotel,2016,28,428
+LVA,Latvia,Resort Hotel,2017,8,428
+MAC,Macao,Resort Hotel,2017,1,446
+MAR,Morocco,City Hotel,2015,26,504
+MAR,Morocco,City Hotel,2016,120,504
+MAR,Morocco,City Hotel,2017,67,504
+MAR,Morocco,Resort Hotel,2015,17,504
+MAR,Morocco,Resort Hotel,2016,42,504
+MAR,Morocco,Resort Hotel,2017,42,504
+MCO,Monaco,City Hotel,2016,2,492
+MCO,Monaco,City Hotel,2017,4,492
+MDG,Madagascar,Resort Hotel,2017,2,450
+MDV,Maldives,City Hotel,2017,1,462
+MDV,Maldives,Resort Hotel,2016,2,462
+MDV,Maldives,Resort Hotel,2017,2,462
+MEX,Mexico,City Hotel,2015,21,484
+MEX,Mexico,City Hotel,2016,48,484
+MEX,Mexico,City Hotel,2017,60,484
+MEX,Mexico,Resort Hotel,2015,6,484
+MEX,Mexico,Resort Hotel,2016,7,484
+MKD,North Macedonia,City Hotel,2016,7,807
+MKD,North Macedonia,Resort Hotel,2015,5,807
+MLI,Mali,City Hotel,2016,2,466
+MLT,Malta,City Hotel,2016,10,470
+MLT,Malta,City Hotel,2017,8,470
+MLT,Malta,Resort Hotel,2016,4,470
+MMR,Myanmar,City Hotel,2015,2,104
+MNE,Montenegro,City Hotel,2016,4,499
+MOZ,Mozambique,City Hotel,2015,6,508
+MOZ,Mozambique,City Hotel,2016,31,508
+MOZ,Mozambique,City Hotel,2017,39,508
+MOZ,Mozambique,Resort Hotel,2015,5,508
+MOZ,Mozambique,Resort Hotel,2016,3,508
+MRT,Mauritania,City Hotel,2017,2,478
+MUS,Mauritius,City Hotel,2015,2,480
+MUS,Mauritius,City Hotel,2016,2,480
+MUS,Mauritius,City Hotel,2017,4,480
+MUS,Mauritius,Resort Hotel,2016,2,480
+MWI,Malawi,Resort Hotel,2016,4,454
+MYS,Malaysia,City Hotel,2015,7,458
+MYS,Malaysia,City Hotel,2016,20,458
+MYS,Malaysia,City Hotel,2017,3,458
+MYS,Malaysia,Resort Hotel,2015,2,458
+MYS,Malaysia,Resort Hotel,2016,19,458
+MYS,Malaysia,Resort Hotel,2017,1,458
+NAM,Namibia,City Hotel,2016,2,516
+NCL,New Caledonia,City Hotel,2017,2,540
+NGA,Nigeria,City Hotel,2016,2,566
+NGA,Nigeria,City Hotel,2017,8,566
+NGA,Nigeria,Resort Hotel,2015,5,566
+NGA,Nigeria,Resort Hotel,2016,6,566
+NGA,Nigeria,Resort Hotel,2017,12,566
+NLD,Netherlands,City Hotel,2015,195,528
+NLD,Netherlands,City Hotel,2016,1314,528
+NLD,Netherlands,City Hotel,2017,983,528
+NLD,Netherlands,Resort Hotel,2015,174,528
+NLD,Netherlands,Resort Hotel,2016,446,528
+NLD,Netherlands,Resort Hotel,2017,262,528
+NOR,Norway,City Hotel,2015,45,578
+NOR,Norway,City Hotel,2016,325,578
+NOR,Norway,City Hotel,2017,310,578
+NOR,Norway,Resort Hotel,2015,41,578
+NOR,Norway,Resort Hotel,2016,96,578
+NOR,Norway,Resort Hotel,2017,78,578
+NPL,Nepal,Resort Hotel,2017,2,524
+NZL,New Zealand,City Hotel,2015,8,554
+NZL,New Zealand,City Hotel,2016,60,554
+NZL,New Zealand,City Hotel,2017,33,554
+NZL,New Zealand,Resort Hotel,2015,8,554
+NZL,New Zealand,Resort Hotel,2016,8,554
+NZL,New Zealand,Resort Hotel,2017,13,554
+OMN,Oman,City Hotel,2016,4,512
+OMN,Oman,City Hotel,2017,3,512
+OMN,Oman,Resort Hotel,2015,5,512
+OMN,Oman,Resort Hotel,2016,16,512
+OMN,Oman,Resort Hotel,2017,2,512
+PAK,Pakistan,City Hotel,2016,2,586
+PAK,Pakistan,City Hotel,2017,3,586
+PAK,Pakistan,Resort Hotel,2017,4,586
+PAN,Panama,City Hotel,2015,2,591
+PAN,Panama,City Hotel,2016,5,591
+PAN,Panama,City Hotel,2017,12,591
+PER,Peru,City Hotel,2015,2,604
+PER,Peru,City Hotel,2016,15,604
+PER,Peru,City Hotel,2017,21,604
+PER,Peru,Resort Hotel,2016,4,604
+PHL,Philippines,City Hotel,2015,2,608
+PHL,Philippines,City Hotel,2016,9,608
+PHL,Philippines,City Hotel,2017,10,608
+PHL,Philippines,Resort Hotel,2016,2,608
+PHL,Philippines,Resort Hotel,2017,14,608
+PLW,Palau,Resort Hotel,2016,2,585
+POL,Poland,City Hotel,2015,105,616
+POL,Poland,City Hotel,2016,448,616
+POL,Poland,City Hotel,2017,265,616
+POL,Poland,Resort Hotel,2015,95,616
+POL,Poland,Resort Hotel,2016,367,616
+POL,Poland,Resort Hotel,2017,182,616
+PRI,Puerto Rico,City Hotel,2017,1,630
+PRI,Puerto Rico,Resort Hotel,2015,5,630
+PRI,Puerto Rico,Resort Hotel,2016,9,630
+PRT,Portugal,City Hotel,2015,5512,620
+PRT,Portugal,City Hotel,2016,9252,620
+PRT,Portugal,City Hotel,2017,4044,620
+PRT,Portugal,Resort Hotel,2015,4863,620
+PRT,Portugal,Resort Hotel,2016,8546,620
+PRT,Portugal,Resort Hotel,2017,5438,620
+PRY,Paraguay,City Hotel,2016,2,600
+PRY,Paraguay,City Hotel,2017,6,600
+PYF,French Polynesia,City Hotel,2016,2,258
+QAT,Qatar,City Hotel,2016,1,634
+QAT,Qatar,City Hotel,2017,3,634
+QAT,Qatar,Resort Hotel,2016,2,634
+ROU,Romania,City Hotel,2015,47,642
+ROU,Romania,City Hotel,2016,228,642
+ROU,Romania,City Hotel,2017,165,642
+ROU,Romania,Resort Hotel,2015,56,642
+ROU,Romania,Resort Hotel,2016,143,642
+ROU,Romania,Resort Hotel,2017,123,642
+RUS,Russian Federation,City Hotel,2015,114,643
+RUS,Russian Federation,City Hotel,2016,175,643
+RUS,Russian Federation,City Hotel,2017,226,643
+RUS,Russian Federation,Resort Hotel,2015,65,643
+RUS,Russian Federation,Resort Hotel,2016,113,643
+RUS,Russian Federation,Resort Hotel,2017,92,643
+RWA,Rwanda,City Hotel,2016,3,646
+SAU,Saudi Arabia,City Hotel,2015,5,682
+SAU,Saudi Arabia,City Hotel,2016,7,682
+SAU,Saudi Arabia,City Hotel,2017,15,682
+SAU,Saudi Arabia,Resort Hotel,2016,4,682
+SDN,Sudan,City Hotel,2017,2,729
+SEN,Senegal,City Hotel,2015,2,686
+SEN,Senegal,City Hotel,2016,2,686
+SEN,Senegal,City Hotel,2017,2,686
+SGP,Singapore,City Hotel,2015,11,702
+SGP,Singapore,City Hotel,2016,16,702
+SGP,Singapore,City Hotel,2017,8,702
+SGP,Singapore,Resort Hotel,2016,9,702
+SLE,Sierra Leone,City Hotel,2017,2,694
+SLV,El Salvador,City Hotel,2016,3,222
+SLV,El Salvador,City Hotel,2017,2,222
+SMR,San Marino,Resort Hotel,2015,2,674
+SRB,Serbia,City Hotel,2015,8,688
+SRB,Serbia,City Hotel,2016,91,688
+SRB,Serbia,City Hotel,2017,21,688
+SRB,Serbia,Resort Hotel,2015,3,688
+SRB,Serbia,Resort Hotel,2016,4,688
+SRB,Serbia,Resort Hotel,2017,7,688
+STP,Sao Tome and Principe,City Hotel,2015,2,678
+STP,Sao Tome and Principe,City Hotel,2017,2,678
+SUR,Suriname,City Hotel,2017,2,740
+SUR,Suriname,Resort Hotel,2016,8,740
+SUR,Suriname,Resort Hotel,2017,2,740
+SVK,Slovakia,City Hotel,2015,7,703
+SVK,Slovakia,City Hotel,2016,31,703
+SVK,Slovakia,City Hotel,2017,18,703
+SVK,Slovakia,Resort Hotel,2016,10,703
+SVK,Slovakia,Resort Hotel,2017,12,703
+SVN,Slovenia,City Hotel,2015,8,705
+SVN,Slovenia,City Hotel,2016,37,705
+SVN,Slovenia,City Hotel,2017,7,705
+SVN,Slovenia,Resort Hotel,2015,12,705
+SVN,Slovenia,Resort Hotel,2016,10,705
+SVN,Slovenia,Resort Hotel,2017,3,705
+SWE,Sweden,City Hotel,2015,143,752
+SWE,Sweden,City Hotel,2016,487,752
+SWE,Sweden,City Hotel,2017,422,752
+SWE,Sweden,Resort Hotel,2015,57,752
+SWE,Sweden,Resort Hotel,2016,245,752
+SWE,Sweden,Resort Hotel,2017,176,752
+SYC,Seychelles,City Hotel,2016,1,690
+SYR,Syria,City Hotel,2017,3,760
+SYR,Syria,Resort Hotel,2016,2,760
+TGO,Togo,City Hotel,2017,2,768
+TGO,Togo,Resort Hotel,2017,2,768
+THA,Thailand,City Hotel,2015,3,764
+THA,Thailand,City Hotel,2016,62,764
+THA,Thailand,City Hotel,2017,7,764
+THA,Thailand,Resort Hotel,2015,2,764
+THA,Thailand,Resort Hotel,2016,10,764
+TJK,Tajikistan,City Hotel,2017,2,762
+TMP,East Timor,City Hotel,2015,3,626
+TMP,East Timor,City Hotel,2016,4,626
+TUN,Tunisia,City Hotel,2015,11,788
+TUN,Tunisia,City Hotel,2016,18,788
+TUN,Tunisia,City Hotel,2017,10,788
+TUR,Türkiye,City Hotel,2015,41,792
+TUR,Türkiye,City Hotel,2016,130,792
+TUR,Türkiye,City Hotel,2017,59,792
+TUR,Türkiye,Resort Hotel,2015,6,792
+TUR,Türkiye,Resort Hotel,2016,16,792
+TUR,Türkiye,Resort Hotel,2017,10,792
+TWN,Taiwan,City Hotel,2015,7,158
+TWN,Taiwan,City Hotel,2016,26,158
+TWN,Taiwan,City Hotel,2017,11,158
+TWN,Taiwan,Resort Hotel,2017,22,158
+TZA,Tanzania,City Hotel,2016,5,834
+UGA,Uganda,City Hotel,2016,2,800
+UGA,Uganda,Resort Hotel,2016,1,800
+UKR,Ukraine,City Hotel,2015,14,804
+UKR,Ukraine,City Hotel,2016,26,804
+UKR,Ukraine,City Hotel,2017,11,804
+UKR,Ukraine,Resort Hotel,2015,6,804
+UKR,Ukraine,Resort Hotel,2016,29,804
+UKR,Ukraine,Resort Hotel,2017,6,804
+URY,Uruguay,City Hotel,2016,15,858
+URY,Uruguay,City Hotel,2017,25,858
+URY,Uruguay,Resort Hotel,2016,8,858
+URY,Uruguay,Resort Hotel,2017,2,858
+USA,United States,City Hotel,2015,195,840
+USA,United States,City Hotel,2016,1091,840
+USA,United States,City Hotel,2017,1030,840
+USA,United States,Resort Hotel,2015,138,840
+USA,United States,Resort Hotel,2016,405,840
+USA,United States,Resort Hotel,2017,353,840
+UZB,Uzbekistan,City Hotel,2017,1,860
+UZB,Uzbekistan,Resort Hotel,2017,2,860
+VEN,Venezuela,City Hotel,2015,10,862
+VEN,Venezuela,City Hotel,2016,7,862
+VEN,Venezuela,City Hotel,2017,7,862
+VEN,Venezuela,Resort Hotel,2015,4,862
+VNM,Vietnam,City Hotel,2016,4,704
+VNM,Vietnam,City Hotel,2017,5,704
+VNM,Vietnam,Resort Hotel,2016,2,704
+VNM,Vietnam,Resort Hotel,2017,2,704
+ZAF,South Africa,City Hotel,2015,1,710
+ZAF,South Africa,City Hotel,2016,33,710
+ZAF,South Africa,City Hotel,2017,34,710
+ZAF,South Africa,Resort Hotel,2015,6,710
+ZAF,South Africa,Resort Hotel,2016,6,710
+ZAF,South Africa,Resort Hotel,2017,18,710
+ZMB,Zambia,Resort Hotel,2015,4,894
+ZWE,Zimbabwe,Resort Hotel,2015,2,716
+ZWE,Zimbabwe,Resort Hotel,2017,2,716
