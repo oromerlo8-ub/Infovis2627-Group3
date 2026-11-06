@@ -4,6 +4,14 @@ C1,rule,enc_type_valid: x temporal on a date field,True
 C1,rule,"no log scale (log_q, area_bar_with_log)",True
 C1,rule,text mark if and only if text channel,True
 C1,rule,stack_without_summative_agg: no stacking of means or medians,True
+C1,point,no_encodings: at least one encoding,True
+C1,point,enc_type_valid: x temporal on a date field,True
+C1,point,enc_type_valid: y quantitative on a numeric field,True
+C1,point,"no log scale (log_q, area_bar_with_log)",True
+C1,point,point_tick_bar_without_x_or_y: has x or y,True
+C1,point,same_field_x_and_y: different fields,True
+C1,point,text mark if and only if text channel,True
+C1,point,stack_without_summative_agg: no stacking of means or medians,True
 C1,line,no_encodings: at least one encoding,True
 C1,line,enc_type_valid: x temporal on a date field,True
 C1,line,enc_type_valid: y quantitative on a numeric field,True
@@ -39,6 +47,14 @@ C2,rule,enc_type_valid: x temporal on a date field,True
 C2,rule,"no log scale (log_q, area_bar_with_log)",True
 C2,rule,text mark if and only if text channel,True
 C2,rule,stack_without_summative_agg: no stacking of means or medians,True
+C2,point,no_encodings: at least one encoding,True
+C2,point,enc_type_valid: x temporal on a date field,True
+C2,point,enc_type_valid: y quantitative on a numeric field,True
+C2,point,"no log scale (log_q, area_bar_with_log)",True
+C2,point,point_tick_bar_without_x_or_y: has x or y,True
+C2,point,same_field_x_and_y: different fields,True
+C2,point,text mark if and only if text channel,True
+C2,point,stack_without_summative_agg: no stacking of means or medians,True
 C2,line,no_encodings: at least one encoding,True
 C2,line,enc_type_valid: x temporal on a date field,True
 C2,line,enc_type_valid: y quantitative on a numeric field,True
@@ -74,6 +90,14 @@ C3,rule,enc_type_valid: x temporal on a date field,True
 C3,rule,"no log scale (log_q, area_bar_with_log)",True
 C3,rule,text mark if and only if text channel,True
 C3,rule,stack_without_summative_agg: no stacking of means or medians,True
+C3,point,no_encodings: at least one encoding,True
+C3,point,enc_type_valid: x temporal on a date field,True
+C3,point,enc_type_valid: y quantitative on a numeric field,True
+C3,point,"no log scale (log_q, area_bar_with_log)",True
+C3,point,point_tick_bar_without_x_or_y: has x or y,True
+C3,point,same_field_x_and_y: different fields,True
+C3,point,text mark if and only if text channel,True
+C3,point,stack_without_summative_agg: no stacking of means or medians,True
 C3,line,no_encodings: at least one encoding,True
 C3,line,enc_type_valid: x temporal on a date field,True
 C3,line,enc_type_valid: y quantitative on a numeric field,True

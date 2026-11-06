@@ -15,7 +15,7 @@
     <header class="site-header">
       <div>
         <h1>Hotel guests in Lisbon and the Algarve</h1>
-        <p class="subtitle">Main screen: guests, cancellations and price per month, July 2015 to August 2017</p>
+        <p class="subtitle">Guests, cancellations and price per month · Data: July 2015 to August 2017, Antonio et al. (2019)</p>
       </div>
       <nav aria-label="Dashboard screens">
         <ul>
@@ -55,17 +55,29 @@
           <figure class="chart chart-main" aria-labelledby="c1-title" aria-describedby="c1-description">
             <h3 id="c1-title" class="sr-only">In which months do the city and the resort receive most guests?</h3>
             <div id="c1" class="chart-container"></div>
-            <figcaption id="c1-description" class="sr-only">Line chart of the number of guests per month in the city hotel and the resort hotel.</figcaption>
+            <details class="data-table">
+              <summary>Data table of this chart</summary>
+              <div id="c1-table"></div>
+            </details>
+            <figcaption id="c1-description" class="sr-only"><span id="c1-short">Line chart of the number of guests per month in the city hotel and the resort hotel.</span> <span id="c1-long"></span></figcaption>
           </figure>
           <figure class="chart" aria-labelledby="c2-title" aria-describedby="c2-description">
             <h3 id="c2-title" class="sr-only">In which months are most bookings cancelled?</h3>
             <div id="c2" class="chart-container"></div>
-            <figcaption id="c2-description" class="sr-only">Line chart of the percentage of bookings cancelled per month in each hotel.</figcaption>
+            <details class="data-table">
+              <summary>Data table of this chart</summary>
+              <div id="c2-table"></div>
+            </details>
+            <figcaption id="c2-description" class="sr-only"><span id="c2-short">Line chart of the percentage of bookings cancelled per month in each hotel.</span> <span id="c2-long"></span></figcaption>
           </figure>
           <figure class="chart" aria-labelledby="c3-title" aria-describedby="c3-description">
             <h3 id="c3-title" class="sr-only">How does the price per night change through the year?</h3>
             <div id="c3" class="chart-container"></div>
-            <figcaption id="c3-description" class="sr-only">Line chart of the median price per night per month in each hotel.</figcaption>
+            <details class="data-table">
+              <summary>Data table of this chart</summary>
+              <div id="c3-table"></div>
+            </details>
+            <figcaption id="c3-description" class="sr-only"><span id="c3-short">Line chart of the median price per night per month in each hotel.</span> <span id="c3-long"></span></figcaption>
           </figure>
         </div>
       </section>
@@ -87,11 +99,19 @@
           <option value="2016">2016</option>
           <option value="2017">2017 (Jan – Aug)</option>
         </select>
-        <p class="hint" id="year-hint">Data from July 2015 to August 2017: 2015 and 2017 are partial years, so do not compare their totals with 2016.</p>
+        <p class="hint" id="year-hint">2015 and 2017 are partial years: compare their totals with care.</p>
       </div>
       <p class="active-filters" role="status" aria-live="polite">Showing: <strong id="active-filters-text">Both hotels · All years</strong></p>
       <button type="button" class="button" id="reset-filters">Reset filters</button>
+      <section class="selection-box" aria-labelledby="month-heading">
+        <h3 id="month-heading">Selected month</h3>
+        <div id="month-details" role="status" aria-live="polite" aria-atomic="true">
+          <p>Point at a month in any chart to compare the guests, cancellations and price of that month; a dashed line marks it in the three charts.</p>
+        </div>
+      </section>
     </aside>
+
+    <div id="announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
 
     <footer class="site-footer">
       <p>Source: Antonio, N., de Almeida, A. and Nunes, L. (2019). Hotel booking demand datasets. <i>Data in Brief</i>, 22, 41–49. Two hotels in Portugal: a city hotel in Lisbon and a resort in the Algarve.</p>

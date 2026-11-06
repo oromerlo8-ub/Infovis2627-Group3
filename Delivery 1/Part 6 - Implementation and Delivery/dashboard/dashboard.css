@@ -1,4 +1,5 @@
 /* Style of both dashboard screens (index.html and detail.html).
+   Text: every page text is at least 16 px (1rem), as the Part 4 plan says; chart text is 12 px or more.
    Layout: the Part 4 grid for a 1280 px screen (KPIs on top, charts on the left, filters on the right).
    Colours: the Part 4 palette; every text colour passes WCAG AA on its background. */
 
@@ -63,11 +64,12 @@ a { color: var(--focus); }
   border-bottom: 1px solid var(--line);
 }
 .site-header h1 { font-size: 1.5rem; font-weight: 600; margin: 0; }
-.site-header .subtitle { margin: 0; color: var(--text-secondary); font-size: 0.95rem; }
-.site-header nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 16px; }
+.site-header .subtitle { margin: 0; color: var(--text-secondary); font-size: 1rem; }
+.site-header nav { flex: none; }   /* the screen links keep one line; the title block takes the rest */
+.site-header nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 12px; }
 .site-header nav a {
   display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px;
-  border: 1px solid var(--focus); border-radius: 4px; text-decoration: none; font-weight: 600;
+  border: 1px solid var(--focus); border-radius: 4px; text-decoration: none; font-weight: 600; white-space: nowrap;
 }
 .site-header nav a[aria-current="page"] { background: var(--focus); color: #FFFFFF; }
 
@@ -81,10 +83,10 @@ main { grid-area: main; min-width: 0; }
 .kpi {
   background: var(--panel); border-radius: 6px; padding: 8px 12px; min-height: 84px; margin: 0;
 }
-.kpi dt { font-size: 0.875rem; color: var(--text-secondary); }
+.kpi dt { font-size: 1rem; color: var(--text-secondary); }
 .kpi dd { margin: 0; }
 .kpi .kpi-value { display: block; font-size: 1.6rem; font-weight: 600; color: var(--text); line-height: 1.2; }
-.kpi .kpi-context { display: block; font-size: 0.8rem; color: var(--text-secondary); }
+.kpi .kpi-context { display: block; font-size: 1rem; line-height: 1.3; color: var(--text-secondary); }
 
 /* ── Charts ───────────────────────────────────────────────────────────────── */
 .chart-grid { display: grid; gap: 16px; }
@@ -93,7 +95,32 @@ main { grid-area: main; min-width: 0; }
 .chart-grid.detail-screen { grid-template-columns: 520px 424px; }
 
 figure.chart { margin: 0; min-width: 0; }
-.chart-container { overflow-x: auto; }       /* a chart keeps its size and scrolls if the window is narrower */
+/* A chart keeps its size and scrolls if the window is narrower; it anchors the focus overlay */
+.chart-container { overflow-x: auto; position: relative; }
+/* vega-embed makes its box inline-block, which would grow with the chart and push the page sideways */
+.chart-container.vega-embed { display: block; width: 100%; max-width: 100%; }
+/* Focus ring of the data marks: an SVG overlay above the chart (wcag skill), never CSS outline on SVG */
+.focus-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: visible; z-index: 10; pointer-events: none; }
+.chart-container svg [tabindex] { outline: none; }
+/* Value box of the focused mark (keyboard): exact value always visible, Escape hides it */
+#keyboard-value {
+  position: absolute; z-index: 1000; max-width: 320px; pointer-events: none;
+  background: var(--text); color: #FFFFFF; padding: 6px 10px; border-radius: 4px; font-size: 1rem;
+}
+#keyboard-value[hidden] { display: none; }
+
+/* Collapsible data table under each chart (wcag skill: table as alternative) */
+.data-table { margin: 2px 0 0; font-size: 1rem; }
+.data-table summary { cursor: pointer; color: var(--focus); font-weight: 600; min-height: 24px; display: inline-flex; align-items: center; }
+.pattern-defs { position: absolute; width: 0; height: 0; }
+.data-table summary::before { content: "▸"; margin-right: 6px; }      /* the marker is lost with inline-flex */
+.data-table[open] summary::before { content: "▾"; }
+.table-scroll { max-height: 320px; overflow: auto; border: 1px solid var(--line); margin-top: 4px; }
+.data-table table { border-collapse: collapse; width: 100%; }
+.data-table caption { text-align: left; padding: 4px 6px; color: var(--text-secondary); }
+.data-table th, .data-table td { padding: 3px 8px; border-bottom: 1px solid #E6E6E6; text-align: left; font-weight: normal; }
+.data-table thead th { position: sticky; top: 0; background: var(--panel); font-weight: 600; color: var(--text); }
+.data-table .number { text-align: right; font-variant-numeric: tabular-nums; }
 .chart-container svg { display: block; }
 
 .show-more {
@@ -116,26 +143,41 @@ figure.chart { margin: 0; min-width: 0; }
 .filters fieldset { border: 0; margin: 0 0 12px; padding: 0; }
 .filters legend, .filters label.field-label { font-weight: 600; margin-bottom: 4px; display: block; padding: 0; }
 .filters .radio { display: flex; align-items: center; gap: 8px; min-height: 44px; }
-.filters input[type="radio"] { width: 20px; height: 20px; margin: 0; accent-color: var(--focus); }
+.filters input[type="radio"] { width: 24px; height: 24px; margin: 0; accent-color: var(--focus); }   /* WCAG 2.5.8: 24 px */
 .filters select {
   width: 100%; min-height: 44px; font: inherit; color: var(--text);
   border: 1px solid var(--text-secondary); border-radius: 4px; background: #FFFFFF; padding: 0 8px;
 }
 .filters .field { margin-bottom: 12px; }
-.active-filters { background: #FFFFFF; border-left: 4px solid var(--focus); padding: 8px; margin: 12px 0; font-size: 0.95rem; }
+.active-filters { background: #FFFFFF; border-left: 4px solid var(--focus); padding: 8px; margin: 12px 0; font-size: 1rem; }
 .button {
   display: inline-flex; align-items: center; justify-content: center;
   min-height: 44px; padding: 0 16px; width: 100%;
   font: inherit; font-weight: 600; color: #FFFFFF; background: var(--text);
   border: 0; border-radius: 4px; cursor: pointer;
 }
-.filters .hint { font-size: 0.875rem; color: var(--text-secondary); margin: 4px 0 0; }
+.filters .hint { font-size: 1rem; color: var(--text-secondary); margin: 4px 0 0; }
+
+/* Selected month (I5) and selected country (I7): the exact values, always visible next to the charts */
+.selection-box { background: #FFFFFF; border: 1px solid var(--line); border-radius: 4px; padding: 8px; margin: 12px 0 0; }
+.selection-box h3 { font-size: 1rem; margin: 0 0 4px; }
+.selection-box p { margin: 0; font-size: 1rem; }
+.selection-box ul { margin: 4px 0 0; padding-left: 18px; font-size: 1rem; }
+.button-row { display: flex; gap: 8px; margin-top: 8px; }
+.button.secondary { color: var(--focus); background: #FFFFFF; border: 2px solid var(--focus); }
+.button:disabled { color: var(--text-secondary); background: #E6E6E6; border-color: #E6E6E6; cursor: not-allowed; }
+
+/* Sort toggle (I9) under the country bars */
+.sort-toggle { border: 0; margin: 4px 0 0; padding: 0; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.sort-toggle legend { float: left; font-weight: 600; margin-right: 8px; padding: 0; }
+.sort-toggle .radio { display: flex; align-items: center; gap: 6px; min-height: 44px; }
+.sort-toggle input[type="radio"] { width: 24px; height: 24px; margin: 0; accent-color: var(--focus); }
 
 /* ── Footer: source, date and data note ───────────────────────────────────── */
 .site-footer {
   grid-area: footer;
   border-top: 1px solid var(--line); margin-top: 8px; padding: 6px 0 12px;
-  font-size: 0.8rem; color: var(--text-secondary);
+  font-size: 1rem; color: var(--text-secondary);
 }
 .site-footer p { margin: 0; }
 

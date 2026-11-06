@@ -1,0 +1,38 @@
+interaction,check,passes,seen in the page
+Keyboard: Tab,"Tab order: skip links, screen links, help, C1 and its data table, C2 and table, C3 and table, hotel, year, reset",True,"['a', 'a', 'a', 'link-other-screen', 'a', 'c1', 'summary', 'c2', 'summary', 'c3', 'summary', 'hotel-both', 'year', 'reset-filters']"
+Keyboard: visible focus,every control shows a 3 px blue focus outline,True,"['solid 3px rgb(0, 102, 204)']"
+Keyboard: visible focus,"every chart stop shows an SVG focus ring (2 shapes), never more than one ring on the page",True,"[2, 2, 2]"
+Keyboard: skip link,the first Tab stop is the skip link to the charts,True,Skip to the charts
+Keyboard: chart,Shift+Tab comes back into C1 on its first point,True,"City Hotel, July 2015: 852 guests"
+Keyboard: chart,three right arrows reach October 2015 of the City Hotel,True,"City Hotel, October 2015: 3,624 guests"
+Keyboard: announcement,"the live region says series, position and value",True,"Hotel: City Hotel. Month 4 of 26: City Hotel, October 2015: 3,624 guests."
+Keyboard: active series,the other hotel is dimmed (26 points at opacity 0.4),True,26
+Keyboard: I5 linked month,the focused month is linked in C1-C3 and written in the box,True,"October 2015City Hotel: 3,624 guests, 39.1 % of bookings can"
+Keyboard: value visible,the value box shows the focused value,True,"City Hotel, October 2015: 3,624 guests"
+Keyboard: series,"Alt + down arrow goes to the Resort Hotel, same month",True,"Hotel: Resort Hotel. Month 4 of 26: Resort Hotel, October 2015: 2,137 "
+Keyboard: series,Alt + up arrow comes back to the City Hotel,True,"City Hotel, October 2015: 3,624 guests"
+Keyboard: chart,End goes to the last month (August 2017),True,"City Hotel, August 2017: 4,333 guests"
+Keyboard: chart,right arrow on the last point stays there,True,"City Hotel, August 2017: 4,333 guests"
+Keyboard: chart,Home goes to the first month (July 2015),True,"City Hotel, July 2015: 852 guests"
+Keyboard: value visible,Escape hides the value box (WCAG 1.4.13),True,
+Keyboard: value visible,Enter shows it again,True,"City Hotel, July 2015: 852 guests"
+Keyboard: chart,Tab leaves C1 for its data table; the ring and the dimming of C1 are removed,True,"summary, C1 ring and dimmed: [0, 0]"
+Keyboard: I1 filter,down arrow in the hotel group chooses the City Hotel and updates the KPIs,True,"46,082"
+Keyboard: I2 filter,down arrow on the year list chooses 2015,True,City Hotel (Lisbon) · 2015 (July to December only)
+Keyboard: I4 reset,Enter on Reset brings back both hotels and all years,True,"Filters reset: Both hotels, All years (July 2015 to August 2017)."
+Reduced motion,"with prefers-reduced-motion, transitions last 0.01 ms or less",True,1e-05s
+Keyboard: chart,"Tab enters C4 on the selected country (Portugal, City Hotel panel)",True,"Portugal, City Hotel: 21.0 % of the guests of the hotel (18,808 guests)"
+Keyboard: I7 select a country,down arrow moves to United Kingdom and selects it everywhere,True,"United Kingdom19,246 guests (13.2 % of all)Median stay: 4 ni"
+Keyboard: announcement,"the live region says panel, position and value",True,"Panel: City Hotel. Bar 2 of 11: United Kingdom, City Hotel: 8.5 % of the guests "
+Keyboard: focus and selection,the focused bar keeps its focus ring after the charts are redrawn,True,2
+Keyboard: series,"Alt + down arrow goes to the Resort Hotel panel, same country",True,"United Kingdom, Resort Hotel: 20.6 % of the guests of the hotel (11,676 guests)"
+Keyboard: Tab,after C4 comes the sort toggle,True,sort-guests
+Keyboard: I9 sort,down arrow chooses the alphabetical order and C4 is redrawn in that order,True,"['Belgium', 'France', 'Germany']"
+Keyboard: chart,Shift+Tab goes back into the redrawn C4 on the selected country,True,"United Kingdom, Resort Hotel: 20.6 % of the guests of the hotel (11,676 guests)"
+Keyboard: chart,C6: right arrow moves to February and the line is announced,True,"Line: All guests. Month 2 of 12: All guests, February: 6.9 % of the gu"
+Keyboard: I8 show more,Enter opens the extra charts and Tab goes into C7 on the selected country,True,United Kingdom: 4 nights (median)
+Keyboard: chart,C7 follows the alphabetical order: after United Kingdom comes United States,True,United States: 2 nights (median)
+Keyboard: chart,the map C5 starts at the country with most guests (Portugal) with a rectangle ring,True,"Portugal: 37,655 guests"
+Keyboard: chart,right arrow on the map goes to the second country by guests (United Kingdom),True,"United Kingdom: 19,246 guests"
+Keyboard: I7 Previous / Next,Enter on previous-country changes the selected country,True,United States -> United Kingdom
+Keyboard: I7 Previous / Next,"Previous is disabled on the first bar (Belgium, alphabetical order)",True,True
