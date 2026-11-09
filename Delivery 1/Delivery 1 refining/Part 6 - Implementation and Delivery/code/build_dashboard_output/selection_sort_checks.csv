@@ -1,0 +1,26 @@
+chart,check,passes
+C4,"order ""guests"" (both hotels, all years)",True
+C4,"order ""guests"", Brazil selected: Brazil first, then the same order",True
+C4,"order ""alphabetical"" (both hotels, all years)",True
+C4,"order ""alphabetical"", Brazil selected: Brazil first, then the same order",True
+C4,no country selected (default): no green and no outline,True
+C7,"order ""guests"" (both hotels, all years)",True
+C7,"order ""guests"", Brazil selected: Brazil first, then the same order",True
+C7,"order ""alphabetical"" (both hotels, all years)",True
+C7,"order ""alphabetical"", Brazil selected: Brazil first, then the same order",True
+C7,no country selected (default): no green and no outline,True
+C8,"order ""guests"" (both hotels, all years)",True
+C8,"order ""guests"", Brazil selected: Brazil first, then the same order",True
+C8,"order ""alphabetical"" (both hotels, all years)",True
+C8,"order ""alphabetical"", Brazil selected: Brazil first, then the same order",True
+C8,no country selected (default): no green and no outline,True
+C4,France selected: 2 outlined dots and 1 band,True
+C7,France selected: 1 green box and 1 band,True
+C8,France selected: 1 green box and 1 band,True
+C4,Other selected: 2 outlined dots and 1 band,True
+C7,Other selected: 1 green box and 1 band,True
+C8,Other selected: 1 green box and 1 band,True
+C9,"no country selected, August: 10 bubbles (the top 10, not Other), no green",True
+C9,"Brazil selected, August: 11 bubbles, Brazil green",True
+C9,"France selected, August: 1 green bubble, a trail of 8 months, ""August"" written",True
+C5,France selected: one country outlined in green,True

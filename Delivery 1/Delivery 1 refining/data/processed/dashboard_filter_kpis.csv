@@ -1,0 +1,13 @@
+hotel_filter,year_filter,bookings,stays,guests,cancel_rate,median_price,countries_of_origin,largest_market,largest_market_share
+Both,All,119201,75007,145980,37.1,94.5,165,Portugal,25.8
+Both,2015,21961,13824,25931,37.1,85.0,98,Portugal,40.0
+Both,2016,56621,36298,70852,35.9,91.0,136,Portugal,25.1
+Both,2017,40619,24885,49197,38.7,105.0,134,Portugal,19.3
+City Hotel,All,79156,46082,89434,41.8,100.3,150,Portugal,21.0
+City Hotel,2015,13653,7654,13729,43.9,85.7,86,Portugal,40.1
+City Hotel,2016,38057,22662,44421,40.5,99.5,125,Portugal,20.8
+City Hotel,2017,27446,15766,31284,42.6,112.7,125,France,16.5
+Resort Hotel,All,40045,28925,56546,27.8,74.0,118,Portugal,33.3
+Resort Hotel,2015,8308,6170,12202,25.7,77.4,71,Portugal,39.9
+Resort Hotel,2016,18564,13636,26431,26.5,68.0,95,Portugal,32.3
+Resort Hotel,2017,13173,9119,17913,30.8,82.0,84,Portugal,30.4

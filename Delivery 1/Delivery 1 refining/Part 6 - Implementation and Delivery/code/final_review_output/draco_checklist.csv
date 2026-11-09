@@ -1,0 +1,18 @@
+item,result,evidence
+Bars and areas include zero,met,"C4, C7, C8 start at zero (hard rule checked by code)"
+No log scale with values of 0 or less,met,No log scale in any chart
+Discrete colour with 20 categories or fewer,met,Hotel and C6 group: 2 values; map: 5 classes
+Shape with 8 categories or fewer,met,"2 shapes (circle, square)"
+No size on nominal fields,met,Size is not used
+"Lines and areas have x and y, at least one continuous",met,C1-C3: temporal x; C6: month as a time unit
+Bar and tick not continuous on both x and y,met,Bars have a nominal y (country)
+Same field not on x and y,met,Checked by code
+No stacking of means or medians,met,No stacking
+Soft: the main quantitative field is on position,met,Every measure is on x (bars) or y (lines)
+Soft: at most 12 bins,met,"Nothing is binned; the map classes are named groups, outside DRACO"
+Soft: numeric fields are not nominal,met,Year and month are temporal or used as filters
+Soft: ordinal fields with more than 30 values treated as quantitative,met,No such field
+Soft: a count or measure when all fields are discrete,met,Every chart has a measure
+Soft: temporal data on the x axis,met,C1-C3 and C6
+Soft: no text channel for quantitative fields,met,The only text channel carries the hotel or group name
+Maps,outside DRACO,"C5 judged with the GeoHandout: TopoJSON, Equal Earth projection, map of the data period"

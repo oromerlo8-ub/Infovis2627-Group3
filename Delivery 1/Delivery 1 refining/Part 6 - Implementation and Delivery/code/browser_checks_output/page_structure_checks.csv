@@ -1,0 +1,4 @@
+page,lang,controls,controls_without_name,broken_references,duplicate_ids,charts_without_role_img,live_regions,help_link,headings
+index.html,en,13,0,0,0,0,6,True,H1 H2 H2 H3 H3 H3 H2 H3
+detail.html,en,20,0,0,0,0,8,True,H1 H2 H2 H3 H3 H2 H3 H3 H3 H2 H3
+accessibility.html,en,3,0,0,0,0,0,False,H1 H2 H2 H2 H2 H2 H2

@@ -1,0 +1,3 @@
+page,"lang=""en""",errors or warnings,files from the internet,charts drawn as SVG,charts expected,KPIs filled in,skip links,headings = chart titles
+index.html,True,0,0,3,3,4,2,True
+detail.html,True,0,0,5,5,4,2,True

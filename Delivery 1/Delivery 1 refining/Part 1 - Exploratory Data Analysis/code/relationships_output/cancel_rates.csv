@@ -1,0 +1,27 @@
+,,% cancelled
+lead time,0–7 days,9.6
+lead time,8–30 days,27.9
+lead time,31–90 days,37.7
+lead time,91–180 days,44.7
+lead time,181–365 days,55.5
+lead time,over 365 days,67.7
+deposit,Refundable,22.2
+deposit,No Deposit,28.4
+deposit,Non Refund,99.4
+segment,Complementary,13.1
+segment,Direct,15.3
+segment,Corporate,18.7
+segment,Aviation,21.9
+segment,Offline TA/TO,34.3
+segment,Online TA,36.7
+segment,Groups,61.1
+country,DEU,16.7
+country,NLD,18.4
+country,FRA,18.6
+country,GBR,20.2
+country,BEL,20.2
+country,IRL,24.7
+country,ESP,25.4
+country,ITA,35.4
+country,BRA,37.3
+country,PRT,56.6

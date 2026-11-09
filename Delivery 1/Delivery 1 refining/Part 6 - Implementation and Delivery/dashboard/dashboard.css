@@ -1,0 +1,272 @@
+/* Style of both dashboard screens (index.html and detail.html).
+   Layout: the whole screen fits a 16:9 window without scrolling (students' decision when the dashboard was
+   refined): header band, KPIs on top, charts in cards that fill the rest, filters on the right, one footer line.
+   Text: every page text is at least 16 px (1rem), chart text at least 12 px; gaps of 16 px (data-viz skill).
+   Colours: Okabe-Ito for the data, greys for the context; light and night themes, every text colour passes
+   WCAG AA on its background in both. */
+
+:root {
+  --bg: #EEF1F5;               /* page background */
+  --card: #FFFFFF;             /* cards: KPIs, charts, filters */
+  --text: #1A1A1A;             /* 17.4:1 on white */
+  --text-secondary: #595959;   /* 7.0:1 on white, 6.2:1 on the page background */
+  --line: #DDDDDD;
+  --accent: #0072B2;           /* Okabe-Ito blue (the City Hotel): links and buttons, 5.2:1 on white */
+  --accent-text: #FFFFFF;
+  --focus: #0066CC;            /* focus outline, 5.6:1 on white */
+  --selected: #009E73;         /* Okabe-Ito bluish green: the selected country */
+  --header-bg: #0B2E4A;        /* header band: white text 14:1 */
+  --header-text: #FFFFFF;
+  --header-text-secondary: #C9D6E2;   /* 9.4:1 on the band */
+  --button-dark: #1A1A1A;
+  --button-dark-text: #FFFFFF;
+  --shadow: 0 1px 3px rgba(16, 24, 40, 0.10), 0 1px 2px rgba(16, 24, 40, 0.06);
+  --radius: 10px;
+  --gap: 16px;
+  color-scheme: light;
+}
+
+/* Night mode: same structure, dark surfaces; the charts get their own night colours (dashboard.js) */
+:root[data-theme="dark"] {
+  --bg: #121212;
+  --card: #1E1E1E;
+  --text: #F2F2F2;             /* 14.9:1 on the cards */
+  --text-secondary: #B3B3B3;   /* 7.9:1 on the cards */
+  --line: #3A3A3A;
+  --accent: #56B4E9;           /* Okabe-Ito sky blue (the City Hotel at night): 7.2:1 on the cards */
+  --accent-text: #0B0B0B;
+  --focus: #56B4E9;
+  --header-bg: #08192A;
+  --header-text: #F2F2F2;
+  --header-text-secondary: #B8C7D6;
+  --button-dark: #F2F2F2;
+  --button-dark-text: #121212;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 16px; }
+
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.35;
+}
+
+/* Visible only to screen readers (wcag-accessibility skill) */
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
+/* The SVG that only holds the stripe pattern takes no room */
+.pattern-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+
+/* Skip links: hidden until they receive the focus */
+.skip-link {
+  position: absolute; left: 16px; top: -60px; z-index: 100;
+  background: var(--button-dark); color: var(--button-dark-text); padding: 10px 16px; border-radius: 4px;
+}
+.skip-link:focus { top: 8px; }
+
+/* Visible focus on every control, never removed */
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+a { color: var(--accent); }
+
+/* ── Page grid: header, main area + filters, footer, all inside the window ───── */
+.page {
+  height: 100vh;
+  min-height: 840px;              /* fits without scrolling from 1536 x 864 (full HD at 125 %); smaller windows scroll a little */
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 272px;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    "header  header"
+    "main    filters"
+    "footer  footer";
+  column-gap: var(--gap);
+  row-gap: 12px;
+  padding: 0 var(--gap);
+}
+
+.site-header {
+  grid-area: header;
+  margin: 0 calc(-1 * var(--gap));
+  padding: 8px var(--gap);
+  display: flex; align-items: center; justify-content: space-between; gap: var(--gap);
+  background: var(--header-bg); color: var(--header-text);
+}
+.site-header h1 { font-size: 1.375rem; font-weight: 600; margin: 0; line-height: 1.2; }
+.site-header .subtitle { margin: 0; color: var(--header-text-secondary); font-size: 1rem; }
+.header-tools { display: flex; align-items: center; gap: 12px; flex: none; }
+.site-header nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 8px; }
+.site-header nav a, .theme-toggle {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 0 12px;
+  border: 1px solid rgba(255, 255, 255, 0.55); border-radius: 6px; text-decoration: none; font-weight: 600;
+  color: var(--header-text); background: transparent; font: inherit; font-weight: 600; white-space: nowrap; cursor: pointer;
+}
+.site-header nav a[aria-current="page"] { background: var(--header-text); color: var(--header-bg); border-color: var(--header-text); }
+.site-header :focus-visible { outline-color: #FFFFFF; }
+.theme-toggle[aria-pressed="true"] { background: var(--header-text); color: var(--header-bg); }
+
+main { grid-area: main; min-width: 0; min-height: 0; display: grid; grid-template-rows: auto minmax(0, 1fr); row-gap: 12px; }
+
+/* ── KPIs (at most 4) ──────────────────────────────────────────────────────── */
+.kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--gap); margin: 0; }
+.kpi {
+  background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 8px 14px; margin: 0; border-left: 4px solid var(--accent); min-width: 0;
+}
+.kpi dt { font-size: 1rem; color: var(--text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.kpi dd { margin: 0; display: flex; align-items: baseline; flex-wrap: wrap; column-gap: 8px; }
+.kpi .kpi-value { font-size: 1.625rem; font-weight: 600; color: var(--text); line-height: 1.2; }
+.kpi .kpi-context { font-size: 1rem; color: var(--text-secondary); }
+
+/* ── Chart cards ──────────────────────────────────────────────────────────── */
+.chart-section { min-height: 0; height: 100%; }
+.chart-grid { display: grid; gap: var(--gap); min-height: 0; height: 100%; }
+.chart-grid.main-screen { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: minmax(0, 1.2fr) minmax(0, 1fr); }
+.chart-grid.main-screen .chart-main { grid-column: 1 / -1; }      /* C1: the focal point, over 40 % of the chart area */
+.chart-grid.detail-screen { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: minmax(0, 1.15fr) minmax(0, 1fr); }
+.chart-grid.detail-screen .chart-wide { grid-column: 1 / -1; }
+
+figure.chart {
+  margin: 0; min-width: 0; min-height: 0;
+  display: flex; flex-direction: column;
+  background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 8px 14px 8px;
+  min-height: 210px;               /* a chart never gets too small to read; the page scrolls instead */
+}
+.card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.card-head h3 { font-size: 1.0625rem; font-weight: 600; margin: 0; line-height: 1.25; }
+.card-head .chart-subtitle { margin: 0; font-size: 1rem; color: var(--text-secondary); line-height: 1.3; }
+.card-tools { display: flex; align-items: center; gap: 8px; flex: none; }
+.chart-body { position: relative; flex: 1 1 auto; min-height: 0; margin-top: 4px; }
+.chart-body.split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--gap); }
+.chart-body.split > .chart-slot { position: relative; min-height: 0; }
+
+/* A chart fills its box: Vega-Lite reads the size of the container ("container" width and height) */
+.chart-container { position: absolute; inset: 0; }
+.chart-container.vega-embed { display: block; width: 100%; height: 100%; }
+.chart-container svg { display: block; }
+.chart-container[hidden], .table-view[hidden] { display: none; }
+
+/* Focus ring of the data marks: an SVG overlay above the chart (wcag skill), never CSS outline on SVG */
+.focus-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: visible; z-index: 10; pointer-events: none; }
+.dots-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: visible; z-index: 5; pointer-events: none; }
+.chart-container svg [tabindex] { outline: none; }
+/* Value box of the focused mark (keyboard): exact value always visible, Escape hides it */
+#keyboard-value {
+  position: absolute; z-index: 1000; max-width: 340px; pointer-events: none;
+  background: var(--button-dark); color: var(--button-dark-text); padding: 6px 10px; border-radius: 6px; font-size: 1rem;
+}
+#keyboard-value[hidden] { display: none; }
+
+/* Small buttons of a card: data table, chart or map, play */
+.tool-button, .segmented label {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  min-height: 32px; padding: 0 12px; font: inherit; font-size: 1rem; font-weight: 600;
+  color: var(--accent); background: var(--card); border: 2px solid var(--accent); border-radius: 6px; cursor: pointer;
+}
+.tool-button[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); }
+.segmented { display: inline-flex; border: 0; margin: 0; padding: 0; }
+.segmented input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.segmented label { border-radius: 0; }
+.segmented label:first-of-type { border-radius: 6px 0 0 6px; }
+.segmented label:last-of-type { border-radius: 0 6px 6px 0; border-left-width: 0; }
+.segmented input:checked + label { background: var(--accent); color: var(--accent-text); }
+.segmented input:focus-visible + label { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+/* Data table shown in the place of the chart (wcag skill: table as alternative) */
+.table-view { position: absolute; inset: 0; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+.table-view table { border-collapse: collapse; width: 100%; font-size: 1rem; }
+.table-view caption { text-align: left; padding: 4px 8px; color: var(--text-secondary); }
+.table-view th, .table-view td { padding: 3px 8px; border-bottom: 1px solid var(--line); text-align: left; font-weight: normal; }
+.table-view thead th { position: sticky; top: 0; background: var(--card); font-weight: 600; color: var(--text); }
+.table-view .number { text-align: right; font-variant-numeric: tabular-nums; }
+
+/* Play controls of the animated chart (C9) */
+.player { display: flex; align-items: center; gap: 12px; margin-top: 4px; }
+.player label { font-weight: 600; }
+.player input[type="range"] { flex: 1; min-width: 80px; height: 24px; accent-color: var(--accent); }
+.player output { min-width: 6.5em; font-weight: 600; }
+
+/* ── Filters panel ────────────────────────────────────────────────────────── */
+.filters {
+  grid-area: filters; min-height: 0; overflow: auto;
+  background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 10px 14px; display: flex; flex-direction: column; gap: 10px;
+}
+.filters h2 { font-size: 1.125rem; margin: 0; }
+.filters fieldset { border: 0; margin: 0; padding: 0; }
+.filters legend, .filters label.field-label { font-weight: 600; margin-bottom: 2px; display: block; padding: 0; }
+.filters .radio { display: flex; align-items: center; gap: 8px; min-height: 32px; }
+.filters input[type="radio"] { width: 24px; height: 24px; margin: 0; accent-color: var(--accent); }   /* WCAG 2.5.8: 24 px */
+.filters select {
+  width: 100%; min-height: 40px; font: inherit; color: var(--text);
+  border: 1px solid var(--text-secondary); border-radius: 6px; background: var(--card); padding: 0 8px;
+}
+.active-filters { background: var(--bg); border-left: 4px solid var(--accent); padding: 6px 8px; margin: 0; font-size: 1rem; border-radius: 0 6px 6px 0; }
+.button {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 40px; padding: 0 16px; width: 100%;
+  font: inherit; font-weight: 600; color: var(--button-dark-text); background: var(--button-dark);
+  border: 0; border-radius: 6px; cursor: pointer;
+}
+.hint { font-size: 1rem; color: var(--text-secondary); margin: 0; }
+
+/* Selected month (I5) and selected country (I7): the exact values, always visible next to the charts */
+.selection-box { border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; margin: 0; }
+.selection-box h3 { font-size: 1rem; margin: 0 0 2px; }
+.selection-box p { margin: 0; font-size: 1rem; }
+.selection-box ul { margin: 2px 0 0; padding-left: 18px; font-size: 1rem; }
+.selection-box.country { border-left: 4px solid var(--selected); }
+.button-row { display: flex; gap: 8px; margin-top: 8px; }
+.button.secondary { color: var(--accent); background: var(--card); border: 2px solid var(--accent); }
+.button.no-country { margin-top: 8px; }
+.country-select { width: 100%; min-height: 40px; font: inherit; color: var(--text); border: 1px solid var(--text-secondary);
+  border-radius: 6px; background: var(--card); padding: 0 8px; margin: 2px 0 6px; }
+.button:disabled { color: var(--text-secondary); background: var(--bg); border-color: var(--line); cursor: not-allowed; }
+
+/* Sort toggle (I9) in the head of the country card */
+.sort-toggle { border: 0; margin: 0; padding: 0; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.sort-toggle legend { float: left; font-weight: 600; margin-right: 4px; padding: 0; }
+.sort-toggle .radio { display: flex; align-items: center; gap: 6px; min-height: 32px; }
+.sort-toggle input[type="radio"] { width: 24px; height: 24px; margin: 0; accent-color: var(--accent); }
+
+/* ── Footer: source and date in one line; the data notes open in a dialog ──── */
+.site-footer {
+  grid-area: footer; display: flex; flex-wrap: wrap; align-items: center; column-gap: 16px;
+  padding: 0 0 8px; font-size: 1rem; color: var(--text-secondary);
+}
+.site-footer p { margin: 0; }
+.link-button { font: inherit; color: var(--accent); background: none; border: 0; padding: 4px 0; text-decoration: underline; cursor: pointer; min-height: 24px; }
+dialog { max-width: 640px; border: 0; border-radius: var(--radius); padding: 16px 20px; background: var(--card); color: var(--text); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35); }
+dialog::backdrop { background: rgba(0, 0, 0, 0.45); }
+dialog h2 { margin-top: 0; font-size: 1.25rem; }
+
+/* Narrower or lower windows (200 % zoom, tablets, small screens): one column that scrolls, nothing is lost */
+@media (max-width: 1100px), (max-height: 560px) {
+  .page { height: auto; min-height: 0; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto auto auto auto;
+          grid-template-areas: "header" "main" "filters" "footer"; }
+  .site-header { flex-wrap: wrap; }
+  .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .chart-grid.main-screen, .chart-grid.detail-screen { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; }
+  .chart-section, .chart-grid { height: auto; }
+  .chart-grid figure.chart { height: 360px; }
+  .chart-body.split { grid-template-columns: minmax(0, 1fr); }
+  .chart-grid figure.chart.chart-wide { height: 640px; }
+  .filters { overflow: visible; }
+}
+
+/* Respect the user's wish for less motion (WCAG 2.3.3) */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}

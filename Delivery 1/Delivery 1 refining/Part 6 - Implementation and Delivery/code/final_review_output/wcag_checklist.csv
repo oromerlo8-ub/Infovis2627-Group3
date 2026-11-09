@@ -1,0 +1,48 @@
+group,item,result,evidence
+Operability,Every data point can be reached with the arrow keys,met,"All 8 charts: points of C1-C3 and C6, bars of C4, C7, C8 and the countries of the map C5 (checks ""Keyboard: chart"")"
+Operability,Every control can be reached with Tab in a logical order,met,"Skip links, screen links, help, charts in reading order, then the filter panel (check ""Tab order"")"
+Operability,"Focus always visible (focus-visible, never outline: none without replacement)",met,3 px blue outline on every control; SVG ring on every chart stop
+Operability,In multi-series charts Alt + up/down changes series keeping the index,met,"C1-C3 (hotel), C4 (hotel panel), C6 (selected country / all guests)"
+Operability,"Changing series announces ""series, point N of M: value"" (aria-live)",met,Each chart has its own polite live region
+Operability,The active series is highlighted (opacity) against the others,met,"Other series at opacity 0.4 while the focus is in the chart, restored when it leaves"
+Operability,The selected category and its exact value are always visible next to the chart,met,"""Selected month"" and ""Selected country"" boxes; value box next to the focused mark"
+Operability,Previous / Next buttons disabled at the ends,met,"Previous disabled on the first bar, Next on the last"
+Operability,Focus and selection are distinguished without colour alone,met,"Focus: blue and white ring around the mark; selection: orange fill, black outline, bold axis label and the box text"
+Operability,Navigation controls fit on a phone,not applicable,The dashboard is for a computer or a tablet (architecture.md): designed at 1280 x 800 px and checked down to a 768 px wide tablet
+Operability,The SVG focus indicator is drawn in its own group above the marks (correct z-order),met (adapted),"Drawn in an SVG overlay outside Vega's SVG, the ""correct solution"" of the same skill section; never covered by titles or legends"
+Operability,Never CSS outline on SVG elements; stroke / circle / rhombus by mark type,met (adapted),"Bars and countries: double rectangle; points: double circle; no line mark takes the focus (the points of each line do), so no rhombus is needed"
+Operability,The focus group is cleared on blur,met,"Check ""Tab leaves C1"": ring and dimming removed"
+Operability,The focus announces its position and scrolls the element into view,met,scrollIntoView on every focus
+Operability,"Focus on a dark background uses a double ring (3:1, WCAG 2.4.11)",met,"White and blue double ring on the marks; the dark Reset button has the blue outline outside it, on the panel grey"
+Operability,The focused element is not hidden by fixed elements (WCAG 2.4.11),met,The pages have no fixed header or footer
+Operability,Touch targets at least 24 x 24 px (44 recommended),partly met,"Buttons, links, the select and the radio rows are 44 px high and radios 24 px; the data points (about 8 px) are smaller, but every one is also reachable by keyboard, Previous/Next and the nearest-point pointer selection"
+Operability,Skip link at the start of the page,met,Two skip links: to the charts and to the filters
+Operability,No change of context on focus (WCAG 3.2.1),met,"Focusing a month or a bar updates the linked charts and boxes on the same page, which is not a change of context (no new page, window or focus move)"
+Operability,Reduced motion respected,met,CSS prefers-reduced-motion; Vega charts have no animation
+Perception,Text contrast at least 4.5:1 (3:1 large text and UI),met,"345 visible texts measured on the three pages, lowest ratio 4.70:1; graphics colours checked in Part 4 (lines 4.70 and 6.09, bars 8.66, orange 4.83:1)"
+Perception,Colour is never the only channel (plus pattern or shape),met,"Hotels: colour + line style + point shape + label; selected country: orange + white stripes + dark outline + bold label + text; map classes named in the legend, values in the table"
+Perception,Each chart has a text alternative (figcaption + .sr-only),met,Short text (SVG aria-label and figcaption) and long text with the main values for the current filters
+Perception,"SVG renderer only, never canvas",met,Checked at first load
+Perception,Animations respect prefers-reduced-motion,met,Checked with the setting on
+Comprehensibility,Every control has an associated label,met,"Every link, button, input, select and summary has a name"
+Comprehensibility,State changes are announced with aria-live,met,"Showing line, Selected month / country boxes, chart live regions, hidden announcer"
+Comprehensibility,The page language is declared,met,"lang=""en"" on the three pages"
+Comprehensibility,"Data in an external file, not in the HTML",met (adapted),"data.js loaded with script src instead of data.json, so the pages open by double-click (architecture.md)"
+Comprehensibility,Chart titles in plain language (COGA),met,"Titles are Natalia's questions, for example 'In which months are most bookings cancelled?'"
+Comprehensibility,Numbers with thousands separators and explicit units,met,"Tooltips, boxes, KPIs and tables: 145,980 guests, 37.1 %, €94.5"
+Comprehensibility,Active filters always visible,met,"""Showing"" line under the filters"
+Comprehensibility,Reset button always visible,met,In the filter panel of both screens
+Comprehensibility,Errors say what happened and how to solve it,met (no error case),"Every filter combination has data, so no empty state exists; if a chart cannot be drawn its box says so and points to the table and the help page"
+Comprehensibility,At most 4 KPIs and 2-3 charts visible at once,met,"Main: 4 KPIs, 3 charts; detail: 4 KPIs, 2 charts and 3 more only after ""Show more"""
+Comprehensibility,Icons always with a visible text label,met,No icon-only control; the arrows of the data tables sit next to their text
+Comprehensibility,Legends fixed and not truncated,met,Direct labels at the end of each line; the map legend is fixed with its labels in full
+Robustness,"Valid HTML (no duplicate attributes, closed tags)",met,html-validate 11.16.3: no errors
+Robustness,ARIA roles used correctly,met,"No broken aria-labelledby / describedby / controls reference, no duplicate id"
+Robustness,"SVG charts have role=""img"" and aria-label",met,Set on every chart after drawing
+Robustness,Works at 200 % browser zoom without loss of content,met,"At 200 % and at tablet widths the filters move under the charts and the page does not scroll sideways; wide charts keep their size and scroll inside their own box (2-D content, WCAG 1.4.10 exception)"
+Help page,accessibility.html exists in the same folder as index.html,met,"English name, as architecture.md decides"
+Help page,The link to it is visible from the main dashboard,met,In the header of both screens
+Help page,"It explains general navigation, navigation in the charts and the filters",met,Sections: Moving around a page; Moving inside a chart; Filters and other controls
+Help page,It lists the shortcuts of the dashboard (or says there are none),met,It says there are no extra shortcuts
+Help page,It gives a contact to report problems,met (no address),"Students' decision: Group 3 through the course's virtual campus, without an e-mail address"
+Course plan (Part 4),Text at least 12 px in the charts and 16 px in the page,met,"Chart texts below 12 px: 0. Page texts below 16 px: none (raised to 16 px in task 6.8, students' decision); all of them scale with the browser zoom"

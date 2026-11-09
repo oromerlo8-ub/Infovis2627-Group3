@@ -1,0 +1,19 @@
+interaction,check,passes,seen in the page
+Text alternatives,"C1-C3 (Both, All): short text = chart description, also the SVG aria-label (role img)",True,Line chart of the number of guests per month in the city hotel and the resort hotel.
+Text alternatives,"C1 long text (Both, All) names the busiest month of the City Hotel with its guests",True,"Both hotels, All years (July 2015 to August 2017). City Hotel: highest in August 2016 (4,836 guests), lowest in July 201"
+Data tables,"C1 table (Both, All) = pandas, every month and hotel",True,26 rows
+Data tables,"C1-C3 tables (Both, All) are closed at first and have a caption with the filters",True,"Data of the chart ""In which months do the city and the resort receive most guests?"": Both hotels, All years (July 2015 to August 2017)"
+Text alternatives,"C1-C3 (City Hotel, 2016): short text = chart description, also the SVG aria-label (role img)",True,Line chart of the number of guests per month in the city hotel and the resort hotel.
+Text alternatives,"C1 long text (City Hotel, 2016) names the busiest month of the City Hotel with its guests",True,"City Hotel (Lisbon), 2016. City Hotel: highest in August 2016 (4,836 guests), lowest in January 2016 (1,567 guests). Eve"
+Data tables,"C1 table (City Hotel, 2016) = pandas, every month and hotel",True,12 rows
+Data tables,"C1-C3 tables (City Hotel, 2016) are closed at first and have a caption with the filters",True,"Data of the chart ""In which months do the city and the resort receive most guests?"": City Hotel (Lisbon), 2016"
+Text alternatives,"C4-C8 and the map (Both, All): short and long texts present, SVG role img",True,"Both hotels, All years (July 2015 to August 2017). 165 countries have guests. The most: Portugal (37"
+Data tables,"C4 table (Both, All) = pandas shares and guests, in the order of the bars",True,"[['Portugal', '21.0\xa0% (18,808)', '33.3\xa0% (18,847)'], ['United Kingdom', '8.5\xa0% (7,570)', '20.6\xa0% (11,676)']]"
+Data tables,"C7 table (Both, All) = pandas medians and guests",True,"[['Portugal', '2', '37,655'], ['United Kingdom', '4', '19,246']]"
+Data tables,"map table (Both, All) = pandas guests of every country with guests",True,165 countries
+Fill pattern,"the selected country (Both, All) is striped in C4 and the legend says so",True,"['url(#pattern-selected)', 'url(#pattern-selected)']"
+Text alternatives,"C4-C8 and the map (Resort Hotel, 2017): short and long texts present, SVG role img",True,"Resort Hotel (Algarve), 2017 (January to August only). 84 countries have guests. The most: Portugal "
+Data tables,"C4 table (Resort Hotel, 2017) = pandas shares and guests, in the order of the bars",True,"[['Portugal', '30.4\xa0% (5,438)'], ['United Kingdom', '22.4\xa0% (4,020)']]"
+Data tables,"C7 table (Resort Hotel, 2017) = pandas medians and guests",True,"[['Portugal', '2', '5,438'], ['United Kingdom', '6', '4,020']]"
+Data tables,"map table (Resort Hotel, 2017) = pandas guests of every country with guests",True,84 countries
+Fill pattern,"the selected country (Resort Hotel, 2017) is striped in C4 and the legend says so",True,['url(#pattern-selected)']
