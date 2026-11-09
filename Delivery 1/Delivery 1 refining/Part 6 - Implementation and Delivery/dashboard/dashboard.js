@@ -176,7 +176,7 @@ function updateKpis() {
     setText('kpi-country-guests-context', 'no country selected');
     setText('kpi-country-cancel-label', 'Bookings cancelled (all)');
     setText('kpi-country-cancel', formatPercent(kpis.cancel_rate));
-    setText('kpi-country-cancel-context', 'of ' + formatCount(kpis.bookings) + ' bookings');
+    setText('kpi-country-cancel-context', 'duplicates included');
     return;
   }
   setText('kpi-country-guests-label', 'Guests from ' + STATE.country);
@@ -184,7 +184,7 @@ function updateKpis() {
   setText('kpi-country-guests-context', formatPercent(100 * country.guests / kpis.guests) + ' of all');
   setText('kpi-country-cancel-label', STATE.country + ': cancelled');
   setText('kpi-country-cancel', country.cancel_rate === null ? '–' : formatPercent(country.cancel_rate));
-  setText('kpi-country-cancel-context', 'of ' + formatCount(country.bookings) + ' bookings');
+  setText('kpi-country-cancel-context', 'duplicates included');
 }
 
 // ── Interactions (Part 5: I1 to I9, and the animation of C9) ─────────────────
@@ -369,7 +369,7 @@ function updateCountryDetails() {
   if (!country) {
     box.innerHTML = '<p>No country selected. Choose one in the list, or click a country in a chart.</p>';
   } else {
-    const name = STATE.country === 'Other' ? 'Other (all other countries and unknown)' : STATE.country;
+    const name = STATE.country === 'Other' ? 'Other and unknown' : STATE.country;     // one line in the panel
     const enough = country.nights_median !== null;
     box.innerHTML = '<p><strong>' + name + '</strong></p><ul>' +
       '<li>' + formatCount(country.guests) + ' guests (' + formatPercent(100 * country.guests / kpis.guests) + ')</li>' +
@@ -438,7 +438,11 @@ function connectCountrySelection() {
     const order = countryOrder();
     selectCountry(order[Math.min(order.indexOf(STATE.country) + 1, order.length - 1)]);
   });
-  document.getElementById('no-country').addEventListener('click', function () { selectCountry(null); });
+  // The button is disabled once no country is selected, so the focus moves to the list instead of being lost
+  document.getElementById('no-country').addEventListener('click', function () {
+    selectCountry(null);
+    document.getElementById('country-select').focus();
+  });
   document.getElementById('country-select').addEventListener('change', function (event) { selectCountry(event.target.value); });
   // Found in the browser: changing sort_order in a drawn chart does not reorder its rows (Vega does not
   // recompute the sorted axis when only the sort key changes), so the three country charts are drawn again
@@ -468,6 +472,7 @@ function showCountryView(name) {
   if (toggle) { toggle.setAttribute('data-charts', name); toggle.setAttribute('aria-controls', name + '-table'); }
   writeCardTitle(name, 'c4');
   if (!tableShown) { return VIEWS[name] ? redrawCharts([name]) : embedChart(name); }
+  updateTextAlternatives([name]);      // the table of the other view is written now that it is shown
   return Promise.resolve();
 }
 

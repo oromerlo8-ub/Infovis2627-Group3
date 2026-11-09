@@ -1,5 +1,5 @@
 item,result,evidence
-Charts with a colour-blind-safe palette and the SVG renderer,met,alt.renderers.enable('svg'); vega-embed renderer 'svg'
+Charts with a colour-blind-safe palette and the SVG renderer,met,Okabe-Ito; alt.renderers.enable('svg'); vega-embed renderer 'svg'
 Tooltips with units and formats,met,"Formats ',d', '.1f', '.1~f' and units in every tooltip"
 Data exported to a file separate from the HTML,met (adapted),"data.js instead of data.json (opens by double-click, architecture.md)"
-Descriptive variable names,met,"For example month_hotel, country_medians, screen_1_charts, keyboard_checks"
+Descriptive variable names,met,"For example month_hotel, country_season, heatmap_chart, keyboard_checks"

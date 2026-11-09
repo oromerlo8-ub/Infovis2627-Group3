@@ -12,11 +12,11 @@ Missing values are written as text. `NULL` in `agent` and `company` means "not a
 
 ## Distributions
 
-All numeric fields are right-skewed, the median lead time is 69 days but the mean is 104 (Figure 6), so medians describe them better. The resort's prices vary much more (Figure 7), stays peak at 7 and 14 nights (Figure 8), most categorical fields are dominated by one value (Figure 9), Portugal provides 40.7 % of bookings (Figure 10) and many details are rare (Figure 11). The charts follow the course's charts by data type: histograms and box plots for distributions, sorted bars for categories, and small multiples on a common scale (Gestalt similarity) to compare groups.
+All numeric fields are right-skewed, the median lead time is 69 days but the mean is 104 (Figure 6), so medians describe them better. The resort's prices vary much more, stays peak at 7 and 14 nights (Figure 7), most categorical fields are dominated by one value, Portugal provides 40.7 % of bookings (Figure 8) and many details are rare; the charts not shown here are in `distributions_outliers.ipynb`. The charts follow the course's charts by data type: histograms and box plots for distributions, sorted bars for categories, and small multiples on a common scale (Gestalt similarity) to compare groups.
 
 ## Relationships
 
-Bookings and prices follow the season (Figures 12 and 13): the resort's median price rises from 46.8 in November to 180.4 in August. Cancellations (37.0 %) grow with lead time, from 9.6 % to 67.7 %, and are highest for groups (Figure 14). The 99.4 % of non-refundable deposits is probably a recording effect of duplicated blocks. The market mix is similar in both hotels (Figure 15) and all correlations are weak (Figure 16), so they are not causes.
+Bookings and prices follow the season (Figures 9 and 10): the resort's median price rises from 46.8 in November to 180.4 in August. Cancellations (37.0 %) grow with lead time, from 9.6 % to 67.7 %, and are highest for groups (Figure 11). The 99.4 % of non-refundable deposits is probably a recording effect of duplicated blocks. The market mix is similar in both hotels and all correlations are weak, so they are not causes (`relationships.ipynb`).
 
 ## Currency and decisions
 
@@ -48,45 +48,25 @@ The data is a closed historical snapshot, about nine years old, with only 2016 c
 
 *Figure 6. Lead time distribution with median and mean. Source: raw data; code: distributions_outliers.ipynb.*
 
-![Box plots of price per night: city hotel median 99.9, resort median 75.0 with a wider spread.](images/eda_adr_by_hotel.png)
-
-*Figure 7. Price per night by hotel. Source: as Figure 6.*
-
 ![Bar chart of nights per booking: most stays last 1 to 4 nights, with peaks at 7 and 14.](images/eda_total_nights.png)
 
-*Figure 8. Nights per booking. Source: as Figure 6.*
-
-![Eight small bar charts showing the share of each category in eight categorical fields.](images/eda_categories.png)
-
-*Figure 9. Shares of the categorical fields. Source: as Figure 6.*
+*Figure 7. Nights per booking. Source: as Figure 6.*
 
 ![Bar chart of the ten main countries: Portugal 40.7 percent, then United Kingdom, France and Spain.](images/eda_countries.png)
 
-*Figure 10. Country of origin, ten main countries. Source: as Figure 6.*
-
-![Bar chart of the share of bookings with a value above zero; only special requests exceed 40 percent.](images/eda_rare_counts.png)
-
-*Figure 11. Share of bookings with each detail. Source: as Figure 6.*
+*Figure 8. Country of origin, ten main countries. Source: as Figure 6.*
 
 ![Line chart of monthly bookings by hotel: the city hotel is always higher, both follow a yearly cycle.](images/eda_bookings_over_time.png)
 
-*Figure 12. Bookings per month of arrival by hotel. Source: raw data; code: relationships.ipynb.*
+*Figure 9. Bookings per month of arrival by hotel. Source: raw data; code: relationships.ipynb.*
 
 ![Line chart of median price by month: the resort peaks in August at 180.4, the city hotel stays between 79 and 119.](images/eda_price_by_month.png)
 
-*Figure 13. Median price per night by month and hotel. Source: as Figure 12.*
+*Figure 10. Median price per night by month and hotel. Source: as Figure 9.*
 
 ![Four bar charts of cancellation rates by lead time, deposit type, market segment and country.](images/eda_cancellation_rates.png)
 
-*Figure 14. Cancellation rate by lead time, deposit, segment and country. Source: as Figure 12.*
-
-![Two bar charts of market segment shares in each hotel; online travel agents lead in both.](images/eda_segments_by_hotel.png)
-
-*Figure 15. Market segments in each hotel. Source: as Figure 12.*
-
-![Correlation matrix of eleven numeric fields with every value written; none exceeds 0.32.](images/eda_correlations.png)
-
-*Figure 16. Spearman correlation between numeric fields. Source: as Figure 12.*
+*Figure 11. Cancellation rate by lead time, deposit, segment and country. Source: as Figure 9.*
 
 ## Reference
 

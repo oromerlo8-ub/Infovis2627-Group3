@@ -1,347 +1,561 @@
-page,kind,text,size,ratio,large,needed,passes
-index.html,page text,Skip to the charts,16.0,17.40432753274219,False,4.5,True
-index.html,page text,Skip to the filters,16.0,17.40432753274219,False,4.5,True
-index.html,page text,Hotel guests in Lisbon and the Algarve,24.0,17.40432753274219,True,3.0,True
-index.html,page text,"Guests, cancellations and price per mont",16.0,7.004729208035935,False,4.5,True
-index.html,page text,Main screen,16.0,5.566637067604819,False,4.5,True
-index.html,page text,Countries of the guests,16.0,5.566637067604819,False,4.5,True
-index.html,page text,Accessibility help,16.0,5.566637067604819,False,4.5,True
-index.html,page text,Stays,16.0,6.424995482321328,False,4.5,True
-index.html,page text,"75,007",25.6,15.96388988776675,True,3.0,True
-index.html,page text,"bookings not cancelled, of 119,201",16.0,6.424995482321328,False,4.5,True
-index.html,page text,Guests,16.0,6.424995482321328,False,4.5,True
-index.html,page text,"145,980",25.6,15.96388988776675,True,3.0,True
-index.html,page text,people in those stays,16.0,6.424995482321328,False,4.5,True
-index.html,page text,Bookings cancelled,16.0,6.424995482321328,False,4.5,True
-index.html,page text,37.1 %,25.6,15.96388988776675,True,3.0,True
-index.html,page text,"of 119,201 bookings; duplicates included",16.0,6.424995482321328,False,4.5,True
-index.html,page text,Median price per night,16.0,6.424995482321328,False,4.5,True
-index.html,page text,€94.5,25.6,15.96388988776675,True,3.0,True
-index.html,page text,median of stays with a price; euros assu,16.0,6.424995482321328,False,4.5,True
-index.html,page text,Data table of this chart,16.0,5.566637067604819,False,4.5,True
-index.html,page text,Data table of this chart,16.0,5.566637067604819,False,4.5,True
-index.html,page text,Data table of this chart,16.0,5.566637067604819,False,4.5,True
-index.html,page text,Filters,18.4,15.96388988776675,False,4.5,True
-index.html,page text,Hotel,16.0,15.96388988776675,False,4.5,True
-index.html,page text,Both hotels,16.0,15.96388988776675,False,4.5,True
-index.html,page text,City Hotel (Lisbon),16.0,15.96388988776675,False,4.5,True
-index.html,page text,Resort Hotel (Algarve),16.0,15.96388988776675,False,4.5,True
-index.html,page text,Year of arrival,16.0,15.96388988776675,False,4.5,True
-index.html,page text,2015 and 2017 are partial years: compare,16.0,6.424995482321328,False,4.5,True
-index.html,page text,Showing: Both hotels · All years (July 2,16.0,17.40432753274219,False,4.5,True
-index.html,page text,Both hotels · All years (July 2015 to Au,16.0,17.40432753274219,False,4.5,True
-index.html,page text,Reset filters,16.0,17.40432753274219,False,4.5,True
-index.html,page text,Selected month,16.0,17.40432753274219,False,4.5,True
-index.html,page text,Point at a month in any chart to compare,16.0,17.40432753274219,False,4.5,True
-index.html,page text,"Source: Antonio, N., de Almeida, A. and ",16.0,7.004729208035935,False,4.5,True
-index.html,page text,Data in Brief,16.0,7.004729208035935,False,4.5,True
-index.html,page text,Data: arrivals from 1 July 2015 to 31 Au,16.0,7.004729208035935,False,4.5,True
-index.html,page text,Note: 26.8 % of the rows repeat an earli,16.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jul 2015,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Oct 2015,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jan 2016,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Apr 2016,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jul 2016,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Oct 2016,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jan 2017,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Apr 2017,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jul 2017,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Month of arrival,12.0,12.63465434445799,False,4.5,True
-index.html,chart text,0,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,"1,000",12.0,7.004729208035935,False,4.5,True
-index.html,chart text,"2,000",12.0,7.004729208035935,False,4.5,True
-index.html,chart text,"3,000",12.0,7.004729208035935,False,4.5,True
-index.html,chart text,"4,000",12.0,7.004729208035935,False,4.5,True
-index.html,chart text,"5,000",12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Guests who stayed,12.0,12.63465434445799,False,4.5,True
-index.html,chart text,City Hotel,12.0,4.703273893963605,False,4.5,True
-index.html,chart text,Resort Hotel,12.0,6.088506014868377,False,4.5,True
-index.html,chart text,In which months do the city and the reso,16.0,17.40432753274219,False,4.5,True
-index.html,chart text,Guests of bookings that were not cancell,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jul 2015,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jan 2016,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jul 2016,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jan 2017,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jul 2017,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Month of arrival,12.0,12.63465434445799,False,4.5,True
-index.html,chart text,0,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,20,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,40,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,60,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Bookings cancelled (%),12.0,12.63465434445799,False,4.5,True
-index.html,chart text,City Hotel,12.0,4.703273893963605,False,4.5,True
-index.html,chart text,Resort Hotel,12.0,6.088506014868377,False,4.5,True
-index.html,chart text,In which months are most bookings cancel,16.0,17.40432753274219,False,4.5,True
-index.html,chart text,Share of each month's bookings; duplicat,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jul 2015,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jan 2016,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jul 2016,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jan 2017,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Jul 2017,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Month of arrival,12.0,12.63465434445799,False,4.5,True
-index.html,chart text,0,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,50,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,100,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,150,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,200,12.0,7.004729208035935,False,4.5,True
-index.html,chart text,Median price per night (€),12.0,12.63465434445799,False,4.5,True
-index.html,chart text,City Hotel,12.0,4.703273893963605,False,4.5,True
-index.html,chart text,Resort Hotel,12.0,6.088506014868377,False,4.5,True
-index.html,chart text,How does the price per night change thro,16.0,17.40432753274219,False,4.5,True
-index.html,chart text,Stays with a price; currency assumed to ,12.0,7.004729208035935,False,4.5,True
-detail.html,page text,Skip to the charts,16.0,17.40432753274219,False,4.5,True
-detail.html,page text,Skip to the filters,16.0,17.40432753274219,False,4.5,True
-detail.html,page text,Hotel guests in Lisbon and the Algarve,24.0,17.40432753274219,True,3.0,True
-detail.html,page text,Countries of the guests · Data: July 201,16.0,7.004729208035935,False,4.5,True
-detail.html,page text,Main screen,16.0,5.566637067604819,False,4.5,True
-detail.html,page text,Countries of the guests,16.0,5.566637067604819,False,4.5,True
-detail.html,page text,Accessibility help,16.0,5.566637067604819,False,4.5,True
-detail.html,page text,Countries of origin,16.0,6.424995482321328,False,4.5,True
-detail.html,page text,165,25.6,15.96388988776675,True,3.0,True
-detail.html,page text,countries with guests (known country),16.0,6.424995482321328,False,4.5,True
-detail.html,page text,Largest market,16.0,6.424995482321328,False,4.5,True
-detail.html,page text,Portugal,25.6,15.96388988776675,True,3.0,True
-detail.html,page text,25.8 % of the guests,16.0,6.424995482321328,False,4.5,True
-detail.html,page text,Guests from Portugal,16.0,6.424995482321328,False,4.5,True
-detail.html,page text,"37,655",25.6,15.96388988776675,True,3.0,True
-detail.html,page text,25.8 % of all guests,16.0,6.424995482321328,False,4.5,True
-detail.html,page text,Portugal: bookings cancelled,16.0,6.424995482321328,False,4.5,True
-detail.html,page text,56.7 %,25.6,15.96388988776675,True,3.0,True
-detail.html,page text,"of 48,476 bookings; duplicates included",16.0,6.424995482321328,False,4.5,True
-detail.html,page text,Order of the bars:,16.0,17.40432753274219,False,4.5,True
-detail.html,page text,By guests,16.0,17.40432753274219,False,4.5,True
-detail.html,page text,Alphabetical,16.0,17.40432753274219,False,4.5,True
-detail.html,page text,Data table of this chart,16.0,5.566637067604819,False,4.5,True
-detail.html,page text,Data table of this chart,16.0,5.566637067604819,False,4.5,True
-detail.html,page text,"Show less: hide length of stay, booking ",16.0,5.566637067604819,False,4.5,True
-detail.html,page text,Data table of this chart,16.0,5.566637067604819,False,4.5,True
-detail.html,page text,Data table of this chart,16.0,5.566637067604819,False,4.5,True
-detail.html,page text,Data table of this chart,16.0,5.566637067604819,False,4.5,True
-detail.html,page text,Filters,18.4,15.96388988776675,False,4.5,True
-detail.html,page text,Hotel,16.0,15.96388988776675,False,4.5,True
-detail.html,page text,Both hotels,16.0,15.96388988776675,False,4.5,True
-detail.html,page text,City Hotel (Lisbon),16.0,15.96388988776675,False,4.5,True
-detail.html,page text,Resort Hotel (Algarve),16.0,15.96388988776675,False,4.5,True
-detail.html,page text,Year of arrival,16.0,15.96388988776675,False,4.5,True
-detail.html,page text,2015 and 2017 are partial years: compare,16.0,6.424995482321328,False,4.5,True
-detail.html,page text,Showing: Both hotels · All years (July 2,16.0,17.40432753274219,False,4.5,True
-detail.html,page text,Both hotels · All years (July 2015 to Au,16.0,17.40432753274219,False,4.5,True
-detail.html,page text,Reset filters,16.0,17.40432753274219,False,4.5,True
-detail.html,page text,Selected country,16.0,17.40432753274219,False,4.5,True
-detail.html,page text,Portugal,16.0,17.40432753274219,False,4.5,True
-detail.html,page text,"37,655 guests (25.8 % of all)",16.0,17.40432753274219,False,4.5,True
-detail.html,page text,Median stay: 2 nights,16.0,17.40432753274219,False,4.5,True
-detail.html,page text,Median advance: 13 days,16.0,17.40432753274219,False,4.5,True
-detail.html,page text,Bookings cancelled: 56.7 %,16.0,17.40432753274219,False,4.5,True
-detail.html,page text,Previous,16.0,5.612442147912809,False,4.5,True
-detail.html,page text,Next,16.0,5.566637067604819,False,4.5,True
-detail.html,page text,Shown in the bar charts with orange stri,16.0,7.004729208035935,False,4.5,True
-detail.html,page text,"Source: Antonio, N., de Almeida, A. and ",16.0,7.004729208035935,False,4.5,True
-detail.html,page text,Data in Brief,16.0,7.004729208035935,False,4.5,True
-detail.html,page text,Data: arrivals from 1 July 2015 to 31 Au,16.0,7.004729208035935,False,4.5,True
-detail.html,page text,Note: 26.8 % of the rows repeat an earli,16.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Portugal,12.0,17.40432753274219,False,4.5,True
-detail.html,chart text,United Kingdom,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,France,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Spain,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Germany,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Ireland,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Italy,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Belgium,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Netherlands,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,United States,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Other,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,City Hotel,13.0,17.40432753274219,False,4.5,True
-detail.html,chart text,Resort Hotel,13.0,17.40432753274219,False,4.5,True
-detail.html,chart text,0,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,5,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,10,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,15,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,20,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,25,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,30,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,35,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,% of the hotel's guests,12.0,12.63465434445799,False,4.5,True
-detail.html,chart text,0,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,5,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,10,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,15,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,20,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,25,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,30,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,35,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,% of the hotel's guests,12.0,12.63465434445799,False,4.5,True
-detail.html,chart text,Which countries do the guests come from?,16.0,17.40432753274219,False,4.5,True
-detail.html,chart text,"Top 10 countries by guests, and Other",12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Jan,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Feb,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Mar,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Apr,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,May,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Jun,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Jul,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Aug,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Sep,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Oct,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Nov,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Dec,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Month of arrival (all years together),12.0,12.63465434445799,False,4.5,True
-detail.html,chart text,0,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,2,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,4,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,6,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,8,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,10,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,12,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,14,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Share of the guests of the group (%),12.0,12.63465434445799,False,4.5,True
-detail.html,chart text,All guests,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Portugal,12.0,4.832371301526792,False,4.5,True
-detail.html,chart text,When does the selected market travel?,16.0,17.40432753274219,False,4.5,True
-detail.html,chart text,"Guests per calendar month, as % of the g",12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,0,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,1,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,2,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,3,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,4,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,5,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Median nights per stay,12.0,12.63465434445799,False,4.5,True
-detail.html,chart text,Portugal,12.0,17.40432753274219,False,4.5,True
-detail.html,chart text,United Kingdom,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,France,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Spain,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Germany,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Ireland,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Italy,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Belgium,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Netherlands,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,United States,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Other,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,How long do guests from each market stay,16.0,17.40432753274219,False,4.5,True
-detail.html,chart text,Stays: bookings that were not cancelled,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,0,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,10,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,20,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,30,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,40,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,50,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,60,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,70,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,80,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,90,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,100,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,110,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Median days from booking to arrival,12.0,12.63465434445799,False,4.5,True
-detail.html,chart text,Portugal,12.0,17.40432753274219,False,4.5,True
-detail.html,chart text,United Kingdom,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,France,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Spain,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Germany,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Ireland,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Italy,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Belgium,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Netherlands,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,United States,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,Other,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,How far in advance does each market book,16.0,17.40432753274219,False,4.5,True
-detail.html,chart text,Stays: bookings that were not cancelled,12.0,7.004729208035935,False,4.5,True
-detail.html,chart text,1 to 9,12.0,21.0,False,4.5,True
-detail.html,chart text,10 to 99,12.0,21.0,False,4.5,True
-detail.html,chart text,100 to 999,12.0,21.0,False,4.5,True
-detail.html,chart text,"1,000 to 9,999",12.0,21.0,False,4.5,True
-detail.html,chart text,"10,000 or more",12.0,21.0,False,4.5,True
-detail.html,chart text,Guests per country,12.0,21.0,False,4.5,True
-detail.html,chart text,Where do the guests come from?,16.0,17.40432753274219,False,4.5,True
-detail.html,chart text,Guests per country; grey: no guests; ver,12.0,7.004729208035935,False,4.5,True
-accessibility.html,page text,"← Back to the main screen ·
+theme,page,kind,text,size,ratio,large,needed,passes
+light,index.html,page text,Skip to the charts,16.0,17.40432753274219,False,4.5,True
+light,index.html,page text,Skip to the filters,16.0,17.40432753274219,False,4.5,True
+light,index.html,page text,Hotel guests in Lisbon and the Algarve,22.0,13.963601718665368,False,4.5,True
+light,index.html,page text,"Guests, cancellations and price per mont",16.0,9.442271087396326,False,4.5,True
+light,index.html,page text,Main screen,16.0,13.963601718665368,False,4.5,True
+light,index.html,page text,Countries of the guests,16.0,13.963601718665368,False,4.5,True
+light,index.html,page text,Accessibility help,16.0,13.963601718665368,False,4.5,True
+light,index.html,page text,☾ Night mode,16.0,13.963601718665368,False,4.5,True
+light,index.html,page text,☾,16.0,13.963601718665368,False,4.5,True
+light,index.html,page text,Stays,16.0,7.004729208035935,False,4.5,True
+light,index.html,page text,"75,007",26.0,17.40432753274219,True,3.0,True
+light,index.html,page text,"not cancelled, of 119,201 bookings",16.0,7.004729208035935,False,4.5,True
+light,index.html,page text,Guests,16.0,7.004729208035935,False,4.5,True
+light,index.html,page text,"145,980",26.0,17.40432753274219,True,3.0,True
+light,index.html,page text,people in those stays,16.0,7.004729208035935,False,4.5,True
+light,index.html,page text,Bookings cancelled,16.0,7.004729208035935,False,4.5,True
+light,index.html,page text,37.1 %,26.0,17.40432753274219,True,3.0,True
+light,index.html,page text,duplicates included,16.0,7.004729208035935,False,4.5,True
+light,index.html,page text,Median price per night,16.0,7.004729208035935,False,4.5,True
+light,index.html,page text,€94.5,26.0,17.40432753274219,True,3.0,True
+light,index.html,page text,euros assumed,16.0,7.004729208035935,False,4.5,True
+light,index.html,page text,In which months do the city and the reso,17.0,17.40432753274219,False,4.5,True
+light,index.html,page text,Guests of bookings that were not cancell,16.0,7.004729208035935,False,4.5,True
+light,index.html,page text,Table,16.0,5.185446345779855,False,4.5,True
+light,index.html,page text,In which months are most bookings cancel,17.0,17.40432753274219,False,4.5,True
+light,index.html,page text,"% of each month's bookings, duplicates i",16.0,7.004729208035935,False,4.5,True
+light,index.html,page text,Table,16.0,5.185446345779855,False,4.5,True
+light,index.html,page text,How does the price per night change thro,17.0,17.40432753274219,False,4.5,True
+light,index.html,page text,Stays with a price; currency assumed to ,16.0,7.004729208035935,False,4.5,True
+light,index.html,page text,Table,16.0,5.185446345779855,False,4.5,True
+light,index.html,page text,Filters,18.0,17.40432753274219,False,4.5,True
+light,index.html,page text,Hotel,16.0,17.40432753274219,False,4.5,True
+light,index.html,page text,Both hotels,16.0,17.40432753274219,False,4.5,True
+light,index.html,page text,City Hotel (Lisbon),16.0,17.40432753274219,False,4.5,True
+light,index.html,page text,Resort Hotel (Algarve),16.0,17.40432753274219,False,4.5,True
+light,index.html,page text,Year of arrival,16.0,17.40432753274219,False,4.5,True
+light,index.html,page text,Showing: Both hotels · All years (July 2,16.0,15.362270977419197,False,4.5,True
+light,index.html,page text,Both hotels · All years (July 2015 to Au,16.0,15.362270977419197,False,4.5,True
+light,index.html,page text,Reset filters,16.0,17.40432753274219,False,4.5,True
+light,index.html,page text,Selected month,16.0,17.40432753274219,False,4.5,True
+light,index.html,page text,Point at a month in a chart to see its g,16.0,17.40432753274219,False,4.5,True
+light,index.html,page text,"Source: Antonio, de Almeida and Nunes (2",16.0,6.182861590880232,False,4.5,True
+light,index.html,page text,Data in Brief,16.0,6.182861590880232,False,4.5,True
+light,index.html,page text,Notes about the data,16.0,4.577035898277375,False,4.5,True
+light,detail.html,page text,Skip to the charts,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,Skip to the filters,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,Hotel guests in Lisbon and the Algarve,22.0,13.963601718665368,False,4.5,True
+light,detail.html,page text,Countries of the guests · Arrivals July ,16.0,9.442271087396326,False,4.5,True
+light,detail.html,page text,Main screen,16.0,13.963601718665368,False,4.5,True
+light,detail.html,page text,Countries of the guests,16.0,13.963601718665368,False,4.5,True
+light,detail.html,page text,Accessibility help,16.0,13.963601718665368,False,4.5,True
+light,detail.html,page text,☾ Night mode,16.0,13.963601718665368,False,4.5,True
+light,detail.html,page text,☾,16.0,13.963601718665368,False,4.5,True
+light,detail.html,page text,Countries of origin,16.0,7.004729208035935,False,4.5,True
+light,detail.html,page text,165,26.0,17.40432753274219,True,3.0,True
+light,detail.html,page text,with guests,16.0,7.004729208035935,False,4.5,True
+light,detail.html,page text,Largest market,16.0,7.004729208035935,False,4.5,True
+light,detail.html,page text,Portugal,26.0,17.40432753274219,True,3.0,True
+light,detail.html,page text,25.8 % of guests,16.0,7.004729208035935,False,4.5,True
+light,detail.html,page text,Guests (all countries),16.0,7.004729208035935,False,4.5,True
+light,detail.html,page text,"145,980",26.0,17.40432753274219,True,3.0,True
+light,detail.html,page text,no country selected,16.0,7.004729208035935,False,4.5,True
+light,detail.html,page text,Bookings cancelled (all),16.0,7.004729208035935,False,4.5,True
+light,detail.html,page text,37.1 %,26.0,17.40432753274219,True,3.0,True
+light,detail.html,page text,duplicates included,16.0,7.004729208035935,False,4.5,True
+light,detail.html,page text,Which countries do the guests come from?,17.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,"Top 10 countries by guests, and Other: s",16.0,7.004729208035935,False,4.5,True
+light,detail.html,page text,Chart,16.0,5.185446345779855,False,4.5,True
+light,detail.html,page text,Map,16.0,5.185446345779855,False,4.5,True
+light,detail.html,page text,Table,16.0,5.185446345779855,False,4.5,True
+light,detail.html,page text,"When does each market travel, and how ea",17.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,Top 10 countries; bubble size: guests th,16.0,7.004729208035935,False,4.5,True
+light,detail.html,page text,Table,16.0,5.185446345779855,False,4.5,True
+light,detail.html,page text,▶,16.0,5.185446345779855,False,4.5,True
+light,detail.html,page text,Play,16.0,5.185446345779855,False,4.5,True
+light,detail.html,page text,Month,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,January,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,How long do guests from each market stay,17.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,Box: middle half of the stays; thick mar,16.0,7.004729208035935,False,4.5,True
+light,detail.html,page text,Table,16.0,5.185446345779855,False,4.5,True
+light,detail.html,page text,Filters,18.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,Hotel,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,Both hotels,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,City Hotel (Lisbon),16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,Resort Hotel (Algarve),16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,Year of arrival,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,Showing: Both hotels · All years (July 2,16.0,15.362270977419197,False,4.5,True
+light,detail.html,page text,Both hotels · All years (July 2015 to Au,16.0,15.362270977419197,False,4.5,True
+light,detail.html,page text,Reset filters,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,Selected country,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,No country selected. Choose one in the l,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,Previous,16.0,6.182861590880232,False,4.5,True
+light,detail.html,page text,Next,16.0,5.185446345779855,False,4.5,True
+light,detail.html,page text,No country,16.0,6.182861590880232,False,4.5,True
+light,detail.html,page text,Order of the countries:,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,By guests,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,A to Z,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,"Source: Antonio, de Almeida and Nunes (2",16.0,6.182861590880232,False,4.5,True
+light,detail.html,page text,Data in Brief,16.0,6.182861590880232,False,4.5,True
+light,detail.html,page text,Notes about the data,16.0,4.577035898277375,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Skip to the charts,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Skip to the filters,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Hotel guests in Lisbon and the Algarve,22.0,13.963601718665368,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Countries of the guests · Arrivals July ,16.0,9.442271087396326,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Main screen,16.0,13.963601718665368,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Countries of the guests,16.0,13.963601718665368,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Accessibility help,16.0,13.963601718665368,False,4.5,True
+light,"detail.html (Brazil, map)",page text,☾ Night mode,16.0,13.963601718665368,False,4.5,True
+light,"detail.html (Brazil, map)",page text,☾,16.0,13.963601718665368,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Countries of origin,16.0,7.004729208035935,False,4.5,True
+light,"detail.html (Brazil, map)",page text,165,26.0,17.40432753274219,True,3.0,True
+light,"detail.html (Brazil, map)",page text,with guests,16.0,7.004729208035935,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Largest market,16.0,7.004729208035935,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Portugal,26.0,17.40432753274219,True,3.0,True
+light,"detail.html (Brazil, map)",page text,25.8 % of guests,16.0,7.004729208035935,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Guests from Brazil,16.0,7.004729208035935,False,4.5,True
+light,"detail.html (Brazil, map)",page text,"3,000",26.0,17.40432753274219,True,3.0,True
+light,"detail.html (Brazil, map)",page text,2.1 % of all,16.0,7.004729208035935,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Brazil: cancelled,16.0,7.004729208035935,False,4.5,True
+light,"detail.html (Brazil, map)",page text,37.4 %,26.0,17.40432753274219,True,3.0,True
+light,"detail.html (Brazil, map)",page text,duplicates included,16.0,7.004729208035935,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Where do the guests come from?,17.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Guests per country; grey: no guests; ver,16.0,7.004729208035935,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Chart,16.0,5.185446345779855,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Map,16.0,5.185446345779855,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Table,16.0,5.185446345779855,False,4.5,True
+light,"detail.html (Brazil, map)",page text,"When does each market travel, and how ea",17.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Top 10 countries; bubble size: guests th,16.0,7.004729208035935,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Table,16.0,5.185446345779855,False,4.5,True
+light,"detail.html (Brazil, map)",page text,▶,16.0,5.185446345779855,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Play,16.0,5.185446345779855,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Month,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,January,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,How long do guests from each market stay,17.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Box: middle half of the stays; thick mar,16.0,7.004729208035935,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Table,16.0,5.185446345779855,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Filters,18.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Hotel,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Both hotels,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,City Hotel (Lisbon),16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Resort Hotel (Algarve),16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Year of arrival,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Showing: Both hotels · All years (July 2,16.0,15.362270977419197,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Both hotels · All years (July 2015 to Au,16.0,15.362270977419197,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Reset filters,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Selected country,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Brazil,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,"3,000 guests (2.1 %)",16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Median stay: 3 nights,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Median advance: 39 days,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Cancelled: 37.4 %,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Previous,16.0,6.182861590880232,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Next,16.0,5.185446345779855,False,4.5,True
+light,"detail.html (Brazil, map)",page text,No country,16.0,5.185446345779855,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Order of the countries:,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,By guests,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,A to Z,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,"Source: Antonio, de Almeida and Nunes (2",16.0,6.182861590880232,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Data in Brief,16.0,6.182861590880232,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Notes about the data,16.0,4.577035898277375,False,4.5,True
+light,accessibility.html,page text,"← Back to the main screen ·
     Countrie",16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,← Back to the main screen,16.0,5.566637067604819,False,4.5,True
-accessibility.html,page text,Countries of the guests,16.0,5.566637067604819,False,4.5,True
-accessibility.html,page text,Accessibility help,25.6,17.40432753274219,True,3.0,True
-accessibility.html,page text,This page explains how to use the dashbo,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Hotel guests in Lisbon and the Algarve,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,main screen,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,detail screen,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Moving around a page,19.2,17.40432753274219,True,3.0,True
-accessibility.html,page text,Key,16.0,15.96388988776675,False,4.5,True
-accessibility.html,page text,Action,16.0,15.96388988776675,False,4.5,True
-accessibility.html,page text,Tab,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,"Go to the next link, control or chart. T",16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Shift + Tab,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Shift,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Tab,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Go back to the previous one.,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Enter / Space,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Space,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Use the focused link or button (for exam,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Each chart is a stop of its own: Tab ent,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Tab,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Tab,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Moving inside a chart,19.2,17.40432753274219,True,3.0,True
-accessibility.html,page text,Key,16.0,15.96388988776675,False,4.5,True
-accessibility.html,page text,Action,16.0,15.96388988776675,False,4.5,True
-accessibility.html,page text,→ or ↓,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,→,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,↓,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,"Next point, bar or country.",16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,← or ↑,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,←,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,↑,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,"Previous point, bar or country.",16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Alt + ↓ / Alt + ↑,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Alt,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,↓,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Alt,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,↑,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,"Change series, keeping the position: the",16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Home / End,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Home,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,End,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,First or last point of the series.,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Enter / Space,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Space,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Show the box with the exact value again.,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Esc,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Hide the box with the exact value.,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,A blue and white ring shows the focused ,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Main screen: moving to a month in any ch,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Main screen:,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Detail screen: moving to a bar selects t,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Detail screen:,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Filters and other controls,19.2,17.40432753274219,True,3.0,True
-accessibility.html,page text,Control,16.0,15.96388988776675,False,4.5,True
-accessibility.html,page text,How to use it,16.0,15.96388988776675,False,4.5,True
-accessibility.html,page text,"Hotel (both, City Hotel, Resort Hotel)",16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,"Tab to the group, then ↑ / ↓ to choose. ",16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Tab,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,↑,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,↓,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Year of arrival,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,"Tab to the list, then ↑ / ↓. 2015 (July ",16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Tab,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,↑,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,↓,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Reset filters,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Enter: both hotels and all years again.,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Previous / Next (detail screen),16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Enter: the country before or after in th,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Order of the bars (detail screen),16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,↑ / ↓: by number of guests or alphabetic,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,↑,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,↓,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,Show more (detail screen),16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Enter: shows or hides the length of stay,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
-accessibility.html,page text,"The line ""Showing"" under the filters alw",16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Shortcuts of this dashboard,19.2,17.40432753274219,True,3.0,True
-accessibility.html,page text,This dashboard has no extra keyboard sho,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Screen readers and browsers,19.2,17.40432753274219,True,3.0,True
-accessibility.html,page text,The charts are drawn as SVG with text al,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,The dashboard is made for a computer or ,16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,Accessibility problems?,19.2,17.40432753274219,True,3.0,True
-accessibility.html,page text,"If you find a barrier, please tell Group",16.0,17.40432753274219,False,4.5,True
-accessibility.html,page text,← Back to the main screen,16.0,5.566637067604819,False,4.5,True
+light,accessibility.html,page text,← Back to the main screen,16.0,5.566637067604819,False,4.5,True
+light,accessibility.html,page text,Countries of the guests,16.0,5.566637067604819,False,4.5,True
+light,accessibility.html,page text,Accessibility help,25.6,17.40432753274219,True,3.0,True
+light,accessibility.html,page text,This page explains how to use the dashbo,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Hotel guests in Lisbon and the Algarve,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,main screen,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,detail screen,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Moving around a page,19.2,17.40432753274219,True,3.0,True
+light,accessibility.html,page text,Key,16.0,15.96388988776675,False,4.5,True
+light,accessibility.html,page text,Action,16.0,15.96388988776675,False,4.5,True
+light,accessibility.html,page text,Tab,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,"Go to the next link, control or chart. T",16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Shift + Tab,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Shift,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Tab,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Go back to the previous one.,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter / Space,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Space,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Use the focused link or button (for exam,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Each chart is a stop of its own: Tab ent,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Tab,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Tab,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Moving inside a chart,19.2,17.40432753274219,True,3.0,True
+light,accessibility.html,page text,Key,16.0,15.96388988776675,False,4.5,True
+light,accessibility.html,page text,Action,16.0,15.96388988776675,False,4.5,True
+light,accessibility.html,page text,→ or ↓,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,→,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,↓,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,"Next point, bar or country.",16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,← or ↑,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,←,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,↑,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,"Previous point, bar or country.",16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Alt + ↓ / Alt + ↑,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Alt,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,↓,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Alt,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,↑,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,"Change series, keeping the position: the",16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Home / End,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Home,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,End,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,First or last point of the series.,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter / Space,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Space,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Show the box with the exact value again.,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Esc,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Hide the box with the exact value.,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,A blue and white ring shows the focused ,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Main screen: moving to a month in any ch,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Main screen:,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Detail screen: no country is selected at,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Detail screen:,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Filters and other controls,19.2,17.40432753274219,True,3.0,True
+light,accessibility.html,page text,Control,16.0,15.96388988776675,False,4.5,True
+light,accessibility.html,page text,How to use it,16.0,15.96388988776675,False,4.5,True
+light,accessibility.html,page text,"Hotel (both, City Hotel, Resort Hotel)",16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,"Tab to the group, then ↑ / ↓ to choose. ",16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Tab,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,↑,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,↓,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Year of arrival,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,"Tab to the list, then ↑ / ↓. 2015 (July ",16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Tab,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,↑,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,↓,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Reset filters,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter: both hotels and all years again.,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Selected country list (detail screen),16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,"↑ / ↓: no country, one of the top 10 cou",16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,↑,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,↓,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Previous / Next (detail screen),16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter: the country before or after in th,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,No country (detail screen),16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,"Enter: clears the selection, so no count",16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Order of the countries (detail screen),16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,↑ / ↓: by number of guests or from A to ,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,↑,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,↓,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Chart / Map (detail screen),16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,← / →: shows the countries as a dumbbell,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,←,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,→,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Play / Pause (detail screen),16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter: the bubble chart moves through th,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Month slider (detail screen),16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,← / →: previous or next month; Home / En,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,←,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,→,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Home,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,End,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Table (every chart),16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter: shows the data table in the place,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Night mode (header),16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter: dark background and lighter colou,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Notes about the data (footer),16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,"Enter: opens the notes (source, duplicat",16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Esc,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,"The line ""Showing"" under the filters alw",16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Shortcuts of this dashboard,19.2,17.40432753274219,True,3.0,True
+light,accessibility.html,page text,This dashboard has no extra keyboard sho,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Screen readers and browsers,19.2,17.40432753274219,True,3.0,True
+light,accessibility.html,page text,The charts are drawn as SVG with text al,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,The dashboard is made for a computer or ,16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Accessibility problems?,19.2,17.40432753274219,True,3.0,True
+light,accessibility.html,page text,"If you find a barrier, please tell Group",16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,← Back to the main screen,16.0,5.566637067604819,False,4.5,True
+dark,index.html,page text,Skip to the charts,16.0,16.734034721106067,False,4.5,True
+dark,index.html,page text,Skip to the filters,16.0,16.734034721106067,False,4.5,True
+dark,index.html,page text,Hotel guests in Lisbon and the Algarve,22.0,15.859228444919522,False,4.5,True
+dark,index.html,page text,"Guests, cancellations and price per mont",16.0,10.296194206919216,False,4.5,True
+dark,index.html,page text,Main screen,16.0,15.859228444919522,False,4.5,True
+dark,index.html,page text,Countries of the guests,16.0,15.859228444919522,False,4.5,True
+dark,index.html,page text,Accessibility help,16.0,15.859228444919522,False,4.5,True
+dark,index.html,page text,☾ Night mode,16.0,15.859228444919522,False,4.5,True
+dark,index.html,page text,☾,16.0,15.859228444919522,False,4.5,True
+dark,index.html,page text,Stays,16.0,7.951122139016174,False,4.5,True
+dark,index.html,page text,"75,007",26.0,14.89167928254765,True,3.0,True
+dark,index.html,page text,"not cancelled, of 119,201 bookings",16.0,7.951122139016174,False,4.5,True
+dark,index.html,page text,Guests,16.0,7.951122139016174,False,4.5,True
+dark,index.html,page text,"145,980",26.0,14.89167928254765,True,3.0,True
+dark,index.html,page text,people in those stays,16.0,7.951122139016174,False,4.5,True
+dark,index.html,page text,Bookings cancelled,16.0,7.951122139016174,False,4.5,True
+dark,index.html,page text,37.1 %,26.0,14.89167928254765,True,3.0,True
+dark,index.html,page text,duplicates included,16.0,7.951122139016174,False,4.5,True
+dark,index.html,page text,Median price per night,16.0,7.951122139016174,False,4.5,True
+dark,index.html,page text,€94.5,26.0,14.89167928254765,True,3.0,True
+dark,index.html,page text,euros assumed,16.0,7.951122139016174,False,4.5,True
+dark,index.html,page text,In which months do the city and the reso,17.0,14.89167928254765,False,4.5,True
+dark,index.html,page text,Guests of bookings that were not cancell,16.0,7.951122139016174,False,4.5,True
+dark,index.html,page text,Table,16.0,7.224825558123231,False,4.5,True
+dark,index.html,page text,In which months are most bookings cancel,17.0,14.89167928254765,False,4.5,True
+dark,index.html,page text,"% of each month's bookings, duplicates i",16.0,7.951122139016174,False,4.5,True
+dark,index.html,page text,Table,16.0,7.224825558123231,False,4.5,True
+dark,index.html,page text,How does the price per night change thro,17.0,14.89167928254765,False,4.5,True
+dark,index.html,page text,Stays with a price; currency assumed to ,16.0,7.951122139016174,False,4.5,True
+dark,index.html,page text,Table,16.0,7.224825558123231,False,4.5,True
+dark,index.html,page text,Filters,18.0,14.89167928254765,False,4.5,True
+dark,index.html,page text,Hotel,16.0,14.89167928254765,False,4.5,True
+dark,index.html,page text,Both hotels,16.0,14.89167928254765,False,4.5,True
+dark,index.html,page text,City Hotel (Lisbon),16.0,14.89167928254765,False,4.5,True
+dark,index.html,page text,Resort Hotel (Algarve),16.0,14.89167928254765,False,4.5,True
+dark,index.html,page text,Year of arrival,16.0,14.89167928254765,False,4.5,True
+dark,index.html,page text,Showing: Both hotels · All years (July 2,16.0,16.734034721106067,False,4.5,True
+dark,index.html,page text,Both hotels · All years (July 2015 to Au,16.0,16.734034721106067,False,4.5,True
+dark,index.html,page text,Reset filters,16.0,16.734034721106067,False,4.5,True
+dark,index.html,page text,Selected month,16.0,14.89167928254765,False,4.5,True
+dark,index.html,page text,Point at a month in a chart to see its g,16.0,14.89167928254765,False,4.5,True
+dark,index.html,page text,"Source: Antonio, de Almeida and Nunes (2",16.0,8.934811945754518,False,4.5,True
+dark,index.html,page text,Data in Brief,16.0,8.934811945754518,False,4.5,True
+dark,index.html,page text,Notes about the data,16.0,8.1186600550321,False,4.5,True
+dark,detail.html,page text,Skip to the charts,16.0,16.734034721106067,False,4.5,True
+dark,detail.html,page text,Skip to the filters,16.0,16.734034721106067,False,4.5,True
+dark,detail.html,page text,Hotel guests in Lisbon and the Algarve,22.0,15.859228444919522,False,4.5,True
+dark,detail.html,page text,Countries of the guests · Arrivals July ,16.0,10.296194206919216,False,4.5,True
+dark,detail.html,page text,Main screen,16.0,15.859228444919522,False,4.5,True
+dark,detail.html,page text,Countries of the guests,16.0,15.859228444919522,False,4.5,True
+dark,detail.html,page text,Accessibility help,16.0,15.859228444919522,False,4.5,True
+dark,detail.html,page text,☾ Night mode,16.0,15.859228444919522,False,4.5,True
+dark,detail.html,page text,☾,16.0,15.859228444919522,False,4.5,True
+dark,detail.html,page text,Countries of origin,16.0,7.951122139016174,False,4.5,True
+dark,detail.html,page text,165,26.0,14.89167928254765,True,3.0,True
+dark,detail.html,page text,with guests,16.0,7.951122139016174,False,4.5,True
+dark,detail.html,page text,Largest market,16.0,7.951122139016174,False,4.5,True
+dark,detail.html,page text,Portugal,26.0,14.89167928254765,True,3.0,True
+dark,detail.html,page text,25.8 % of guests,16.0,7.951122139016174,False,4.5,True
+dark,detail.html,page text,Guests (all countries),16.0,7.951122139016174,False,4.5,True
+dark,detail.html,page text,"145,980",26.0,14.89167928254765,True,3.0,True
+dark,detail.html,page text,no country selected,16.0,7.951122139016174,False,4.5,True
+dark,detail.html,page text,Bookings cancelled (all),16.0,7.951122139016174,False,4.5,True
+dark,detail.html,page text,37.1 %,26.0,14.89167928254765,True,3.0,True
+dark,detail.html,page text,duplicates included,16.0,7.951122139016174,False,4.5,True
+dark,detail.html,page text,Which countries do the guests come from?,17.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,"Top 10 countries by guests, and Other: s",16.0,7.951122139016174,False,4.5,True
+dark,detail.html,page text,Chart,16.0,8.52991511590844,False,4.5,True
+dark,detail.html,page text,Map,16.0,7.224825558123231,False,4.5,True
+dark,detail.html,page text,Table,16.0,7.224825558123231,False,4.5,True
+dark,detail.html,page text,"When does each market travel, and how ea",17.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,Top 10 countries; bubble size: guests th,16.0,7.951122139016174,False,4.5,True
+dark,detail.html,page text,Table,16.0,7.224825558123231,False,4.5,True
+dark,detail.html,page text,▶,16.0,7.224825558123231,False,4.5,True
+dark,detail.html,page text,Play,16.0,7.224825558123231,False,4.5,True
+dark,detail.html,page text,Month,16.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,January,16.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,How long do guests from each market stay,17.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,Box: middle half of the stays; thick mar,16.0,7.951122139016174,False,4.5,True
+dark,detail.html,page text,Table,16.0,7.224825558123231,False,4.5,True
+dark,detail.html,page text,Filters,18.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,Hotel,16.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,Both hotels,16.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,City Hotel (Lisbon),16.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,Resort Hotel (Algarve),16.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,Year of arrival,16.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,Showing: Both hotels · All years (July 2,16.0,16.734034721106067,False,4.5,True
+dark,detail.html,page text,Both hotels · All years (July 2015 to Au,16.0,16.734034721106067,False,4.5,True
+dark,detail.html,page text,Reset filters,16.0,16.734034721106067,False,4.5,True
+dark,detail.html,page text,Selected country,16.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,No country selected. Choose one in the l,16.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,Previous,16.0,8.934811945754518,False,4.5,True
+dark,detail.html,page text,Next,16.0,7.224825558123231,False,4.5,True
+dark,detail.html,page text,No country,16.0,8.934811945754518,False,4.5,True
+dark,detail.html,page text,Order of the countries:,16.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,By guests,16.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,A to Z,16.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,"Source: Antonio, de Almeida and Nunes (2",16.0,8.934811945754518,False,4.5,True
+dark,detail.html,page text,Data in Brief,16.0,8.934811945754518,False,4.5,True
+dark,detail.html,page text,Notes about the data,16.0,8.1186600550321,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Skip to the charts,16.0,16.734034721106067,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Skip to the filters,16.0,16.734034721106067,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Hotel guests in Lisbon and the Algarve,22.0,15.859228444919522,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Countries of the guests · Arrivals July ,16.0,10.296194206919216,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Main screen,16.0,15.859228444919522,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Countries of the guests,16.0,15.859228444919522,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Accessibility help,16.0,15.859228444919522,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,☾ Night mode,16.0,15.859228444919522,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,☾,16.0,15.859228444919522,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Countries of origin,16.0,7.951122139016174,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,165,26.0,14.89167928254765,True,3.0,True
+dark,"detail.html (Brazil, map)",page text,with guests,16.0,7.951122139016174,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Largest market,16.0,7.951122139016174,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Portugal,26.0,14.89167928254765,True,3.0,True
+dark,"detail.html (Brazil, map)",page text,25.8 % of guests,16.0,7.951122139016174,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Guests from Brazil,16.0,7.951122139016174,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,"3,000",26.0,14.89167928254765,True,3.0,True
+dark,"detail.html (Brazil, map)",page text,2.1 % of all,16.0,7.951122139016174,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Brazil: cancelled,16.0,7.951122139016174,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,37.4 %,26.0,14.89167928254765,True,3.0,True
+dark,"detail.html (Brazil, map)",page text,duplicates included,16.0,7.951122139016174,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Where do the guests come from?,17.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Guests per country; grey: no guests; ver,16.0,7.951122139016174,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Chart,16.0,7.224825558123231,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Map,16.0,8.52991511590844,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Table,16.0,7.224825558123231,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,"When does each market travel, and how ea",17.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Top 10 countries; bubble size: guests th,16.0,7.951122139016174,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Table,16.0,7.224825558123231,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,▶,16.0,7.224825558123231,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Play,16.0,7.224825558123231,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Month,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,January,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,How long do guests from each market stay,17.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Box: middle half of the stays; thick mar,16.0,7.951122139016174,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Table,16.0,7.224825558123231,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Filters,18.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Hotel,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Both hotels,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,City Hotel (Lisbon),16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Resort Hotel (Algarve),16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Year of arrival,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Showing: Both hotels · All years (July 2,16.0,16.734034721106067,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Both hotels · All years (July 2015 to Au,16.0,16.734034721106067,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Reset filters,16.0,16.734034721106067,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Selected country,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Brazil,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,"3,000 guests (2.1 %)",16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Median stay: 3 nights,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Median advance: 39 days,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Cancelled: 37.4 %,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Previous,16.0,8.934811945754518,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Next,16.0,7.224825558123231,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,No country,16.0,7.224825558123231,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Order of the countries:,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,By guests,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,A to Z,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,"Source: Antonio, de Almeida and Nunes (2",16.0,8.934811945754518,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Data in Brief,16.0,8.934811945754518,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Notes about the data,16.0,8.1186600550321,False,4.5,True
+dark,accessibility.html,page text,"← Back to the main screen ·
+    Countrie",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,← Back to the main screen,16.0,7.224825558123231,False,4.5,True
+dark,accessibility.html,page text,Countries of the guests,16.0,7.224825558123231,False,4.5,True
+dark,accessibility.html,page text,Accessibility help,25.6,14.89167928254765,True,3.0,True
+dark,accessibility.html,page text,This page explains how to use the dashbo,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Hotel guests in Lisbon and the Algarve,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,main screen,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,detail screen,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Moving around a page,19.2,14.89167928254765,True,3.0,True
+dark,accessibility.html,page text,Key,16.0,12.821325482115952,False,4.5,True
+dark,accessibility.html,page text,Action,16.0,12.821325482115952,False,4.5,True
+dark,accessibility.html,page text,Tab,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,"Go to the next link, control or chart. T",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Shift + Tab,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Shift,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Tab,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Go back to the previous one.,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter / Space,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Space,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Use the focused link or button (for exam,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Each chart is a stop of its own: Tab ent,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Tab,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Tab,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Moving inside a chart,19.2,14.89167928254765,True,3.0,True
+dark,accessibility.html,page text,Key,16.0,12.821325482115952,False,4.5,True
+dark,accessibility.html,page text,Action,16.0,12.821325482115952,False,4.5,True
+dark,accessibility.html,page text,→ or ↓,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,→,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,↓,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,"Next point, bar or country.",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,← or ↑,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,←,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,↑,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,"Previous point, bar or country.",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Alt + ↓ / Alt + ↑,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Alt,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,↓,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Alt,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,↑,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,"Change series, keeping the position: the",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Home / End,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Home,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,End,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,First or last point of the series.,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter / Space,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Space,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Show the box with the exact value again.,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Esc,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Hide the box with the exact value.,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,A blue and white ring shows the focused ,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Main screen: moving to a month in any ch,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Main screen:,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Detail screen: no country is selected at,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Detail screen:,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Filters and other controls,19.2,14.89167928254765,True,3.0,True
+dark,accessibility.html,page text,Control,16.0,12.821325482115952,False,4.5,True
+dark,accessibility.html,page text,How to use it,16.0,12.821325482115952,False,4.5,True
+dark,accessibility.html,page text,"Hotel (both, City Hotel, Resort Hotel)",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,"Tab to the group, then ↑ / ↓ to choose. ",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Tab,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,↑,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,↓,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Year of arrival,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,"Tab to the list, then ↑ / ↓. 2015 (July ",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Tab,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,↑,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,↓,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Reset filters,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter: both hotels and all years again.,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Selected country list (detail screen),16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,"↑ / ↓: no country, one of the top 10 cou",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,↑,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,↓,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Previous / Next (detail screen),16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter: the country before or after in th,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,No country (detail screen),16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,"Enter: clears the selection, so no count",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Order of the countries (detail screen),16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,↑ / ↓: by number of guests or from A to ,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,↑,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,↓,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Chart / Map (detail screen),16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,← / →: shows the countries as a dumbbell,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,←,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,→,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Play / Pause (detail screen),16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter: the bubble chart moves through th,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Month slider (detail screen),16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,← / →: previous or next month; Home / En,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,←,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,→,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Home,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,End,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Table (every chart),16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter: shows the data table in the place,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Night mode (header),16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter: dark background and lighter colou,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Notes about the data (footer),16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,"Enter: opens the notes (source, duplicat",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Esc,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,"The line ""Showing"" under the filters alw",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Shortcuts of this dashboard,19.2,14.89167928254765,True,3.0,True
+dark,accessibility.html,page text,This dashboard has no extra keyboard sho,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Screen readers and browsers,19.2,14.89167928254765,True,3.0,True
+dark,accessibility.html,page text,The charts are drawn as SVG with text al,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,The dashboard is made for a computer or ,16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Accessibility problems?,19.2,14.89167928254765,True,3.0,True
+dark,accessibility.html,page text,"If you find a barrier, please tell Group",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,← Back to the main screen,16.0,7.224825558123231,False,4.5,True

@@ -1,0 +1,5 @@
+scale,theme,classes,lightness L* (normal),order kept with deuteranopia,smallest step in L* (deuteranopia),classes under 3:1 on the box
+C2 Purples,light,7,95 / 88 / 77 / 65 / 55 / 41 / 23,True,7.7,4
+C2 Purples,night,7,23 / 41 / 55 / 65 / 77 / 88 / 95,True,7.7,2
+C5 blues,light,5,89 / 80 / 58 / 35 / 25,True,9.9,2
+C5 blues,night,5,25 / 35 / 58 / 80 / 89,True,9.9,2

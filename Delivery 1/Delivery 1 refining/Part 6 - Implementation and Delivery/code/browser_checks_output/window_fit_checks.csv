@@ -1,0 +1,13 @@
+window,ratio,page,scrolls down (px),scrolls sideways (px)
+1920 x 1080,1.78,index.html,0,0
+1920 x 1080,1.78,detail.html,0,0
+1600 x 900,1.78,index.html,0,0
+1600 x 900,1.78,detail.html,0,0
+1536 x 864,1.78,index.html,0,0
+1536 x 864,1.78,detail.html,0,0
+1366 x 768,1.78,index.html,72,0
+1366 x 768,1.78,detail.html,72,0
+1280 x 720,1.78,index.html,120,0
+1280 x 720,1.78,detail.html,120,0
+1280 x 800,1.60,index.html,40,0
+1280 x 800,1.60,detail.html,40,0

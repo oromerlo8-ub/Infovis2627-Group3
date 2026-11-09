@@ -1,29 +1,29 @@
 source,item,status,how
-Course,"Title, legend, axis titles, caption, abbreviations explained, data source (H1-H7)",designed (Part 4),"Every chart: plain-language title, axis titles with units, direct labels instead of legends, source and date in the footer, country names instead of ISO codes"
-Course,Safe colours and contrast (H10-H11),designed (Part 4),Tol bright palette; contrast checked above (all pass)
-Course,"Legibility and resize (H12, H14)",designed (Part 4),Text at least 12 px in charts and 16 px in the page; layout works at 200 % zoom
-Course,Short alternative and long description (H8-H9),built and tested (Part 6),Each chart in a figure with a short and a long text alternative and a data table
-Course,"Visible focus, device independence, customisation (H16-H18)",planned (Part 5),Keyboard and mouse for every action; hotel filter; focus ring
-WCAG perception,"Text contrast 4.5:1, graphics and UI 3:1",designed (Part 4),Checked in section 4.2
-WCAG perception,Colour is never the only code,designed (Part 4),Hotels: colour + line style + point shape + label; selected country: colour + outline + text
+Course,"Title, legend, axis titles, caption, abbreviations explained, data source (H1-H7)",designed (Part 4),"Every chart: a question as title, a subtitle with the unit, axis titles, direct labels or a small legend, source and date in the footer, country names instead of ISO codes"
+Course,Safe colours and contrast (H10-H11),designed (Part 4),Okabe-Ito palette; contrast checked above in both themes (all pass)
+Course,"Legibility and resize (H12, H14)",designed (Part 4),Text at least 12 px in charts and 16 px in the page; one column at 200 % zoom
+Course,Short alternative and long description (H8-H9),built and tested (Part 6),"Each chart in a figure with a short and a long text alternative, and a Table button that shows its data table"
+Course,"Visible focus, device independence, customisation (H16-H18)",planned (Part 5),Keyboard and mouse for every action; hotel and year filters; night mode; focus ring
+WCAG perception,"Text contrast 4.5:1, graphics and UI 3:1",designed (Part 4),"Checked in section 4.2, light and night theme"
+WCAG perception,Colour is never the only code,designed (Part 4),Hotels: colour + line style + point shape + label; selected country: colour + band + bold label + outline + stripes + text; heatmap: colour + dots
 WCAG perception,Text alternative for each chart,built and tested (Part 6),figcaption with sr-only short and long text
 WCAG perception,SVG renderer only,built and tested (Part 6),vega-embed with renderer svg
-WCAG perception,Reduced motion respected,built and tested (Part 6),prefers-reduced-motion CSS; no animation in charts
-Pattern rules,Fill patterns when colour encodes categories,designed (Part 4),"No chart fills areas by category (bars use one colour; hotels are lines), so no fill patterns are needed; the map is quantitative and not a heatmap"
-WCAG operability,Every data point reachable with the arrow keys; Alt + up/down between series,planned (Part 5),Lines: points per month; two series (hotels) or (country / all)
+WCAG perception,Reduced motion respected; moving content can be paused (2.2.2),planned (Part 5),"Only C9 moves, and only after Play; Pause and a month slider; one step every 1.5 s, no autoplay"
+Pattern rules,Fill patterns when colour encodes categories; dots on heatmaps,designed (Part 4),"Heatmap (C2): dots whose density grows with the class; selected box (C7, C8): stripes; hotels are lines and dots, not filled areas; the map is a second view"
+WCAG operability,Every data point reachable with the arrow keys; Alt + up/down between series,planned (Part 5),Lines: points per month; heatmap cells; dumbbell dots; bubbles; boxes
 WCAG operability,Visible focus on every control and an SVG focus overlay on data points,built and tested (Part 6),Overlay pattern of the skill
-WCAG operability,Selected category and exact value always visible next to the chart,designed (Part 4),"A ""selected"" text line above each chart"
+WCAG operability,Selected category and exact value always visible next to the chart,designed (Part 4),Value box of the focused mark; selected country and month in the filter panel
 WCAG operability,Previous / Next buttons disabled at the ends,planned (Part 5),For the country selection
-WCAG operability,Touch / click targets at least 24 x 24 px (44 recommended),designed (Part 4),Buttons and selectors 44 px high
-WCAG operability,Skip link; no change of context on focus,built and tested (Part 6),Skip link first in each page
-WCAG operability,Controls fit on mobile,adapted,Not applicable: desktop only (architecture.md); minimum width 1280 px
-WCAG comprehensibility,Labels for every control; state changes announced (aria-live),planned (Part 5),Filter and selection changes announced
+WCAG operability,Touch / click targets at least 24 x 24 px (44 recommended),designed (Part 4),"Buttons and selects 40 px high, every other control at least 24 px; smaller than the 44 px first planned, so each screen fits a 16:9 window"
+WCAG operability,Skip link; no change of context on focus,built and tested (Part 6),Skip links first in each page
+WCAG operability,Controls fit on mobile,adapted,Not applicable: desktop only (architecture.md); the page fits a 16:9 screen and turns into one column below 1100 px
+WCAG comprehensibility,Labels for every control; state changes announced (aria-live),planned (Part 5),"Filter, selection and animation month announced"
 WCAG comprehensibility,Page language declared,built and tested (Part 6),"html lang=""en"""
 WCAG comprehensibility,"Data in an external file, not in the HTML",adapted,"data.js loaded with script src instead of data.json (architecture.md, opens by double-click)"
-WCAG comprehensibility,Plain-language titles; numbers with thousands separators and units,designed (Part 4),Titles as questions or statements; tooltips formatted
+WCAG comprehensibility,Plain-language titles; numbers with thousands separators and units,designed (Part 4),Titles as questions; tooltips formatted
 WCAG comprehensibility,Active filters always visible; reset button always visible,designed (Part 4),"Filter panel with ""Showing: ..."" line and Reset button"
-WCAG comprehensibility,At most 4 KPIs and 2-3 charts visible at once,designed (Part 4),"Main: 4 KPIs, 3 charts. Detail: 4 KPIs, 2 charts + 3 behind ""Show more"""
+WCAG comprehensibility,At most 4 KPIs and 2-3 charts visible at once,designed (Part 4),"Main: 4 KPIs, 3 charts. Detail: 4 KPIs, 3 boxes: dumbbell or map (switch), bubbles, and the two box plots side by side as one view"
 WCAG comprehensibility,Icons always with a text label; legends fixed and not truncated,designed (Part 4),Direct labels; no icon-only buttons
 WCAG comprehensibility,Errors describe what happened and how to fix it,built and tested (Part 6),Message when a filter leaves no data
 WCAG robustness,"Valid HTML; correct ARIA; SVG with role=""img"" and aria-label; 200 % zoom",built and tested (Part 6),Checked in the browser
-Help page,"accessibility.html linked from both screens, with keys, filters, shortcuts and a contact",built and tested (Part 6),Link next to the skip link
+Help page,"accessibility.html linked from both screens, with keys, filters, shortcuts and a contact",built and tested (Part 6),Link in the header of both screens

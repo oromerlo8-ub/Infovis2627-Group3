@@ -1,19 +1,33 @@
 interaction,check,passes,seen in the page
 Text alternatives,"C1-C3 (Both, All): short text = chart description, also the SVG aria-label (role img)",True,Line chart of the number of guests per month in the city hotel and the resort hotel.
 Text alternatives,"C1 long text (Both, All) names the busiest month of the City Hotel with its guests",True,"Both hotels, All years (July 2015 to August 2017). City Hotel: highest in August 2016 (4,836 guests), lowest in July 201"
-Data tables,"C1 table (Both, All) = pandas, every month and hotel",True,26 rows
-Data tables,"C1-C3 tables (Both, All) are closed at first and have a caption with the filters",True,"Data of the chart ""In which months do the city and the resort receive most guests?"": Both hotels, All years (July 2015 to August 2017)"
+Text alternatives,"C2 long text (Both, All) explains the colour classes",True,"Both hotels, All years (July 2015 to August 2017). Colour classes of 10 points, from 0 to 9 % to 60 "
+Data tables,"C1 table (Both, All) = pandas guests, every month and hotel",True,26 rows
+Data tables,"C2 table (Both, All) = pandas % cancelled",True,"[['July 2015', '67.3 %', '23.2 %']]"
+Data tables,"C3 table (Both, All) = pandas median price",True,"[['July 2015', '€80.0', '€123.0']]"
+Data tables,"C1-C3 tables (Both, All) have a caption with the chart and the filters",True,"Data of the chart ""In which months do the city and the resort receive most guests?"": Both hotels, All years (July 2015 to August 2017)"
 Text alternatives,"C1-C3 (City Hotel, 2016): short text = chart description, also the SVG aria-label (role img)",True,Line chart of the number of guests per month in the city hotel and the resort hotel.
 Text alternatives,"C1 long text (City Hotel, 2016) names the busiest month of the City Hotel with its guests",True,"City Hotel (Lisbon), 2016. City Hotel: highest in August 2016 (4,836 guests), lowest in January 2016 (1,567 guests). Eve"
-Data tables,"C1 table (City Hotel, 2016) = pandas, every month and hotel",True,12 rows
-Data tables,"C1-C3 tables (City Hotel, 2016) are closed at first and have a caption with the filters",True,"Data of the chart ""In which months do the city and the resort receive most guests?"": City Hotel (Lisbon), 2016"
-Text alternatives,"C4-C8 and the map (Both, All): short and long texts present, SVG role img",True,"Both hotels, All years (July 2015 to August 2017). 165 countries have guests. The most: Portugal (37"
-Data tables,"C4 table (Both, All) = pandas shares and guests, in the order of the bars",True,"[['Portugal', '21.0\xa0% (18,808)', '33.3\xa0% (18,847)'], ['United Kingdom', '8.5\xa0% (7,570)', '20.6\xa0% (11,676)']]"
-Data tables,"C7 table (Both, All) = pandas medians and guests",True,"[['Portugal', '2', '37,655'], ['United Kingdom', '4', '19,246']]"
+Text alternatives,"C2 long text (City Hotel, 2016) explains the colour classes",True,"City Hotel (Lisbon), 2016. Colour classes of 10 points, from 0 to 9 % to 60 % or more. City Hotel: h"
+Data tables,"C1 table (City Hotel, 2016) = pandas guests, every month and hotel",True,12 rows
+Data tables,"C2 table (City Hotel, 2016) = pandas % cancelled",True,"[['January 2016', '32.1 %']]"
+Data tables,"C3 table (City Hotel, 2016) = pandas median price",True,"[['January 2016', '€77.6']]"
+Data tables,"C1-C3 tables (City Hotel, 2016) have a caption with the chart and the filters",True,"Data of the chart ""In which months do the city and the resort receive most guests?"": City Hotel (Lisbon), 2016"
+Text alternatives,"C4, C9, C7, C8 (Both, All): short and long texts present, SVG role img and aria-label",True,"Both hotels, All years (July 2015 to August 2017). January: the largest part of their year arrives f"
+Data tables,"C4 table (Both, All) = pandas shares and guests, in the order of the chart",True,"[['Portugal', '21.0 % (18,808)', '33.3 % (18,847)'], ['United Kingdom', '8.5 % (7,570)', '20.6 % (11,676)']]"
+Data tables,"C7 table (Both, All) = pandas quartiles and whiskers of the nights",True,"[['Portugal', '2', '1 to 3', '0 to 6', '37,655']]"
+Data tables,"C8 table (Both, All) = pandas quartiles and whiskers of the days booked ahead",True,"[['Portugal', '13', '2 to 69', '0 to 169', '37,655']]"
+Data tables,"C9 table (Both, All, month 1) = pandas share, days ahead and guests of each bubble",True,"[['Italy', '8.7 %', '19', '425']]"
 Data tables,"map table (Both, All) = pandas guests of every country with guests",True,165 countries
-Fill pattern,"the selected country (Both, All) is striped in C4 and the legend says so",True,"['url(#pattern-selected)', 'url(#pattern-selected)']"
-Text alternatives,"C4-C8 and the map (Resort Hotel, 2017): short and long texts present, SVG role img",True,"Resort Hotel (Algarve), 2017 (January to August only). 84 countries have guests. The most: Portugal "
-Data tables,"C4 table (Resort Hotel, 2017) = pandas shares and guests, in the order of the bars",True,"[['Portugal', '30.4\xa0% (5,438)'], ['United Kingdom', '22.4\xa0% (4,020)']]"
-Data tables,"C7 table (Resort Hotel, 2017) = pandas medians and guests",True,"[['Portugal', '2', '5,438'], ['United Kingdom', '6', '4,020']]"
+Text alternatives,"map (Both, All): long text present",True,"Both hotels, All years (July 2015 to August 2017). 165 countries have guests. Th"
+Fill pattern,"the selected country (Both, All, United Kingdom) has a green box with white stripes in C7 and C8, and an outline on the map",True,"{'boxes': ['url(#pattern-selected)', 'url(#pattern-selected)'], 'map_outline': 1}"
+Text alternatives,"C4, C9, C7, C8 (Resort Hotel, 2017): short and long texts present, SVG role img and aria-label",True,"Resort Hotel (Algarve), 2017 (January to August only). January: the largest part of their year arriv"
+Data tables,"C4 table (Resort Hotel, 2017) = pandas shares and guests, in the order of the chart",True,"[['Portugal', '30.4 % (5,438)'], ['United Kingdom', '22.4 % (4,020)']]"
+Data tables,"C7 table (Resort Hotel, 2017) = pandas quartiles and whiskers of the nights",True,"[['Portugal', '2', '1 to 4', '0 to 8', '5,438']]"
+Data tables,"C8 table (Resort Hotel, 2017) = pandas quartiles and whiskers of the days booked ahead",True,"[['Portugal', '7', '1 to 43', '0 to 106', '5,438']]"
+Data tables,"C9 table (Resort Hotel, 2017, month 1) = pandas share, days ahead and guests of each bubble",True,"[['Italy', '30.4 %', '3', '90']]"
 Data tables,"map table (Resort Hotel, 2017) = pandas guests of every country with guests",True,84 countries
-Fill pattern,"the selected country (Resort Hotel, 2017) is striped in C4 and the legend says so",True,['url(#pattern-selected)']
+Text alternatives,"map (Resort Hotel, 2017): long text present",True,"Resort Hotel (Algarve), 2017 (January to August only). 84 countries have guests."
+Fill pattern,"the selected country (Resort Hotel, 2017, United Kingdom) has a green box with white stripes in C7 and C8, and an outline on the map",True,"{'boxes': ['url(#pattern-selected)', 'url(#pattern-selected)'], 'map_outline': 1}"
+Fill pattern,"the heatmap has a dot overlay (hidden from screen readers, not clickable) and its subtitle explains the dots",True,"{'cells': 52, 'dots': 104, 'hidden': 'true', 'pointer': 'none', 'subtitle': ""% of each month's bookings, duplicates included; more dots: more cancelled""}"
+Fill pattern,the dots are drawn again in the night mode,True,104

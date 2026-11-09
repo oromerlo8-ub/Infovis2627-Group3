@@ -8,4 +8,4 @@ sections 1 to 6 in order,True,True
 decisions or findings explained in Markdown,9,4
 "no debug code (pdb, breakpoint, TODO)",True,True
 conclusions cell last,True,True
-code cells,35,22
+code cells,36,23
