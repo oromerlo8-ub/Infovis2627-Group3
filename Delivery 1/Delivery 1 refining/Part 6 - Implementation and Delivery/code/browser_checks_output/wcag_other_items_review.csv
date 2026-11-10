@@ -1,5 +1,5 @@
 group,item,result,evidence
-Perception,Text contrast at least 4.5:1 (3:1 large text and UI),met,"576 visible texts measured on the three pages in both themes, lowest ratio 4.58:1; data colours checked in Part 4 and build_dashboard (all at least 3:1 in both themes)"
+Perception,Text contrast at least 4.5:1 (3:1 large text and UI),met,"562 visible texts measured on the three pages in both themes, lowest ratio 4.58:1; data colours checked in Part 4 and build_dashboard (all at least 3:1 in both themes)"
 Perception,Colour is never the only channel (plus pattern or shape),met,"Hotels: colour + line style + point shape + label; heatmap: colour classes + dots; selected country: green + stripes + outline + band + bold label + text; map classes named in the legend, values in the table"
 Perception,Each chart has a text alternative (figcaption + .sr-only),met,Short text (SVG aria-label and figcaption) and long text with the main values for the current filters
 Perception,"SVG renderer only, never canvas",met,Checked at first load in both themes
@@ -12,7 +12,7 @@ Comprehensibility,Chart titles in plain language (COGA),met,"Titles are Natalia'
 Comprehensibility,Numbers with thousands separators and explicit units,met,"Tooltips, boxes, KPIs and tables: 145,980 guests, 37.1 %, €94.5"
 Comprehensibility,Active filters always visible,met,"""Showing"" line under the filters"
 Comprehensibility,Reset button always visible,met,In the filter panel of both screens
-Comprehensibility,Errors say what happened and how to solve it,met (no error case),"Every filter combination has data, so no empty state exists; if a chart cannot be drawn its box says so and points to the table and the help page"
+Comprehensibility,Errors say what happened and how to solve it,met (no error case),"Every filter combination has data, so no empty state exists; if a chart cannot be drawn its box says so and points to the table"
 Comprehensibility,At most 4 KPIs and 2-3 charts visible at once,met,"Main: 4 KPIs, 3 charts; detail: 4 KPIs and 3 boxes (dumbbell or map, bubbles, and the two box plots as one view)"
 Comprehensibility,Icons always with a visible text label,met,"Night mode (☾), Play (▶) and Pause have their text next to the symbol, which is hidden from screen readers"
 Comprehensibility,Legends fixed and not truncated,met,"Direct labels at the end of each line; heatmap, dumbbell and map legends fixed with their labels in full"
@@ -24,6 +24,6 @@ Robustness,Works at 200 % browser zoom without loss of content,met,"At 200 % and
 Help page,accessibility.html exists in the same folder as index.html,met,"English name, as architecture.md decides"
 Help page,The link to it is visible from the main dashboard,met,In the header of both screens
 Help page,"It explains general navigation, navigation in the charts and the filters",met,"Sections: Moving around a page; Moving inside a chart; Filters and other controls; also the night mode, Play, Table, ""No country"" and the map switch"
-Help page,It lists the shortcuts of the dashboard (or says there are none),met,It says there are no extra shortcuts
-Help page,It gives a contact to report problems,met (no address),"Students' decision: Group 3 through the course's virtual campus, without an e-mail address"
+Help page,It lists the shortcuts of the dashboard (or says there are none),not met,Students' decision: the section was removed; the keys of every control are in the table of the page
+Help page,It gives a contact to report problems,not met,Students' decision: the contact section was removed
 Course plan (Part 4),Text at least 12 px in the charts and 16 px in the page,met,"Chart texts below 12 px: 0. Page texts below 16 px: none (raised to 16 px in task 6.8, students' decision); all of them scale with the browser zoom"

@@ -280,13 +280,6 @@ light,accessibility.html,page text,"Enter: opens the notes (source, duplicat",16
 light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
 light,accessibility.html,page text,Esc,16.0,15.27216678136665,False,4.5,True
 light,accessibility.html,page text,"The line ""Showing"" under the filters alw",16.0,17.40432753274219,False,4.5,True
-light,accessibility.html,page text,Shortcuts of this dashboard,19.2,17.40432753274219,True,3.0,True
-light,accessibility.html,page text,This dashboard has no extra keyboard sho,16.0,17.40432753274219,False,4.5,True
-light,accessibility.html,page text,Screen readers and browsers,19.2,17.40432753274219,True,3.0,True
-light,accessibility.html,page text,The charts are drawn as SVG with text al,16.0,17.40432753274219,False,4.5,True
-light,accessibility.html,page text,The dashboard is made for a computer or ,16.0,17.40432753274219,False,4.5,True
-light,accessibility.html,page text,Accessibility problems?,19.2,17.40432753274219,True,3.0,True
-light,accessibility.html,page text,"If you find a barrier, please tell Group",16.0,17.40432753274219,False,4.5,True
 light,accessibility.html,page text,← Back to the main screen,16.0,5.566637067604819,False,4.5,True
 dark,index.html,page text,Skip to the charts,16.0,16.734034721106067,False,4.5,True
 dark,index.html,page text,Skip to the filters,16.0,16.734034721106067,False,4.5,True
@@ -569,11 +562,4 @@ dark,accessibility.html,page text,"Enter: opens the notes (source, duplicat",16.
 dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
 dark,accessibility.html,page text,Esc,16.0,11.286032758204732,False,4.5,True
 dark,accessibility.html,page text,"The line ""Showing"" under the filters alw",16.0,14.89167928254765,False,4.5,True
-dark,accessibility.html,page text,Shortcuts of this dashboard,19.2,14.89167928254765,True,3.0,True
-dark,accessibility.html,page text,This dashboard has no extra keyboard sho,16.0,14.89167928254765,False,4.5,True
-dark,accessibility.html,page text,Screen readers and browsers,19.2,14.89167928254765,True,3.0,True
-dark,accessibility.html,page text,The charts are drawn as SVG with text al,16.0,14.89167928254765,False,4.5,True
-dark,accessibility.html,page text,The dashboard is made for a computer or ,16.0,14.89167928254765,False,4.5,True
-dark,accessibility.html,page text,Accessibility problems?,19.2,14.89167928254765,True,3.0,True
-dark,accessibility.html,page text,"If you find a barrier, please tell Group",16.0,14.89167928254765,False,4.5,True
 dark,accessibility.html,page text,← Back to the main screen,16.0,7.224825558123231,False,4.5,True

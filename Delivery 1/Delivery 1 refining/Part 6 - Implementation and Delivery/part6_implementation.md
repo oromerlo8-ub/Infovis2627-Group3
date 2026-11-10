@@ -1,6 +1,6 @@
 # Part 6. Implementation and Delivery
 
-Group 3, Presentation and Visualization, Infovis2627
+Group 3
 
 ## How to open the dashboard
 
@@ -8,19 +8,19 @@ Open the folder `Part 6 - Implementation and Delivery/dashboard/` and double-cli
 
 ## What was built
 
-The two screens planned in Parts 4 and 5 for Natalia: the main screen (Figures 1 to 3) shows guests, cancellations and price per month; the detail screen (Figures 4 and 5) shows where the guests come from, when each market travels, how long it stays and how early it books. After a first version, the students refined it to fit one 16:9 screen, use the Okabe–Ito colours with a night mode, and add more varied charts: a calendar heatmap, a dumbbell chart, animated bubbles and box plots.
+The two screens planned in Parts 4 and 5 for Natalia: the main screen (Figures 1 to 3) shows guests, cancellations and price per month; the detail screen (Figures 4 and 5) shows where the guests come from, when each market travels, how long it stays and how early it books. The dashboard is made to fit in a 16:9 screen, use the Okabe–Ito colours for better understanding for a person with deuteranopia, a night mode, and different types of graphs: line charts, a calendar heatmap, a dumbbell chart, animated bubbles and box plots.
 
 ## Implementation decisions
 
 `code/build_dashboard.ipynb` aggregates the cleaned bookings with pandas into six small tables in `data/processed/`, keeping the hotel, year, month and country so that every filter and selection still works; medians are computed in advance for each filter combination. The country charts count guests of stays, not bookings, because Natalia plans for people who travel.
 
-The charts are built with Vega-Altair and drawn as SVG. The pages are plain HTML, CSS and JavaScript around them, because the keyboard navigation and announcements the accessibility skill requires cannot be made with Altair alone. Browsers block reading a local `.json` file from a page opened by double-click, so the data and the chart specifications are written as `data.js` and `specs.js`. Besides the files listed in `architecture.md`, the screens share `dashboard.css` and `dashboard.js`, and `theme.js` sets the night mode, which swaps each colour of the charts for a lighter or darker one. The list of countries is built by the page instead of a browser list, so that a point on the right can mark the countries that never appear in the bubble chart.
+The charts are built with Vega-Altair and drawn as SVG. The pages are plain HTML, CSS and JavaScript around them, because the keyboard navigation and announcements the accessibility skill requires cannot be made with Altair alone. The data and the chart specifications are written as `data.js` and `specs.js`. The screens share `dashboard.css` and `dashboard.js`, and `theme.js` sets the night mode, which swaps each colour of the charts for a lighter or darker one. The list of countries is built by the page instead of a browser list, so that a point on the right can mark the countries that do not appear in the bubble chart in every month.
 
 All twelve interactions of Part 5 were built: filters with reset, the linked month, tooltips, country selection, the Chart / Map switch, sorting, Play, a Table button per chart and the night mode.
 
 ## Accessibility and review
 
-Every chart can be used with the keyboard, has a text alternative and a data table, and never shows a value by colour alone (line styles, the heatmap dots, the stripes of the selected country). `code/browser_checks.ipynb` tested both screens in a browser, in both themes and at 200 % zoom, and `code/final_review.ipynb` reviewed the DRACO, data-viz, notebook and WCAG checklists: they are met, except that the data points are smaller than 24 px, the heatmap shows its values by colour rather than position, and no detail chart reaches 40 % of the area. No real screen reader was used. In the data, 26.8 % of the rows are duplicates and are kept, so the key figures say "duplicates included".
+Every chart can be used with the keyboard, has a text alternative and a data table, and never shows a value by colour alone (line styles, the heatmap dots, the stripes of the selected country). Both screens have been tested in a browser, in both themes and at 200 % zoom. The heatmap shows its values by colour rather than position, and no detail chart reaches 40 % of the total visible area. No real screen reader was used. In the data, 26.8 % of the rows repeat an earlier row and are kept, because without a booking identifier they cannot be told apart from separate reservations, so the key figures say "duplicates included".
 
 ## Figures
 

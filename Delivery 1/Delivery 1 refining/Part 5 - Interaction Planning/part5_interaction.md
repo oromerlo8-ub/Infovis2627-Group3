@@ -1,10 +1,10 @@
 # Part 5. Interaction Planning
 
-Group 3, Presentation and Visualization, Infovis2627
+Group 3
 
 ## Principles
 
-Interaction lets Natalia choose what to see, but every action has a cognitive cost. We added only interactions that serve her seven questions, followed Shneiderman's mantra and gave each one a keyboard equivalent. Both screens open with data visible: both hotels, the whole period and no country selected. Zoom, pan and drag were rejected because no chart shows more than 26 months or 12 countries.
+Interaction lets Natalia choose what to see, but every action has a cognitive cost. We added only interactions that serve her seven questions, followed Shneiderman's mantra and gave each one a keyboard equivalent.
 
 | # | Interaction | Course type | Mantra step |
 |----|---------------------------|--------------------------|----------------|
@@ -23,7 +23,7 @@ Interaction lets Natalia choose what to see, but every action has a cognitive co
 
 ## Interactions between charts
 
-The hotel and year filters (I1, I2) act on all the KPIs and charts of a screen, and the link to the other screen carries them (I3). The year labels name the partial years, "2015 (Jul–Dec)" and "2017 (Jan–Aug)". A reset button (I4) is always visible. On the main screen, pointing at a month or reaching it with the arrow keys marks it in all of the charts (I5): a rule in the two line charts and an outline in the calendar heatmap, with its values in the filter panel. On the detail screen, clicking a dot, bubble, box or country, or using the list or Previous and Next, selects a country in every chart and KPI (I7); a second click or the "No country" button clears it. A country outside the top 10 is added at the top of the country charts. The selection is shown by a band, a bold label, an outline and stripes, never by colour alone.
+The hotel and year filters (I1, I2) act on all of the KPIs and charts of a screen, and the link to the other screen carries them (I3). The year labels name the partial years, "2015 (Jul–Dec)" and "2017 (Jan–Aug)". A reset button (I4) is always visible. On the main screen, pointing at a month or reaching it with the arrow keys marks it in all of the charts (I5): a rule in the two line charts and an outline in the calendar heatmap, with its values in the filter panel. On the detail screen, clicking a dot, bubble, box or country, or using the list or Previous and Next, selects a country in every chart and KPI (I7); a second click or the "No country" button clears it. A country outside the top 10 is added at the top of the country charts. The selection is shown by a band, a bold label, an outline and stripes, never by colour alone.
 
 ## Interactions inside each chart
 

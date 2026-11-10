@@ -101,7 +101,7 @@ function embedChart(name) {
     })
     .catch(function (error) {
       container.textContent = 'This chart could not be drawn. Please reload the page; if it happens again, ' +
-        'use the data table or contact us (see the accessibility page).';
+        'use the data table.';
       container.setAttribute('role', 'alert');
       console.error('Chart ' + name + ':', error);
     });
