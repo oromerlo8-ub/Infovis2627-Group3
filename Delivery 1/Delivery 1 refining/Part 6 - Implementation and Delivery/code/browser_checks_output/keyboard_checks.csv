@@ -40,6 +40,8 @@ Keyboard: chart,C7: down arrow goes to the second box (United Kingdom),True,"Uni
 Keyboard: chart,"Tab goes from C7 to C8, on its first box",True,"Portugal: days booked in advance, median 13, middle half 2 to 69, most stays 0 to 169"
 Keyboard: I8 switch,"right arrow on the switch shows the map; Tab reaches it after its Table button, on the country with most guests",True,"Portugal: 37,655 guests"
 Keyboard: chart,right arrow on the map goes to the second country by guests (United Kingdom),True,"United Kingdom: 19,246 guests"
+Keyboard: country list,"Enter opens the list, typing ""br"" goes to Brazil, Enter chooses it and the focus stays on the list",True,"(['true', True], 'Brazil', 'Brazil')"
+Keyboard: country list,Escape closes the list without changing the country,True,Brazil
 Keyboard: I7 Previous / Next,Enter on Next with no country selected selects the first country (Portugal),True,Portugal
 Keyboard: I7 Previous / Next,"Previous is disabled on the first country, Next is not",True,"(True, False)"
 Keyboard: I7 Previous / Next,"Enter on ""No country"" clears it and the focus moves to the list, not lost",True,country-select

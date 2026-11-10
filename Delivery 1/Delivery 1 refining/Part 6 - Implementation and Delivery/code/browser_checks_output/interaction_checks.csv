@@ -31,6 +31,7 @@ I7 Select a country,the KPIs follow the selection,True,"{'Countries of origin': 
 I7 Select a country,a second click on France clears the selection,True,No country selected.
 I7 Select a country,a click on a bubble selects its country (Germany),True,Germany
 I7 Select a country,a click on the Germany box clears it again,True,
+I7 Select a country,"the country list marks with a point every country without 20 stays in every month (no bubble), and not Other",True,48 marked
 I7 Select a country,"Brazil, chosen in the list (outside the top 10), is added at the top of C4 and C7 and as an 11th bubble",True,"(['Brazil', 'Portugal', 'United Kingdom'], 11)"
 I7 Select a country,its values are written in the box and the KPIs,True,"Brazil3,000 guests (2.1 %)Median stay: 3 nightsMedian advanc"
 I7 Previous / Next,Previous is disabled on the first country,True,True
@@ -53,4 +54,5 @@ I10 Play the year,the slider works with the keyboard (End: December),True,Decemb
 I10 Play the year,"at the last month, Play starts again from January",True,1
 I11 Table view,the Table button of the box plots shows both tables (11 countries each),True,"[11, 11, True]"
 I1 Hotel filter,on the detail screen: C4 shows one dot per country and the KPIs change,True,118
+I7 Select a country,"the points of the country list follow the filters (Resort Hotel, 2015)",True,60 marked
 I2 Year filter,with 2015 (July to December only) the month slider of C9 runs from 7 to 12,True,"['7', '12']"

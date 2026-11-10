@@ -20,7 +20,7 @@ Operability,Skip link at the start of the page,met,Two skip links: to the charts
 Operability,No change of context on focus (WCAG 3.2.1),met,"Focusing a month links it in the charts of the same page; on the detail screen focus only shows the value and Enter selects, so nothing changes by focus alone"
 Operability,"Moving content can be paused, stopped or hidden (WCAG 2.2.2)",met,"The animation of C9 starts only with Play, can be paused, stops at December and has a slider"
 Operability,Reduced motion respected,met,CSS prefers-reduced-motion; the only animation (C9) changes the month in steps and only after Play
-Perception,Text contrast at least 4.5:1 (3:1 large text and UI),met,"558 visible texts measured on the three pages in both themes, lowest ratio 4.58:1; data colours checked in Part 4 and build_dashboard (all at least 3:1 in both themes)"
+Perception,Text contrast at least 4.5:1 (3:1 large text and UI),met,"576 visible texts measured on the three pages in both themes, lowest ratio 4.58:1; data colours checked in Part 4 and build_dashboard (all at least 3:1 in both themes)"
 Perception,Colour is never the only channel (plus pattern or shape),met,"Hotels: colour + line style + point shape + label; heatmap: colour classes + dots; selected country: green + stripes + outline + band + bold label + text; map classes named in the legend, values in the table"
 Perception,Each chart has a text alternative (figcaption + .sr-only),met,Short text (SVG aria-label and figcaption) and long text with the main values for the current filters
 Perception,"SVG renderer only, never canvas",met,Checked at first load in both themes
@@ -37,7 +37,7 @@ Comprehensibility,Errors say what happened and how to solve it,met (no error cas
 Comprehensibility,At most 4 KPIs and 2-3 charts visible at once,met,"Main: 4 KPIs, 3 charts; detail: 4 KPIs and 3 boxes (dumbbell or map, bubbles, and the two box plots as one view)"
 Comprehensibility,Icons always with a visible text label,met,"Night mode (☾), Play (▶) and Pause have their text next to the symbol, which is hidden from screen readers"
 Comprehensibility,Legends fixed and not truncated,met,"Direct labels at the end of each line; heatmap, dumbbell and map legends fixed with their labels in full"
-Robustness,"Valid HTML (no duplicate attributes, closed tags)",met,html-validate 11.16.3: no errors
+Robustness,"Valid HTML (no duplicate attributes, closed tags)",met,"html-validate 11.16.3: no errors; one rule (prefer-native-element) is switched off, with its reason, only for the custom country list, which a native select cannot replace"
 Operability (measured),Every control at least 24 x 24 px (WCAG 2.5.8),met,"Smallest control: index.html 30 px, detail.html 24 px, accessibility.html 44 px; heights of buttons, selects, radio rows and links: index.html: 30, 32, 40, 42 / detail.html: 30, 32, 40, 42"
 Robustness,ARIA roles used correctly,met,"No broken aria-labelledby / describedby / controls reference, no duplicate id"
 Robustness,"SVG charts have role=""img"" and aria-label",met,Set on every chart after drawing

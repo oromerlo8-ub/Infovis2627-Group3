@@ -25,7 +25,7 @@ Text alternatives,"C4, C9, C7, C8 (Resort Hotel, 2017): short and long texts pre
 Data tables,"C4 table (Resort Hotel, 2017) = pandas shares and guests, in the order of the chart",True,"[['Portugal', '30.4 % (5,438)'], ['United Kingdom', '22.4 % (4,020)']]"
 Data tables,"C7 table (Resort Hotel, 2017) = pandas quartiles and whiskers of the nights",True,"[['Portugal', '2', '1 to 4', '0 to 8', '5,438']]"
 Data tables,"C8 table (Resort Hotel, 2017) = pandas quartiles and whiskers of the days booked ahead",True,"[['Portugal', '7', '1 to 43', '0 to 106', '5,438']]"
-Data tables,"C9 table (Resort Hotel, 2017, month 1) = pandas share, days ahead and guests of each bubble",True,"[['Italy', '30.4 %', '3', '90']]"
+Data tables,"C9 table (Resort Hotel, 2017, month 1) = pandas share, days ahead and guests of each bubble",True,"[['Portugal', '15.0 %', '3', '817']]"
 Data tables,"map table (Resort Hotel, 2017) = pandas guests of every country with guests",True,84 countries
 Text alternatives,"map (Resort Hotel, 2017): long text present",True,"Resort Hotel (Algarve), 2017 (January to August only). 84 countries have guests."
 Fill pattern,"the selected country (Resort Hotel, 2017, United Kingdom) has a green box with white stripes in C7 and C8, and an outline on the map",True,"{'boxes': ['url(#pattern-selected)', 'url(#pattern-selected)'], 'map_outline': 1}"

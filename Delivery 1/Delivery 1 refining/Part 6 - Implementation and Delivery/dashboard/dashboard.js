@@ -240,6 +240,7 @@ function applyFilters() {
   updateActiveFilters();
   updateKpis();
   updateLinkToOtherScreen();
+  fillCountryList();                 // the points of the country list depend on the filters
   updateCountryDetails();
   if (STATE.month && !monthIsShown(STATE.month)) { setLinkedMonth(null); } else { updateMonthDetails(); }
   const frameChanged = fitFrameToFilters();
@@ -363,8 +364,7 @@ function updateCountryDetails() {
   if (!box) { return; }
   const country = currentCountry();
   const kpis = currentKpis();
-  const list = document.getElementById('country-select');
-  if (list) { list.value = STATE.country || ''; }
+  showComboValue(STATE.country || '');
   document.getElementById('no-country').disabled = !STATE.country;
   if (!country) {
     box.innerHTML = '<p>No country selected. Choose one in the list, or click a country in a chart.</p>';
@@ -413,20 +413,168 @@ function toggleCountry(name) {
   return selectCountry(name);
 }
 
-// The list of countries: no country, the top 10 and Other (by guests), then the other countries (A to Z)
+// The list of countries: no country, the top 10 and Other (by guests), then the other countries (A to Z).
+// It is a custom list (WAI-ARIA select-only combobox) so that a point on the right can mark the countries that
+// do not get a bubble in C9 with the current filters: C9 shows only countries with at least 20 stays in EVERY month.
+// Other has no point: it is a group, not a country of the bubble chart.
+function bubbleCountries() {
+  const shown = new Set();
+  DASHBOARD_DATA.country_season.forEach(function (row) {
+    if (forFilters(row) && row.all_months && row.country_group !== 'Other') { shown.add(row.country_group); }
+  });
+  return shown;
+}
+
+function escapeHtml(text) {
+  return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+const COMBO = { open: false, active: -1, typed: '', typedAt: 0 };
+
+function comboOptions() { return Array.from(document.querySelectorAll('#country-listbox [role="option"]')); }
+
 function fillCountryList() {
-  const list = document.getElementById('country-select');
-  if (!list) { return; }
+  const listbox = document.getElementById('country-listbox');
+  if (!listbox) { return; }
   const rows = DASHBOARD_DATA.country_medians.filter(function (row) { return row.hotel_filter === 'Both' && row.year_filter === 'All'; });
   const top = rows.filter(function (row) { return row.in_top && row.country_group !== 'Other'; })
     .sort(function (a, b) { return b.guests - a.guests; }).map(function (row) { return row.country_group; }).concat(['Other']);
   const more = rows.filter(function (row) { return !row.in_top; }).map(function (row) { return row.country_group; })
     .sort(function (a, b) { return a.localeCompare(b); });
-  const option = function (value, text) { return '<option value="' + value + '">' + text + '</option>'; };
-  list.innerHTML = option('', 'No country') +
-    '<optgroup label="Top 10 countries">' + top.map(function (c) { return option(c, c === 'Other' ? 'Other (all other countries)' : c); }).join('') + '</optgroup>' +
-    '<optgroup label="More countries (at least 20 stays)">' + more.map(function (c) { return option(c, c); }).join('') + '</optgroup>';
-  list.value = STATE.country || '';
+  const shown = bubbleCountries();
+  let n = 0;
+  const option = function (value, text, markable) {
+    const noBubble = markable && value !== 'Other' && !shown.has(value);
+    n += 1;
+    return '<div role="option" id="country-option-' + n + '" data-value="' + escapeHtml(value) + '" data-label="' + escapeHtml(text) + '"' +
+      (noBubble ? ' data-no-bubble="true"' : '') + ' aria-selected="false"><span class="option-name">' + escapeHtml(text) + '</span>' +
+      (noBubble ? '<span class="no-bubble-mark" aria-hidden="true">●</span><span class="sr-only">, not shown in the bubble chart</span>' : '') + '</div>';
+  };
+  listbox.innerHTML = option('', 'No country', false) +
+    '<div role="group" aria-labelledby="country-group-top"><div role="presentation" class="group-label" id="country-group-top">Top 10 countries</div>' +
+    top.map(function (c) { return option(c, c === 'Other' ? 'Other (all other countries)' : c, true); }).join('') + '</div>' +
+    '<div role="group" aria-labelledby="country-group-more"><div role="presentation" class="group-label" id="country-group-more">More countries (at least 20 stays)</div>' +
+    more.map(function (c) { return option(c, c, true); }).join('') + '</div>';
+  showComboValue(STATE.country || '');
+}
+
+// The closed list shows the selected country, with the same point if it has no bubble
+function showComboValue(value) {
+  const combo = document.getElementById('country-select');
+  if (!combo) { return; }
+  const options = comboOptions();
+  options.forEach(function (o) { o.setAttribute('aria-selected', String(o.getAttribute('data-value') === value)); });
+  const chosen = options.find(function (o) { return o.getAttribute('data-value') === value; });
+  const label = chosen ? chosen.getAttribute('data-label') : (value || 'No country');
+  const noBubble = chosen && chosen.getAttribute('data-no-bubble') === 'true';
+  combo.setAttribute('data-value', value);
+  combo.innerHTML = '<span class="combo-value">' + escapeHtml(label) + '</span>' +
+    (noBubble ? '<span class="no-bubble-mark" aria-hidden="true">●</span><span class="sr-only">, not shown in the bubble chart</span>' : '') +
+    '<span class="combo-arrow" aria-hidden="true">▾</span>';
+}
+
+function setActiveOption(index) {
+  const options = comboOptions();
+  const combo = document.getElementById('country-select');
+  options.forEach(function (o) { o.classList.remove('active'); });
+  COMBO.active = Math.max(0, Math.min(index, options.length - 1));
+  const option = options[COMBO.active];
+  if (!option) { return; }
+  option.classList.add('active');
+  combo.setAttribute('aria-activedescendant', option.id);
+  option.scrollIntoView({ block: 'nearest' });
+}
+
+// The list opens below the box (or above it if there is no room); it is fixed to the window, so the scrolling
+// filter panel never cuts it
+function openCombo() {
+  const combo = document.getElementById('country-select');
+  const popup = document.getElementById('country-popup');
+  const box = combo.getBoundingClientRect();
+  const below = window.innerHeight - box.bottom - 8;
+  const above = box.top - 8;
+  const height = Math.min(360, Math.max(below, above));
+  const width = Math.max(box.width, 290);
+  popup.style.left = Math.max(8, Math.min(box.left, window.innerWidth - width - 8)) + 'px';   // never past the window edge
+  popup.style.width = width + 'px';
+  popup.style.maxHeight = height + 'px';
+  if (below >= Math.min(360, above) || below >= 240) { popup.style.top = (box.bottom + 2) + 'px'; popup.style.bottom = ''; }
+  else { popup.style.top = ''; popup.style.bottom = (window.innerHeight - box.top + 2) + 'px'; }
+  popup.hidden = false;
+  combo.setAttribute('aria-expanded', 'true');
+  COMBO.open = true;
+  const options = comboOptions();
+  const current = options.findIndex(function (o) { return o.getAttribute('data-value') === (STATE.country || ''); });
+  setActiveOption(current < 0 ? 0 : current);
+}
+
+function closeCombo(choose) {
+  const combo = document.getElementById('country-select');
+  const popup = document.getElementById('country-popup');
+  if (!COMBO.open) { return; }
+  const option = comboOptions()[COMBO.active];
+  popup.hidden = true;
+  combo.setAttribute('aria-expanded', 'false');
+  combo.removeAttribute('aria-activedescendant');
+  COMBO.open = false;
+  if (choose && option) { selectCountry(option.getAttribute('data-value')); }
+}
+
+// Type-ahead: letters typed within half a second jump to the next country starting with them
+function typeAhead(letter) {
+  const now = Date.now();
+  COMBO.typed = (now - COMBO.typedAt < 500 ? COMBO.typed : '') + letter.toLowerCase();
+  COMBO.typedAt = now;
+  const options = comboOptions();
+  const start = COMBO.typed.length === 1 ? COMBO.active + 1 : COMBO.active;
+  for (let k = 0; k < options.length; k += 1) {
+    const index = (start + k) % options.length;
+    if (options[index].getAttribute('data-label').toLowerCase().indexOf(COMBO.typed) === 0) { setActiveOption(index); return; }
+  }
+}
+
+function connectCountryCombo() {
+  const combo = document.getElementById('country-select');
+  const popup = document.getElementById('country-popup');
+  if (!combo || !popup) { return; }
+  combo.addEventListener('click', function () { if (COMBO.open) { closeCombo(false); } else { openCombo(); } });
+  combo.addEventListener('keydown', function (event) {
+    const count = comboOptions().length;
+    const key = event.key;
+    let handled = true;
+    if (!COMBO.open) {
+      if (key === 'ArrowDown' || key === 'ArrowUp' || key === 'Enter' || key === ' ') { openCombo(); }
+      else if (key === 'Home') { openCombo(); setActiveOption(0); }
+      else if (key === 'End') { openCombo(); setActiveOption(count - 1); }
+      else if (key.length === 1 && /\S/.test(key) && !event.ctrlKey && !event.metaKey && !event.altKey) { openCombo(); typeAhead(key); }
+      else { handled = false; }
+    } else if (key === 'ArrowDown' && !event.altKey) { setActiveOption(COMBO.active + 1); }
+    else if (key === 'ArrowUp' && event.altKey) { closeCombo(true); }
+    else if (key === 'ArrowUp') { setActiveOption(COMBO.active - 1); }
+    else if (key === 'Home') { setActiveOption(0); }
+    else if (key === 'End') { setActiveOption(count - 1); }
+    else if (key === 'PageDown') { setActiveOption(COMBO.active + 10); }
+    else if (key === 'PageUp') { setActiveOption(COMBO.active - 10); }
+    else if (key === 'Enter' || key === ' ') { closeCombo(true); }
+    else if (key === 'Escape') { closeCombo(false); }
+    else if (key === 'Tab') { closeCombo(true); handled = false; }       // WAI-ARIA pattern: Tab keeps the option
+    else if (key.length === 1 && /\S/.test(key) && !event.ctrlKey && !event.metaKey && !event.altKey) { typeAhead(key); }
+    else { handled = false; }
+    if (handled) { event.preventDefault(); }
+  });
+  // Mouse: the focus stays on the box; a click on an option chooses it, a click elsewhere closes the list
+  popup.addEventListener('mousedown', function (event) { event.preventDefault(); });
+  popup.addEventListener('click', function (event) {
+    const option = event.target.closest('[role="option"]');
+    if (!option) { return; }
+    setActiveOption(comboOptions().indexOf(option));
+    closeCombo(true);
+  });
+  document.addEventListener('mousedown', function (event) {
+    if (COMBO.open && !combo.contains(event.target) && !popup.contains(event.target)) { closeCombo(false); }
+  });
+  combo.addEventListener('blur', function () { closeCombo(false); });
+  window.addEventListener('resize', function () { closeCombo(false); });
 }
 
 function connectCountrySelection() {
@@ -443,7 +591,7 @@ function connectCountrySelection() {
     selectCountry(null);
     document.getElementById('country-select').focus();
   });
-  document.getElementById('country-select').addEventListener('change', function (event) { selectCountry(event.target.value); });
+  connectCountryCombo();
   // Found in the browser: changing sort_order in a drawn chart does not reorder its rows (Vega does not
   // recompute the sorted axis when only the sort key changes), so the three country charts are drawn again
   document.querySelectorAll('input[name="sort"]').forEach(function (radio) {
@@ -908,7 +1056,7 @@ function boxRows() {
 // C9: the countries drawn for the month shown, most of their year first
 function frameRows() {
   return DASHBOARD_DATA.country_season.filter(function (row) {
-    return forFilters(row) && row.calendar_month === STATE.frame && row.stays >= MIN_STAYS &&
+    return forFilters(row) && row.calendar_month === STATE.frame && row.all_months &&
       ((row.in_top && row.country_group !== 'Other') || row.country_group === STATE.country);
   }).sort(function (a, b) { return b.share - a.share; });
 }
@@ -964,7 +1112,7 @@ function longText(name) {
       formatShort(ahead.high.median_lead_time) + ' days); least ahead: ' + ahead.low.country_group + ' (' +
       formatShort(ahead.low.median_lead_time) + ' days).' + (!STATE.country ? '' : selected ? ' Selected, ' + STATE.country + ': ' +
       formatPercent(selected.share) + ', booked ' + formatShort(selected.median_lead_time) + ' days ahead.' :
-      ' ' + STATE.country + ' has fewer than ' + MIN_STAYS + ' stays this month or is not drawn (Other).');
+      ' ' + STATE.country + ' is not drawn: it has fewer than ' + MIN_STAYS + ' stays in some month, or it is Other.');
   }
   if (name === 'c7' || name === 'c8') {
     const prefix = name === 'c7' ? 'nights' : 'lead';
@@ -1025,7 +1173,7 @@ function tableFor(name) {
       }));
   }
   if (name === 'c9') {
-    return tableHtml(caption + ', ' + MONTH_NAMES[STATE.frame - 1] + ' (countries with at least ' + MIN_STAYS + ' stays)',
+    return tableHtml(caption + ', ' + MONTH_NAMES[STATE.frame - 1] + ' (countries with at least ' + MIN_STAYS + ' stays in every month)',
       ['Country', '% of its guests arriving this month', 'Days booked in advance (median)', 'Guests this month'],
       frameRows().map(function (r) {
         return [r.country_group, formatPercent(r.share), formatShort(r.median_lead_time), formatCount(r.guests)];

@@ -70,7 +70,7 @@ light,detail.html,page text,Chart,16.0,5.185446345779855,False,4.5,True
 light,detail.html,page text,Map,16.0,5.185446345779855,False,4.5,True
 light,detail.html,page text,Table,16.0,5.185446345779855,False,4.5,True
 light,detail.html,page text,"When does each market travel, and how ea",17.0,17.40432753274219,False,4.5,True
-light,detail.html,page text,Top 10 countries; bubble size: guests th,16.0,7.004729208035935,False,4.5,True
+light,detail.html,page text,Top 10 countries with 20 stays or more i,16.0,7.004729208035935,False,4.5,True
 light,detail.html,page text,Table,16.0,5.185446345779855,False,4.5,True
 light,detail.html,page text,▶,16.0,5.185446345779855,False,4.5,True
 light,detail.html,page text,Play,16.0,5.185446345779855,False,4.5,True
@@ -89,6 +89,8 @@ light,detail.html,page text,Showing: Both hotels · All years (July 2,16.0,15.36
 light,detail.html,page text,Both hotels · All years (July 2015 to Au,16.0,15.362270977419197,False,4.5,True
 light,detail.html,page text,Reset filters,16.0,17.40432753274219,False,4.5,True
 light,detail.html,page text,Selected country,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,No country,16.0,17.40432753274219,False,4.5,True
+light,detail.html,page text,▾,16.0,7.004729208035935,False,4.5,True
 light,detail.html,page text,No country selected. Choose one in the l,16.0,17.40432753274219,False,4.5,True
 light,detail.html,page text,Previous,16.0,6.182861590880232,False,4.5,True
 light,detail.html,page text,Next,16.0,5.185446345779855,False,4.5,True
@@ -126,7 +128,7 @@ light,"detail.html (Brazil, map)",page text,Chart,16.0,5.185446345779855,False,4
 light,"detail.html (Brazil, map)",page text,Map,16.0,5.185446345779855,False,4.5,True
 light,"detail.html (Brazil, map)",page text,Table,16.0,5.185446345779855,False,4.5,True
 light,"detail.html (Brazil, map)",page text,"When does each market travel, and how ea",17.0,17.40432753274219,False,4.5,True
-light,"detail.html (Brazil, map)",page text,Top 10 countries; bubble size: guests th,16.0,7.004729208035935,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Top 10 countries with 20 stays or more i,16.0,7.004729208035935,False,4.5,True
 light,"detail.html (Brazil, map)",page text,Table,16.0,5.185446345779855,False,4.5,True
 light,"detail.html (Brazil, map)",page text,▶,16.0,5.185446345779855,False,4.5,True
 light,"detail.html (Brazil, map)",page text,Play,16.0,5.185446345779855,False,4.5,True
@@ -145,6 +147,8 @@ light,"detail.html (Brazil, map)",page text,Showing: Both hotels · All years (J
 light,"detail.html (Brazil, map)",page text,Both hotels · All years (July 2015 to Au,16.0,15.362270977419197,False,4.5,True
 light,"detail.html (Brazil, map)",page text,Reset filters,16.0,17.40432753274219,False,4.5,True
 light,"detail.html (Brazil, map)",page text,Selected country,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,Brazil,16.0,17.40432753274219,False,4.5,True
+light,"detail.html (Brazil, map)",page text,▾,16.0,7.004729208035935,False,4.5,True
 light,"detail.html (Brazil, map)",page text,Brazil,16.0,17.40432753274219,False,4.5,True
 light,"detail.html (Brazil, map)",page text,"3,000 guests (2.1 %)",16.0,17.40432753274219,False,4.5,True
 light,"detail.html (Brazil, map)",page text,Median stay: 3 nights,16.0,17.40432753274219,False,4.5,True
@@ -234,9 +238,14 @@ light,accessibility.html,page text,Reset filters,16.0,17.40432753274219,False,4.
 light,accessibility.html,page text,Enter: both hotels and all years again.,16.0,17.40432753274219,False,4.5,True
 light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
 light,accessibility.html,page text,Selected country list (detail screen),16.0,17.40432753274219,False,4.5,True
-light,accessibility.html,page text,"↑ / ↓: no country, one of the top 10 cou",16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,"Enter, Space or ↓ opens the list; ↑ / ↓ ",16.0,17.40432753274219,False,4.5,True
+light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Space,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,↓,16.0,15.27216678136665,False,4.5,True
 light,accessibility.html,page text,↑,16.0,15.27216678136665,False,4.5,True
 light,accessibility.html,page text,↓,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
+light,accessibility.html,page text,Escape,16.0,15.27216678136665,False,4.5,True
 light,accessibility.html,page text,Previous / Next (detail screen),16.0,17.40432753274219,False,4.5,True
 light,accessibility.html,page text,Enter: the country before or after in th,16.0,17.40432753274219,False,4.5,True
 light,accessibility.html,page text,Enter,16.0,15.27216678136665,False,4.5,True
@@ -350,7 +359,7 @@ dark,detail.html,page text,Chart,16.0,8.52991511590844,False,4.5,True
 dark,detail.html,page text,Map,16.0,7.224825558123231,False,4.5,True
 dark,detail.html,page text,Table,16.0,7.224825558123231,False,4.5,True
 dark,detail.html,page text,"When does each market travel, and how ea",17.0,14.89167928254765,False,4.5,True
-dark,detail.html,page text,Top 10 countries; bubble size: guests th,16.0,7.951122139016174,False,4.5,True
+dark,detail.html,page text,Top 10 countries with 20 stays or more i,16.0,7.951122139016174,False,4.5,True
 dark,detail.html,page text,Table,16.0,7.224825558123231,False,4.5,True
 dark,detail.html,page text,▶,16.0,7.224825558123231,False,4.5,True
 dark,detail.html,page text,Play,16.0,7.224825558123231,False,4.5,True
@@ -369,6 +378,8 @@ dark,detail.html,page text,Showing: Both hotels · All years (July 2,16.0,16.734
 dark,detail.html,page text,Both hotels · All years (July 2015 to Au,16.0,16.734034721106067,False,4.5,True
 dark,detail.html,page text,Reset filters,16.0,16.734034721106067,False,4.5,True
 dark,detail.html,page text,Selected country,16.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,No country,16.0,14.89167928254765,False,4.5,True
+dark,detail.html,page text,▾,16.0,7.951122139016174,False,4.5,True
 dark,detail.html,page text,No country selected. Choose one in the l,16.0,14.89167928254765,False,4.5,True
 dark,detail.html,page text,Previous,16.0,8.934811945754518,False,4.5,True
 dark,detail.html,page text,Next,16.0,7.224825558123231,False,4.5,True
@@ -406,7 +417,7 @@ dark,"detail.html (Brazil, map)",page text,Chart,16.0,7.224825558123231,False,4.
 dark,"detail.html (Brazil, map)",page text,Map,16.0,8.52991511590844,False,4.5,True
 dark,"detail.html (Brazil, map)",page text,Table,16.0,7.224825558123231,False,4.5,True
 dark,"detail.html (Brazil, map)",page text,"When does each market travel, and how ea",17.0,14.89167928254765,False,4.5,True
-dark,"detail.html (Brazil, map)",page text,Top 10 countries; bubble size: guests th,16.0,7.951122139016174,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Top 10 countries with 20 stays or more i,16.0,7.951122139016174,False,4.5,True
 dark,"detail.html (Brazil, map)",page text,Table,16.0,7.224825558123231,False,4.5,True
 dark,"detail.html (Brazil, map)",page text,▶,16.0,7.224825558123231,False,4.5,True
 dark,"detail.html (Brazil, map)",page text,Play,16.0,7.224825558123231,False,4.5,True
@@ -425,6 +436,8 @@ dark,"detail.html (Brazil, map)",page text,Showing: Both hotels · All years (Ju
 dark,"detail.html (Brazil, map)",page text,Both hotels · All years (July 2015 to Au,16.0,16.734034721106067,False,4.5,True
 dark,"detail.html (Brazil, map)",page text,Reset filters,16.0,16.734034721106067,False,4.5,True
 dark,"detail.html (Brazil, map)",page text,Selected country,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,Brazil,16.0,14.89167928254765,False,4.5,True
+dark,"detail.html (Brazil, map)",page text,▾,16.0,7.951122139016174,False,4.5,True
 dark,"detail.html (Brazil, map)",page text,Brazil,16.0,14.89167928254765,False,4.5,True
 dark,"detail.html (Brazil, map)",page text,"3,000 guests (2.1 %)",16.0,14.89167928254765,False,4.5,True
 dark,"detail.html (Brazil, map)",page text,Median stay: 3 nights,16.0,14.89167928254765,False,4.5,True
@@ -514,9 +527,14 @@ dark,accessibility.html,page text,Reset filters,16.0,14.89167928254765,False,4.5
 dark,accessibility.html,page text,Enter: both hotels and all years again.,16.0,14.89167928254765,False,4.5,True
 dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
 dark,accessibility.html,page text,Selected country list (detail screen),16.0,14.89167928254765,False,4.5,True
-dark,accessibility.html,page text,"↑ / ↓: no country, one of the top 10 cou",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,"Enter, Space or ↓ opens the list; ↑ / ↓ ",16.0,14.89167928254765,False,4.5,True
+dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Space,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,↓,16.0,11.286032758204732,False,4.5,True
 dark,accessibility.html,page text,↑,16.0,11.286032758204732,False,4.5,True
 dark,accessibility.html,page text,↓,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
+dark,accessibility.html,page text,Escape,16.0,11.286032758204732,False,4.5,True
 dark,accessibility.html,page text,Previous / Next (detail screen),16.0,14.89167928254765,False,4.5,True
 dark,accessibility.html,page text,Enter: the country before or after in th,16.0,14.89167928254765,False,4.5,True
 dark,accessibility.html,page text,Enter,16.0,11.286032758204732,False,4.5,True
