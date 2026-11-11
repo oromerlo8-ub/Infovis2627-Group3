@@ -187,3 +187,5 @@ Format: `date | task | what | who decided | why`
 2026-11-11 | Parts 1-6 | Rebuilt all six PDFs on A4 paper (same layout, fonts and margins) | Guillem | All PDFs must be A4
 2026-11-11 | 6.7 | Removed the sections "Shortcuts of this dashboard", "Screen readers and browsers" and "Accessibility problems?" from accessibility.html, and the reference to the contact from the chart error message; the two help-page items (shortcuts, contact) are now not met | Guillem | Students' decision
 2026-11-11 | Part 5 | Rebuilt part5_interaction.pdf from the students' edited md (A4) | Guillem | The PDF must say the same as the md
+2026-11-11 | Part 7 | Wrote the longer version of part7_reflections.md (about 150 words per section) from the ideas of the short version; short version unchanged | Guillem | Requested by the students
+2026-11-11 | Part 7 | Created part7_reflections.pdf from the students' final md (A4, same layout as Parts 1-6) | Guillem | Part 7 needs its PDF
