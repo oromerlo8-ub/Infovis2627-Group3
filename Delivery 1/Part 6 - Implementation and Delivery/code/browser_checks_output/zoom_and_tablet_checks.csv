@@ -1,7 +1,7 @@
-case,page,page scrolls sideways,filters under the charts,Tab stops,Tab stops not visible,charts that scroll inside their box
-200 % zoom (1280 x 800 at 200 %),index.html,False,True,14,0,c1
-200 % zoom (1280 x 800 at 200 %),detail.html,False,True,15,0,-
-tablet landscape 1024 x 768,index.html,False,True,14,0,-
-tablet landscape 1024 x 768,detail.html,False,True,15,0,-
-tablet portrait 768 x 1024,index.html,False,True,14,0,c1
-tablet portrait 768 x 1024,detail.html,False,True,15,0,-
+case,page,page scrolls sideways,one column (filters under the charts),"every chart drawn, taller than 100 px",Tab stops,Tab stops not visible,charts that scroll inside their box
+200 % zoom (1536 x 864 at 200 %),index.html,False,True,True,16,0,-
+200 % zoom (1536 x 864 at 200 %),detail.html,False,True,True,23,0,-
+tablet landscape 1024 x 768,index.html,False,True,True,16,0,-
+tablet landscape 1024 x 768,detail.html,False,True,True,23,0,-
+tablet portrait 768 x 1024,index.html,False,True,True,16,0,-
+tablet portrait 768 x 1024,detail.html,False,True,True,23,0,-

@@ -1,6 +1,12 @@
 ,distinct values
-hotel (colour + line style),2
-"arrival month, timeline (x axis)",26
-calendar month (x axis of Q3),12
-countries shown: top 10 + Other (y axis),11
+hotel (colour + line style + point shape),2
+"arrival month, timeline (x axis of C1 and C3)",26
+"calendar month (columns of C2, frames of C9)",12
+hotel and year (rows of C2),6
+classes of % cancelled (colour of C2),7
+"countries on the axis: top 10 + Other (C4, C7, C8)",11
+countries on the axis with one chosen from the list,12
+"bubbles: top 10, plus one chosen from the list (C9)",11
+other countries in the list (at least 20 stays),53
+classes of guests (colour of the C5 map),5
 all countries with a name (map),178

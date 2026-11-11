@@ -1,0 +1,28 @@
+group,item,result,evidence
+Perception,Text contrast at least 4.5:1 (3:1 large text and UI),met,"345 visible texts measured on the three pages, lowest ratio 4.70:1; graphics colours checked in Part 4 (lines 4.70 and 6.09, bars 8.66, orange 4.83:1)"
+Perception,Colour is never the only channel (plus pattern or shape),met,"Hotels: colour + line style + point shape + label; selected country: orange + white stripes + dark outline + bold label + text; map classes named in the legend, values in the table"
+Perception,Each chart has a text alternative (figcaption + .sr-only),met,Short text (SVG aria-label and figcaption) and long text with the main values for the current filters
+Perception,"SVG renderer only, never canvas",met,Checked at first load
+Perception,Animations respect prefers-reduced-motion,met,Checked with the setting on
+Comprehensibility,Every control has an associated label,met,"Every link, button, input, select and summary has a name"
+Comprehensibility,State changes are announced with aria-live,met,"Showing line, Selected month / country boxes, chart live regions, hidden announcer"
+Comprehensibility,The page language is declared,met,"lang=""en"" on the three pages"
+Comprehensibility,"Data in an external file, not in the HTML",met (adapted),"data.js loaded with script src instead of data.json, so the pages open by double-click (architecture.md)"
+Comprehensibility,Chart titles in plain language (COGA),met,"Titles are Natalia's questions, for example 'In which months are most bookings cancelled?'"
+Comprehensibility,Numbers with thousands separators and explicit units,met,"Tooltips, boxes, KPIs and tables: 145,980 guests, 37.1 %, €94.5"
+Comprehensibility,Active filters always visible,met,"""Showing"" line under the filters"
+Comprehensibility,Reset button always visible,met,In the filter panel of both screens
+Comprehensibility,Errors say what happened and how to solve it,met (no error case),"Every filter combination has data, so no empty state exists; if a chart cannot be drawn its box says so and points to the table and the help page"
+Comprehensibility,At most 4 KPIs and 2-3 charts visible at once,met,"Main: 4 KPIs, 3 charts; detail: 4 KPIs, 2 charts and 3 more only after ""Show more"""
+Comprehensibility,Icons always with a visible text label,met,No icon-only control; the arrows of the data tables sit next to their text
+Comprehensibility,Legends fixed and not truncated,met,Direct labels at the end of each line; the map legend is fixed with its labels in full
+Robustness,"Valid HTML (no duplicate attributes, closed tags)",met,html-validate 11.16.3: no errors
+Robustness,ARIA roles used correctly,met,"No broken aria-labelledby / describedby / controls reference, no duplicate id"
+Robustness,"SVG charts have role=""img"" and aria-label",met,Set on every chart after drawing
+Robustness,Works at 200 % browser zoom without loss of content,met,"At 200 % and at tablet widths the filters move under the charts and the page does not scroll sideways; wide charts keep their size and scroll inside their own box (2-D content, WCAG 1.4.10 exception)"
+Help page,accessibility.html exists in the same folder as index.html,met,"English name, as architecture.md decides"
+Help page,The link to it is visible from the main dashboard,met,In the header of both screens
+Help page,"It explains general navigation, navigation in the charts and the filters",met,Sections: Moving around a page; Moving inside a chart; Filters and other controls
+Help page,It lists the shortcuts of the dashboard (or says there are none),met,It says there are no extra shortcuts
+Help page,It gives a contact to report problems,met (no address),"Students' decision: Group 3 through the course's virtual campus, without an e-mail address"
+Course plan (Part 4),Text at least 12 px in the charts and 16 px in the page,met,"Chart texts below 12 px: 0. Page texts below 16 px: none (raised to 16 px in task 6.8, students' decision); all of them scale with the browser zoom"

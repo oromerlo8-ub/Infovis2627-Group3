@@ -1,11 +1,9 @@
-chart,width px,height px,slot,fits,"rule lines, August 2016 linked","rule lines, no month linked"
-C1,940,293,960 x 300,True,1.0,0.0
-C2,443,224,472 x 244,True,1.0,0.0
-C3,450,224,472 x 244,True,1.0,0.0
-C4,474,431,520 x 500,True,,
-C6,359,413,424 x 500,True,,
-C7,414,328,472 x 340,True,,
-C8,414,328,472 x 340,True,,
-C5,760,344,960 x 420,True,,
-C6 (United Kingdom selected),392,413,424 x 500,True,,
-C6 (United States selected),379,413,424 x 500,True,,
+chart,width and height,"linked-month marks, August 2016 linked","linked-month marks, no month linked"
+C1,container x container,1.0,0.0
+C2,container x container,2.0,0.0
+C3,container x container,1.0,0.0
+C4,container x container,,
+C5,container x container,,
+C9,container x container,,
+C7,container x container,,
+C8,container x container,,

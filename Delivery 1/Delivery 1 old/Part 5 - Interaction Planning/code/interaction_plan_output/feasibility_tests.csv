@@ -1,0 +1,10 @@
+interaction,result,how
+I1 Hotel filter,compiled to SVG,Vega-Altair parameter / selection
+I2 Year filter,compiled to SVG,Vega-Altair parameter / selection
+I3 Filters kept between screens,no chart feature needed,HTML link with ?hotel=&year= read by JavaScript
+I4 Reset filters,no chart feature needed,HTML button that sets the parameters back with view.signal()
+I5 Linked month highlight,compiled to SVG,Vega-Altair parameter / selection
+I6 Tooltips,compiled to SVG,Vega-Altair parameter / selection
+I7 Select a country,compiled to SVG,Vega-Altair parameter / selection
+I8 Show more,no chart feature needed,HTML button with aria-expanded that shows a hidden section
+I9 Sort toggle,compiled to SVG,Vega-Altair parameter / selection

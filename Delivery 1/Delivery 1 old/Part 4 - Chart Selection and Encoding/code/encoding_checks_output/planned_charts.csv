@@ -1,0 +1,9 @@
+chart,question,screen,mark,x,y,color,other
+C1 Guests per month,Q1,Main,line,arrival month (temporal),"guests of stays (quantitative, sum)","hotel (nominal, 2)",strokeDash = hotel; separate point layer with shape = hotel
+C2 Cancellation rate per month,Q5,Main,line,arrival month (temporal),% bookings cancelled (quantitative),"hotel (nominal, 2)",strokeDash = hotel
+C3 Median price per month,Q7,Main,line,arrival month (temporal),median price per night (quantitative),"hotel (nominal, 2)",strokeDash = hotel
+C4 Guests by country,Q2,Detail,bar,% of guests (quantitative),"country, top 10 + Other (nominal, 11)",none (one colour),column facet = hotel (2)
+C5 Map of guests,Q2,Detail (expand),geoshape,-,-,"% of guests (quantitative, sequential)",country shape
+C6 Season of the selected country,Q3,Detail,line,"calendar month (temporal, month unit)",% of the group's guests (quantitative),"group: selected country / all guests (nominal, 2)",strokeDash = group
+C7 Nights per country,Q4,Detail (expand),bar,median nights (quantitative),"country, top 10 (nominal, 10)",none,-
+C8 Booking advance per country,Q6,Detail (expand),bar,median lead time in days (quantitative),"country, top 10 (nominal, 10)",none,-

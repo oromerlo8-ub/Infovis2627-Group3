@@ -1,33 +1,58 @@
 interaction,check,passes,seen in the page
 I1 Hotel filter,"KPI stays = City Hotel, all years",True,"46,082"
-I1 Hotel filter,C1-C3 draw only the 26 City Hotel months,True,"{'c1': 26, 'c2': 26, 'c3': 26}"
-I1 Hotel filter,"""Showing"" (a live region) announces City Hotel",True,City Hotel (Lisbon) · All years (July 2015 to August 2017)
+I1 Hotel filter,C1-C3 draw only the 26 City Hotel months (points and heatmap cells),True,"{'c1': 26, 'c2': 26, 'c3': 26}"
+I1 Hotel filter,"""Showing"" (a live region) says City Hotel",True,City Hotel (Lisbon) · All years (July 2015 to August 2017)
 I2 Year filter,"KPI guests = City Hotel, 2016",True,"44,421"
 I2 Year filter,C1-C3 draw the 12 months of 2016,True,"{'c1': 12, 'c2': 12, 'c3': 12}"
-I2 Year filter,"""Showing"" announces 2016",True,City Hotel (Lisbon) · 2016
+I2 Year filter,"""Showing"" says 2016",True,City Hotel (Lisbon) · 2016
 I3 Filters kept between screens,the link to the detail screen carries the filters,True,detail.html?hotel=City+Hotel&year=2016
-I5 Linked month,pointing at August 2016 in C1 writes its exact values in the box (a live region),True,"August 2016City Hotel: 4,836 guests, 37.0 % of bookings cancelled, median price €115.7"
-I5 Linked month,"a dashed rule marks August 2016 in C1, C2 and C3",True,"{'c1': 1, 'c2': 1, 'c3': 1}"
+I5 Linked month,pointing at August 2016 in C1 writes its exact values in the box (a live region),True,"August 2016City Hotel: 4,836 guests, 37.0 % cancelled, €115.7 per night"
+I5 Linked month,"a rule marks August 2016 in C1 and C3, and an outline its cell in the C2 heatmap",True,"({'c1': 1, 'c3': 1}, 1)"
 I6 Tooltips,"the tooltip shows the month, the hotel and the guests with separators",True,"MonthAugust 2016HotelCity HotelGuests who stayed4,836Stays (bookings not cancelled)2,123"
-I5 Linked month,the month stays linked when the pointer leaves,True,"{'c1': 1, 'c2': 1, 'c3': 1}"
+I5 Linked month,the month stays linked when the pointer leaves,True,"{'c1': 1, 'c3': 1}"
+I5 Linked month,pointing at the March 2016 cell of the heatmap links March 2016 in the three charts,True,"March 2016City Hotel: 3,711 guests, 36.4"
 I4 Reset filters,"KPIs back to both hotels, all years",True,"75,007"
 I4 Reset filters,controls back to Both and All,True,radio and select
 I4 Reset filters,the reset is announced,True,"Filters reset: Both hotels, All years (July 2015 to August 2017)."
-I4 Reset filters,C1-C3 draw all 52 points again,True,"{'c1': 52, 'c2': 52, 'c3': 52}"
+I4 Reset filters,C1-C3 draw all 52 points and cells again,True,"{'c1': 52, 'c2': 52, 'c3': 52}"
+I11 Table view,the Table button swaps C1 for its table (26 months) and says so with aria-pressed,True,"{'pressed': 'true', 'chart_hidden': True, 'rows': 26, 'caption': 'Data of the chart ""In which months do the city and the resort receive most guests?"": Both hote"
+I11 Table view,"pressed again, the chart comes back, drawn",True,"[False, 52]"
+I12 Night mode,the button turns the page and the charts dark (City line sky blue) and is announced,True,"{'theme': 'dark', 'pressed': 'true', 'announcer': 'Night mode on.', 'background': 'rgb(18, 18, 18)', 'city_line': True, 'light_city_line': False}"
+I12 Night mode,the choice is remembered when the page is opened again,True,after reload
+I12 Night mode,"pressed again, back to the light theme",True,light
+Notes about the data,the button opens the notes with the focus inside; Escape closes them and the focus goes back,True,"([True, True], [False, 'open-notes'])"
 I3 Filters kept between screens,the detail screen opens with City Hotel and 2016 chosen,True,City Hotel (Lisbon) · 2016
 I3 Filters kept between screens,"its KPI ""countries of origin"" is the City Hotel 2016 value",True,125
-I3 Filters kept between screens,C4 has one panel (11 bars),True,"{'c4': 11, 'c6': 24, 'c7': 11, 'c8': 11, 'c5': 110}"
-I7 Select a country,Portugal selected at first load; Previous disabled at the first bar,True,"Portugal37,655 guests (25.8 % of all)Median stay: 2 nightsMedian advance: 13 daysBookings cancelled: 56.7 %"
-I7 Select a country,a click on the France bar writes France and its guests in the box (a live region),True,"France17,299 guests (11.9 % of all)Median stay: 3 nightsMedian advance: 53 daysBookings cancelled: 18.6 %"
-I7 Select a country,"France is orange and striped in C4 (2 panels), C7 and C8",True,"{'c4': 2, 'c7': 1, 'c8': 1}"
-I7 Select a country,the KPIs follow the selection,True,"{'Countries of origin': '165', 'Largest market': 'Portugal', 'Guests from France': '17,299', 'France: bookings cancelled': '18.6\xa0%'}"
-I7 Select a country,Next goes to the following bar (Spain),True,"Spain13,213 guests (9.1 % of all)Median stay: 3 nightsMedian advance: 25 daysBookings cancelled: 25.4 %"
-I7 Select a country,Previous twice goes back to United Kingdom,True,"United Kingdom19,246 guests (13.2 % of all)Median stay: 4 nightsMedian advance: 98 daysBookings cancelled: 20.2 %"
-I7 Select a country,the name United Kingdom fits at the end of its line in C6,True,True
-I9 Sort toggle,C4 becomes alphabetical with Other last,True,"['Belgium', 'France', 'Germany', 'Ireland', 'Italy', 'Netherlands', 'Portugal', 'Spain', 'United Kingdom', 'United States', 'Other']"
+I3 Filters kept between screens,C4 has one dot per country (11),True,"{'c4': 11, 'c9': 7, 'c7': 11, 'c8': 11}"
+I7 Select a country,"no country selected at first: KPIs for all guests, 10 bubbles, nothing highlighted, ""No country"" disabled",True,"No country selected. Choose one in the list, or click a coun"
+I7 Select a country,a click on a France dot writes France and its guests in the box (a live region),True,"France17,299 guests (11.9 %)Median stay: 3 nightsMedian adva"
+I7 Select a country,"France is highlighted in the four charts: 2 outlined dots, a striped box in C7 and C8, a green bubble",True,"{'c4': 2, 'c7': 1, 'c8': 1, 'c9': 1, 'c5': 0}"
+I7 Select a country,the KPIs follow the selection,True,"{'Countries of origin': '165', 'Largest market': 'Portugal', 'Guests from France': '17,299', 'France: cancelled': '18.6 %'}"
+I7 Select a country,a second click on France clears the selection,True,No country selected.
+I7 Select a country,a click on a bubble selects its country (Germany),True,Germany
+I7 Select a country,a click on the Germany box clears it again,True,
+I7 Select a country,"the country list marks with a point every country without 20 stays in every month (no bubble), and not Other",True,48 marked
+I7 Select a country,"Brazil, chosen in the list (outside the top 10), is added at the top of C4 and C7 and as an 11th bubble",True,"(['Brazil', 'Portugal', 'United Kingdom'], 11)"
+I7 Select a country,its values are written in the box and the KPIs,True,"Brazil3,000 guests (2.1 %)Median stay: 3 nightsMedian advanc"
+I7 Previous / Next,Previous is disabled on the first country,True,True
+Fits the screen,"with a country selected, the filter panel still fits 1536 x 864 without scrolling",True,False
+I7 Previous / Next,Next goes to the first country by guests (Portugal); Brazil leaves the charts,True,"['Portugal', 'United Kingdom']"
+I7 Previous / Next,Next again goes to United Kingdom,True,United Kingdom
+I9 Sort toggle,C4 and C7 become alphabetical with Other last,True,"['Belgium', 'France', 'Germany', 'Ireland', 'Italy', 'Netherlands', 'Portugal', 'Spain', 'United Kingdom', 'United States', 'Other']"
 I9 Sort toggle,the new order is announced,True,"Countries sorted alphabetically, Other last."
-I9 Sort toggle,the selected country stays selected,True,"{'c4': 2, 'c7': 1, 'c8': 1}"
+I9 Sort toggle,the selected country stays selected,True,"{'c4': 2, 'c7': 1, 'c8': 1, 'c9': 1, 'c5': 0}"
 I9 Sort toggle,back to the order by guests,True,"['Portugal', 'United Kingdom', 'France', 'Spain', 'Germany', 'Ireland', 'Italy', 'Belgium', 'Netherlands', 'United States', 'Other']"
-I8 Show more,the hidden charts appear and aria-expanded becomes true,True,"aria-expanded=true, C7 box {'x': 16, 'y': 778.078125, 'width': 421, 'height': 327}"
-I8 Show more,a second press hides them again,True,false
-I1 Hotel filter,on the detail screen: C4 shows one panel and the KPIs change,True,118
+I7 Select a country,"""No country"" clears the selection and the focus moves to the list (the button is then disabled)",True,country-select
+I8 Chart / Map switch,"Map replaces the dumbbell by the map in the same box, with the map's title, and is announced",True,"{'c4_hidden': True, 'map': 136, 'title': 'Where do the guests come from?', 'announcer': 'Map of the guests per country shown.'}"
+I8 Chart / Map switch,a click on a country of the map selects it (Spain) and outlines it,True,"{'c4': 2, 'c7': 1, 'c8': 1, 'c9': 1, 'c5': 1}"
+I8 Chart / Map switch,"with the table view on, the switch shows the table of the map (every country with guests) and of the dumbbell",True,"(165, 11)"
+I8 Chart / Map switch,"back to the dumbbell chart, drawn",True,C4 dots
+I10 Play the year,"Play moves the bubbles one month every 1.5 s, says so, and becomes Pause",True,"(3, '❚❚ Pause')"
+I10 Play the year,Pause stops it on the month shown,True,"(3, 3)"
+I10 Play the year,"the bubbles, the slider and its label show the same month",True,March
+I10 Play the year,the slider works with the keyboard (End: December),True,December
+I10 Play the year,"at the last month, Play starts again from January",True,1
+I11 Table view,the Table button of the box plots shows both tables (11 countries each),True,"[11, 11, True]"
+I1 Hotel filter,on the detail screen: C4 shows one dot per country and the KPIs change,True,118
+I7 Select a country,"the points of the country list follow the filters (Resort Hotel, 2015)",True,60 marked
+I2 Year filter,with 2015 (July to December only) the month slider of C9 runs from 7 to 12,True,"['7', '12']"

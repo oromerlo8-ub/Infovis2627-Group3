@@ -1,3 +1,5 @@
-page,"lang=""en""",errors or warnings,files from the internet,charts drawn as SVG,charts expected,KPIs filled in,skip links,headings = chart titles
-index.html,True,0,0,3,3,4,2,True
-detail.html,True,0,0,5,5,4,2,True
+page,system theme,page theme,"lang=""en""",errors or warnings,files from the internet,charts drawn as SVG,charts expected,KPIs filled in,skip links,titles and captions = chart specs,fits 1536 x 864 without scrolling
+index.html,light,light,True,0,0,3,3,4,2,True,True
+detail.html,light,light,True,0,0,4,4,4,2,True,True
+index.html,dark,dark,True,0,0,3,3,4,2,True,True
+detail.html,dark,dark,True,0,0,4,4,4,2,True,True

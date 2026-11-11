@@ -1,7 +1,15 @@
-,hex,contrast on white,needed,pass
-City Hotel line (Tol blue),#4477AA,4.7,3:1 (graphics),True
-Resort Hotel line (Tol purple),#AA3377,6.09,3:1 (graphics),True
-Single-colour bars (dark blue),#1F4E79,8.66,3:1 (graphics),True
-Focus ring,#0066CC,5.57,3:1 (graphics),True
-"Secondary text (axis labels, source)",#595959,7.0,4.5:1 (text),True
-"Main text (titles, values)",#1A1A1A,17.4,4.5:1 (text),True
+use,theme,hex,chart box,contrast,needed,pass
+City Hotel,light,#0072B2,#FFFFFF,5.19,3:1,True
+City Hotel,night,#56B4E9,#1E1E1E,7.22,3:1,True
+Resort Hotel,light,#D55E00,#FFFFFF,3.87,3:1,True
+Resort Hotel,night,#E69F00,#1E1E1E,7.4,3:1,True
+Selected country,light,#009E73,#FFFFFF,3.42,3:1,True
+Selected country,night,#009E73,#1E1E1E,4.87,3:1,True
+Outline of the other countries,light,#595959,#FFFFFF,7.0,3:1,True
+Outline of the other countries,night,#B3B3B3,#1E1E1E,7.95,3:1,True
+Focus ring,light,#0066CC,#FFFFFF,5.57,3:1,True
+Focus ring,night,#56B4E9,#1E1E1E,7.22,3:1,True
+Secondary text,light,#595959,#FFFFFF,7.0,4.5:1,True
+Secondary text,night,#B3B3B3,#1E1E1E,7.95,4.5:1,True
+Main text,light,#1A1A1A,#FFFFFF,17.4,4.5:1,True
+Main text,night,#F2F2F2,#1E1E1E,14.89,4.5:1,True

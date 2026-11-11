@@ -1,0 +1,9 @@
+page,KPI,value,context
+index.html,Stays,"75,007","bookings not cancelled, of 119,201"
+index.html,Guests,"145,980",people in those stays
+index.html,Bookings cancelled,37.1 %,"of 119,201 bookings; duplicates included (see note)"
+index.html,Median price per night,€94.5,median of stays with a price; euros assumed
+detail.html,Countries of origin,165,countries with guests (known country)
+detail.html,Largest market,Portugal,25.8 % of the guests
+detail.html,Guests from Portugal,"37,655",25.8 % of all guests
+detail.html,Portugal: bookings cancelled,56.7 %,"of 48,476 bookings; duplicates included"

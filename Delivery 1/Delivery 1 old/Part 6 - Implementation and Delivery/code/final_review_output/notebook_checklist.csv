@@ -1,0 +1,11 @@
+,build_dashboard.ipynb,browser_checks.ipynb
+"pandas only (no polars, dask, vaex, spark)",True,True
+"run top to bottom (counts 1..n), no error",True,True
+every code cell has an output,True,True
+"title cell (title, source, date, authors, description)",True,True
+contents cell second,True,True
+sections 1 to 6 in order,True,True
+decisions or findings explained in Markdown,9,4
+"no debug code (pdb, breakpoint, TODO)",True,True
+conclusions cell last,True,True
+code cells,35,22

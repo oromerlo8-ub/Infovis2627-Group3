@@ -6,5 +6,8 @@ I4 Reset filters,no chart feature needed,HTML button that sets the parameters ba
 I5 Linked month highlight,compiled to SVG,Vega-Altair parameter / selection
 I6 Tooltips,compiled to SVG,Vega-Altair parameter / selection
 I7 Select a country,compiled to SVG,Vega-Altair parameter / selection
-I8 Show more,no chart feature needed,HTML button with aria-expanded that shows a hidden section
+I8 Chart / Map switch,no chart feature needed,HTML radio buttons that show one of two chart boxes (hidden attribute)
 I9 Sort toggle,compiled to SVG,Vega-Altair parameter / selection
+I10 Play the year,compiled to SVG,Vega-Altair parameter / selection
+I11 Table view,no chart feature needed,HTML button with aria-pressed that swaps the chart for a table built from the same data
+I12 Night mode,compiled to SVG,"light colours swapped for the night ones in the spec, as the page does"

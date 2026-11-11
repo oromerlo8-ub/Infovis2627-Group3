@@ -1,0 +1,57 @@
+chart,hard rule,result
+C1 Guests per month,line has x and y,pass
+C1 Guests per month,line not discrete on both x and y,"pass (x temporal, y quantitative)"
+C1 Guests per month,discrete colour with 20 categories or fewer,pass (2)
+C1 Guests per month,colour and strokeDash use the same field on different channels (no channel used twice),pass
+C1 Guests per month,same field not on x and y,pass
+C1 Guests per month,no stacking with mean or median,pass (no stacking)
+C1 Guests per month,no size with nominal fields,pass (size not used)
+C1 Guests per month,shape only with point marks and at most 8 values,"pass (shape on a separate point layer, 2 hotels)"
+C2 Cancellation rate per month,line has x and y,pass
+C2 Cancellation rate per month,line not discrete on both x and y,"pass (x temporal, y quantitative)"
+C2 Cancellation rate per month,discrete colour with 20 categories or fewer,pass (2)
+C2 Cancellation rate per month,colour and strokeDash use the same field on different channels (no channel used twice),pass
+C2 Cancellation rate per month,same field not on x and y,pass
+C2 Cancellation rate per month,no stacking with mean or median,pass (no stacking)
+C2 Cancellation rate per month,no size with nominal fields,pass (size not used)
+C3 Median price per month,line has x and y,pass
+C3 Median price per month,line not discrete on both x and y,"pass (x temporal, y quantitative)"
+C3 Median price per month,discrete colour with 20 categories or fewer,pass (2)
+C3 Median price per month,colour and strokeDash use the same field on different channels (no channel used twice),pass
+C3 Median price per month,same field not on x and y,pass
+C3 Median price per month,no stacking with mean or median,pass (no stacking)
+C3 Median price per month,no size with nominal fields,pass (size not used)
+C4 Guests by country,bars and areas include zero,pass (x scale from 0)
+C4 Guests by country,no log scale with bars,pass (linear scale)
+C4 Guests by country,bar not continuous on both x and y,pass (y is nominal)
+C4 Guests by country,at most 50 categories on an axis (soft) / 12 nominal values (soft),"pass for 10; 11 with Other, just under the 12 limit"
+C4 Guests by country,column requires a discrete field and an x encoding,"pass (hotel is nominal, x is set)"
+C4 Guests by country,same field not on x and y,pass
+C4 Guests by country,no stacking with mean or median,pass (no stacking)
+C4 Guests by country,no size with nominal fields,pass (size not used)
+C5 Map of guests,DRACO,"not covered: DRACO has no rules for maps (said so, not guessed)"
+C5 Map of guests,same field not on x and y,pass
+C5 Map of guests,no stacking with mean or median,pass (no stacking)
+C5 Map of guests,no size with nominal fields,pass (size not used)
+C5 Map of guests,shape only with point marks and at most 8 values,"pass (shape on a separate point layer, 2 hotels)"
+C6 Season of the selected country,line has x and y,pass
+C6 Season of the selected country,line not discrete on both x and y,"pass (x temporal, y quantitative)"
+C6 Season of the selected country,discrete colour with 20 categories or fewer,pass (2)
+C6 Season of the selected country,colour and strokeDash use the same field on different channels (no channel used twice),pass
+C6 Season of the selected country,same field not on x and y,pass
+C6 Season of the selected country,no stacking with mean or median,pass (no stacking)
+C6 Season of the selected country,no size with nominal fields,pass (size not used)
+C7 Nights per country,bars and areas include zero,pass (x scale from 0)
+C7 Nights per country,no log scale with bars,pass (linear scale)
+C7 Nights per country,bar not continuous on both x and y,pass (y is nominal)
+C7 Nights per country,at most 50 categories on an axis (soft) / 12 nominal values (soft),pass (10)
+C7 Nights per country,same field not on x and y,pass
+C7 Nights per country,no stacking with mean or median,pass (no stacking)
+C7 Nights per country,no size with nominal fields,pass (size not used)
+C8 Booking advance per country,bars and areas include zero,pass (x scale from 0)
+C8 Booking advance per country,no log scale with bars,pass (linear scale)
+C8 Booking advance per country,bar not continuous on both x and y,pass (y is nominal)
+C8 Booking advance per country,at most 50 categories on an axis (soft) / 12 nominal values (soft),pass (10)
+C8 Booking advance per country,same field not on x and y,pass
+C8 Booking advance per country,no stacking with mean or median,pass (no stacking)
+C8 Booking advance per country,no size with nominal fields,pass (size not used)

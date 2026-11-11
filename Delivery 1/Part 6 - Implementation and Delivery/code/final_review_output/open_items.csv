@@ -1,12 +1,16 @@
 checklist,item,result,evidence
-DRACO,Maps,outside DRACO,"C5 judged with the GeoHandout: TopoJSON, Equal Earth projection, map of the data period"
+DRACO,Soft: the main quantitative field is on position,adapted,"C2 shows the % cancelled by colour classes and dots (a calendar heatmap, students' choice for a more varied dashboard); exact values in tooltips, value box and table; all other measures are on position"
+DRACO,Maps,outside DRACO,"C5 judged with the GeoHandout: TopoJSON, Equal Earth projection, map of the data period, classes named in the legend"
 Data-viz,Works on mobile without sideways scrolling,not applicable (adapted),Computer or tablet only (architecture.md); at 200 % zoom and tablet widths no sideways scrolling
+Data-viz,One focal chart takes at least 40 % of the area,partly met,"Main screen: C1 takes 46 %; detail screen: the largest box (the two box plots) takes 39 %, the other two 22 % each"
 Notebook,Data exported to a file separate from the HTML,met (adapted),"data.js instead of data.json (opens by double-click, architecture.md)"
-WCAG,Navigation controls fit on a phone,not applicable,The dashboard is for a computer or a tablet (architecture.md): designed at 1280 x 800 px and checked down to a 768 px wide tablet
+WCAG,Navigation controls fit on a phone,not applicable,The dashboard is for a computer or a tablet (architecture.md): designed for a 16:9 screen and checked down to a 768 px wide tablet
 WCAG,The SVG focus indicator is drawn in its own group above the marks (correct z-order),met (adapted),"Drawn in an SVG overlay outside Vega's SVG, the ""correct solution"" of the same skill section; never covered by titles or legends"
-WCAG,Never CSS outline on SVG elements; stroke / circle / rhombus by mark type,met (adapted),"Bars and countries: double rectangle; points: double circle; no line mark takes the focus (the points of each line do), so no rhombus is needed"
-WCAG,Touch targets at least 24 x 24 px (44 recommended),partly met,"Buttons, links, the select and the radio rows are 44 px high and radios 24 px; the data points (about 8 px) are smaller, but every one is also reachable by keyboard, Previous/Next and the nearest-point pointer selection"
+WCAG,Never CSS outline on SVG elements; stroke / circle / rhombus by mark type,met (adapted),"Boxes, cells and countries: double rectangle; points and bubbles: double circle; no line mark takes the focus (the points of each line do), so no rhombus is needed"
+WCAG,Touch targets at least 24 x 24 px (44 recommended),partly met,"Every control is at least 24 px (WCAG 2.5.8): links, buttons and selects 40 px high, radio rows, the switch, Table and Play 32 px, the month slider 24 px, smaller than the 44 px of the first build so that each screen fits a 16:9 window; the data points (about 8 px) are smaller, but every one is also reachable by keyboard, the list of countries and Previous / Next (section 4.6)"
 WCAG,"Data in an external file, not in the HTML",met (adapted),"data.js loaded with script src instead of data.json, so the pages open by double-click (architecture.md)"
-WCAG,Errors say what happened and how to solve it,met (no error case),"Every filter combination has data, so no empty state exists; if a chart cannot be drawn its box says so and points to the table and the help page"
-WCAG,It gives a contact to report problems,met (no address),"Students' decision: Group 3 through the course's virtual campus, without an e-mail address"
+WCAG,Errors say what happened and how to solve it,met (no error case),"Every filter combination has data, so no empty state exists; if a chart cannot be drawn its box says so and points to the table"
+WCAG,It lists the shortcuts of the dashboard (or says there are none),not met,Students' decision: the section was removed; the keys of every control are in the table of the page
+WCAG,It gives a contact to report problems,not met,Students' decision: the contact section was removed
 WCAG (testing),"Test with a real screen reader (NVDA, JAWS or VoiceOver)",not done,"Only the DOM, the live regions and the keyboard were checked in a headless browser"
+Architecture,Differences from architecture.md after the refinement,to approve,"One more file (dashboard/theme.js, the night mode); the detail screen has 3 chart boxes, the map shares one with C4; the page is designed for 1536 x 864 instead of 1280 x 800"

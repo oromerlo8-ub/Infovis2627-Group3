@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotel guests in Lisbon and the Algarve: countries of the guests</title>
+  <meta name="description" content="Which countries the guests of the two hotels come from, when each market travels, how long its guests stay and how far ahead they book.">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <!-- Fill pattern of the selected country: orange with white diagonal stripes (pattern-rules) -->
+  <svg class="pattern-defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <pattern id="pattern-selected" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+        <rect width="8" height="8" fill="#B35900"/>
+        <line x1="0" y1="0" x2="0" y2="8" stroke="#FFFFFF" stroke-width="2.5"/>
+      </pattern>
+    </defs>
+  </svg>
+  <a class="skip-link" href="#charts">Skip to the charts</a>
+  <a class="skip-link" href="#filters">Skip to the filters</a>
+
+  <div class="page">
+    <header class="site-header">
+      <div>
+        <h1>Hotel guests in Lisbon and the Algarve</h1>
+        <p class="subtitle">Countries of the guests · Data: July 2015 to August 2017, Antonio et al. (2019)</p>
+      </div>
+      <nav aria-label="Dashboard screens">
+        <ul>
+          <li><a href="index.html" id="link-other-screen">Main screen</a></li>
+          <li><a href="detail.html" aria-current="page">Countries of the guests</a></li>
+          <li><a href="accessibility.html">Accessibility help</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section aria-labelledby="kpi-heading">
+        <h2 id="kpi-heading" class="sr-only">Key figures for the selected filters and country</h2>
+        <dl class="kpis">
+          <div class="kpi">
+            <dt>Countries of origin</dt>
+            <dd><span class="kpi-value" id="kpi-countries">–</span><span class="kpi-context" id="kpi-countries-context"></span></dd>
+          </div>
+          <div class="kpi">
+            <dt>Largest market</dt>
+            <dd><span class="kpi-value" id="kpi-largest">–</span><span class="kpi-context" id="kpi-largest-context"></span></dd>
+          </div>
+          <div class="kpi">
+            <dt id="kpi-country-guests-label">Guests from the selected country</dt>
+            <dd><span class="kpi-value" id="kpi-country-guests">–</span><span class="kpi-context" id="kpi-country-guests-context"></span></dd>
+          </div>
+          <div class="kpi">
+            <dt id="kpi-country-cancel-label">Selected country: bookings cancelled</dt>
+            <dd><span class="kpi-value" id="kpi-country-cancel">–</span><span class="kpi-context" id="kpi-country-cancel-context"></span></dd>
+          </div>
+        </dl>
+      </section>
+
+      <section id="charts" aria-labelledby="charts-heading" tabindex="-1">
+        <h2 id="charts-heading" class="sr-only">Charts</h2>
+        <div class="chart-grid detail-screen">
+          <figure class="chart" aria-labelledby="c4-title" aria-describedby="c4-description">
+            <h3 id="c4-title" class="sr-only">Which countries do the guests come from?</h3>
+            <div id="c4" class="chart-container"></div>
+            <fieldset class="sort-toggle">
+              <legend>Order of the bars:</legend>
+              <div class="radio"><input type="radio" id="sort-guests" name="sort" value="guests" checked><label for="sort-guests">By guests</label></div>
+              <div class="radio"><input type="radio" id="sort-alphabetical" name="sort" value="alphabetical"><label for="sort-alphabetical">Alphabetical</label></div>
+            </fieldset>
+            <details class="data-table">
+              <summary>Data table of this chart</summary>
+              <div id="c4-table"></div>
+            </details>
+            <figcaption id="c4-description" class="sr-only"><span id="c4-short">Bar chart of the share of guests from each of the ten main countries and Other, one panel per hotel, with the selected country highlighted.</span> <span id="c4-long"></span></figcaption>
+          </figure>
+          <figure class="chart" aria-labelledby="c6-title" aria-describedby="c6-description">
+            <h3 id="c6-title" class="sr-only">When does the selected market travel?</h3>
+            <div id="c6" class="chart-container"></div>
+            <details class="data-table">
+              <summary>Data table of this chart</summary>
+              <div id="c6-table"></div>
+            </details>
+            <figcaption id="c6-description" class="sr-only"><span id="c6-short">Line chart of the share of guests in each calendar month, for the selected country and for all guests.</span> <span id="c6-long"></span></figcaption>
+          </figure>
+          <button type="button" class="show-more" id="show-more" aria-expanded="false" aria-controls="more-charts">Show more: length of stay, booking advance and map</button>
+          <section class="more-charts" id="more-charts" aria-labelledby="more-heading" hidden>
+            <h2 id="more-heading" class="sr-only">More charts about the countries</h2>
+          <figure class="chart" aria-labelledby="c7-title" aria-describedby="c7-description">
+            <h3 id="c7-title" class="sr-only">How long do guests from each market stay?</h3>
+            <div id="c7" class="chart-container"></div>
+            <details class="data-table">
+              <summary>Data table of this chart</summary>
+              <div id="c7-table"></div>
+            </details>
+            <figcaption id="c7-description" class="sr-only"><span id="c7-short">Bar chart of the median number of nights per stay for each country, with the selected country highlighted.</span> <span id="c7-long"></span></figcaption>
+          </figure>
+          <figure class="chart" aria-labelledby="c8-title" aria-describedby="c8-description">
+            <h3 id="c8-title" class="sr-only">How far in advance does each market book?</h3>
+            <div id="c8" class="chart-container"></div>
+            <details class="data-table">
+              <summary>Data table of this chart</summary>
+              <div id="c8-table"></div>
+            </details>
+            <figcaption id="c8-description" class="sr-only"><span id="c8-short">Bar chart of the median number of days between booking and arrival for each country, with the selected country highlighted.</span> <span id="c8-long"></span></figcaption>
+          </figure>
+          <figure class="chart chart-map" aria-labelledby="c5-title" aria-describedby="c5-description">
+            <h3 id="c5-title" class="sr-only">Where do the guests come from?</h3>
+            <div id="c5" class="chart-container"></div>
+            <details class="data-table">
+              <summary>Data table of this chart</summary>
+              <div id="c5-table"></div>
+            </details>
+            <figcaption id="c5-description" class="sr-only"><span id="c5-short">World map of the number of guests from each country, in five classes.</span> <span id="c5-long"></span></figcaption>
+          </figure>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <aside class="filters" id="filters" aria-labelledby="filters-heading" tabindex="-1">
+      <h2 id="filters-heading">Filters</h2>
+      <fieldset>
+        <legend>Hotel</legend>
+        <div class="radio"><input type="radio" id="hotel-both" name="hotel" value="Both" checked><label for="hotel-both">Both hotels</label></div>
+        <div class="radio"><input type="radio" id="hotel-city" name="hotel" value="City Hotel"><label for="hotel-city">City Hotel (Lisbon)</label></div>
+        <div class="radio"><input type="radio" id="hotel-resort" name="hotel" value="Resort Hotel"><label for="hotel-resort">Resort Hotel (Algarve)</label></div>
+      </fieldset>
+      <div class="field">
+        <label class="field-label" for="year">Year of arrival</label>
+        <select id="year" name="year" aria-describedby="year-hint">
+          <option value="All" selected>All years</option>
+          <option value="2015">2015 (Jul – Dec)</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017 (Jan – Aug)</option>
+        </select>
+        <p class="hint" id="year-hint">2015 and 2017 are partial years: compare their totals with care.</p>
+      </div>
+      <p class="active-filters" role="status" aria-live="polite">Showing: <strong id="active-filters-text">Both hotels · All years</strong></p>
+      <button type="button" class="button" id="reset-filters">Reset filters</button>
+      <section class="selection-box" aria-labelledby="country-heading">
+        <h3 id="country-heading">Selected country</h3>
+        <div id="country-details" role="status" aria-live="polite" aria-atomic="true">
+          <p>Portugal</p>
+        </div>
+        <div class="button-row">
+          <button type="button" class="button secondary" id="previous-country">Previous</button>
+          <button type="button" class="button secondary" id="next-country">Next</button>
+        </div>
+        <p class="hint">Shown in the bar charts with orange stripes and a dark outline. Or click a bar in a chart.</p>
+      </section>
+    </aside>
+
+    <div id="announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+    <footer class="site-footer">
+      <p>Source: Antonio, N., de Almeida, A. and Nunes, L. (2019). Hotel booking demand datasets. <i>Data in Brief</i>, 22, 41–49. Two hotels in Portugal: a city hotel in Lisbon and a resort in the Algarve.</p>
+      <p>Data: arrivals from 1 July 2015 to 31 August 2017 (2015 and 2017 are partial years). Dashboard made on 5 November 2026 by Group 3, Presentation and Visualization.</p>
+      <p>Note: 26.8&nbsp;% of the rows repeat an earlier row and are kept, so counts and cancellation rates may be too high. Prices: the currency is not stated; euros are assumed.</p>
+    </footer>
+  </div>
+
+  <!-- Data, chart specs and the local copies of the Vega libraries (no internet needed) -->
+  <script src="data.js"></script>
+  <script src="specs.js"></script>
+  <script src="lib/vega-6.2.0.min.js"></script>
+  <script src="lib/vega-lite-6.4.1.min.js"></script>
+  <script src="lib/vega-embed-7.1.0.min.js"></script>
+  <script src="dashboard.js"></script>
+  <script>
+    startDashboard(['c4', 'c6', 'c7', 'c8', 'c5']);
+  </script>
+</body>
+</html>

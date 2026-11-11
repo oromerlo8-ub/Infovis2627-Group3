@@ -1,0 +1,12 @@
+check,table value,expected,agrees
+month_hotel: bookings,119201,119201,True
+month_hotel: cancelled,44194,44194,True
+month_hotel: stays,75007,75007,True
+month_hotel: guests,145980,145980,True
+country_month: bookings,119201,119201,True
+country_month: guests,145980,145980,True
+country_map: guests + Unknown,145980,145980,True
+"filter_kpis (Both, All): guests",145980,145980,True
+"filter_kpis (Both, All): stays",75007,75007,True
+"country_medians (Both, All): guests",145980,145980,True
+filter_kpis: City + Resort guests = Both (All years),145980,145980,True

@@ -42,49 +42,19 @@ C1,text,same_field_x_and_y: different fields,True
 C1,text,color_with_cardinality_gt_twenty: 2 colours,True
 C1,text,text mark if and only if text channel,True
 C1,text,stack_without_summative_agg: no stacking of means or medians,True
-C2,rule,no_encodings: at least one encoding,True
-C2,rule,enc_type_valid: x temporal on a date field,True
-C2,rule,"no log scale (log_q, area_bar_with_log)",True
-C2,rule,text mark if and only if text channel,True
-C2,rule,stack_without_summative_agg: no stacking of means or medians,True
-C2,point,no_encodings: at least one encoding,True
-C2,point,enc_type_valid: x temporal on a date field,True
-C2,point,enc_type_valid: y quantitative on a numeric field,True
-C2,point,"no log scale (log_q, area_bar_with_log)",True
-C2,point,point_tick_bar_without_x_or_y: has x or y,True
-C2,point,same_field_x_and_y: different fields,True
-C2,point,text mark if and only if text channel,True
-C2,point,stack_without_summative_agg: no stacking of means or medians,True
-C2,line,no_encodings: at least one encoding,True
-C2,line,enc_type_valid: x temporal on a date field,True
-C2,line,enc_type_valid: y quantitative on a numeric field,True
-C2,line,"no log scale (log_q, area_bar_with_log)",True
-C2,line,line_area_without_x_y: has x and y,True
-C2,line,line_area_with_discrete: x and y not both discrete,True
-C2,line,same_field_x_and_y: different fields,True
-C2,line,color_with_cardinality_gt_twenty: 2 colours,True
-C2,line,text mark if and only if text channel,True
-C2,line,stack_without_summative_agg: no stacking of means or medians,True
-C2,point,no_encodings: at least one encoding,True
-C2,point,enc_type_valid: x temporal on a date field,True
-C2,point,enc_type_valid: y quantitative on a numeric field,True
-C2,point,"no log scale (log_q, area_bar_with_log)",True
-C2,point,point_tick_bar_without_x_or_y: has x or y,True
-C2,point,same_field_x_and_y: different fields,True
-C2,point,color_with_cardinality_gt_twenty: 2 colours,True
-C2,point,shape_without_point: shape only with point marks,True
-C2,point,shape_discrete_non_ordered: shape on a nominal field,True
-C2,point,shape_with_cardinality_gt_eight: 2 shapes,True
-C2,point,text mark if and only if text channel,True
-C2,point,stack_without_summative_agg: no stacking of means or medians,True
-C2,text,no_encodings: at least one encoding,True
-C2,text,enc_type_valid: x temporal on a date field,True
-C2,text,enc_type_valid: y quantitative on a numeric field,True
-C2,text,"no log scale (log_q, area_bar_with_log)",True
-C2,text,same_field_x_and_y: different fields,True
-C2,text,color_with_cardinality_gt_twenty: 2 colours,True
-C2,text,text mark if and only if text channel,True
-C2,text,stack_without_summative_agg: no stacking of means or medians,True
+C2,rect,no_encodings: at least one encoding,True
+C2,rect,"no log scale (log_q, area_bar_with_log)",True
+C2,rect,rect_without_d_d: rect on a discrete x and a discrete y,True
+C2,rect,same_field_x_and_y: different fields,True
+C2,rect,color_with_cardinality_gt_twenty: 7 colours,True
+C2,rect,text mark if and only if text channel,True
+C2,rect,stack_without_summative_agg: no stacking of means or medians,True
+C2,rect,no_encodings: at least one encoding,True
+C2,rect,"no log scale (log_q, area_bar_with_log)",True
+C2,rect,rect_without_d_d: rect on a discrete x and a discrete y,True
+C2,rect,same_field_x_and_y: different fields,True
+C2,rect,text mark if and only if text channel,True
+C2,rect,stack_without_summative_agg: no stacking of means or medians,True
 C3,rule,no_encodings: at least one encoding,True
 C3,rule,enc_type_valid: x temporal on a date field,True
 C3,rule,"no log scale (log_q, area_bar_with_log)",True
@@ -128,47 +98,93 @@ C3,text,same_field_x_and_y: different fields,True
 C3,text,color_with_cardinality_gt_twenty: 2 colours,True
 C3,text,text mark if and only if text channel,True
 C3,text,stack_without_summative_agg: no stacking of means or medians,True
-C4,bar,no_encodings: at least one encoding,True
-C4,bar,enc_type_valid: x quantitative on a numeric field,True
-C4,bar,"no log scale (log_q, area_bar_with_log)",True
-C4,bar,bar_tick_continuous_x_y: not continuous on both x and y,True
-C4,bar,bar_area_without_zero: the continuous axis includes zero,True
-C4,bar,point_tick_bar_without_x_or_y: has x or y,True
-C4,bar,same_field_x_and_y: different fields,True
-C4,bar,text mark if and only if text channel,True
-C4,bar,row_or_column_c: column on a discrete field,True
-C4,bar,column_no_x: column used with a x encoding,True
-C4,bar,stack_without_summative_agg: no stacking of means or medians,True
-C6,line,no_encodings: at least one encoding,True
-C6,line,enc_type_valid: x temporal on a date field,True
-C6,line,enc_type_valid: y quantitative on a numeric field,True
-C6,line,"no log scale (log_q, area_bar_with_log)",True
-C6,line,line_area_without_x_y: has x and y,True
-C6,line,line_area_with_discrete: x and y not both discrete,True
-C6,line,same_field_x_and_y: different fields,True
-C6,line,color_with_cardinality_gt_twenty: 2 colours,True
-C6,line,text mark if and only if text channel,True
-C6,line,stack_without_summative_agg: no stacking of means or medians,True
-C6,point,no_encodings: at least one encoding,True
-C6,point,enc_type_valid: x temporal on a date field,True
-C6,point,enc_type_valid: y quantitative on a numeric field,True
-C6,point,"no log scale (log_q, area_bar_with_log)",True
-C6,point,point_tick_bar_without_x_or_y: has x or y,True
-C6,point,same_field_x_and_y: different fields,True
-C6,point,color_with_cardinality_gt_twenty: 2 colours,True
-C6,point,shape_without_point: shape only with point marks,True
-C6,point,shape_discrete_non_ordered: shape on a nominal field,True
-C6,point,shape_with_cardinality_gt_eight: 2 shapes,True
-C6,point,text mark if and only if text channel,True
-C6,point,stack_without_summative_agg: no stacking of means or medians,True
-C6,text,no_encodings: at least one encoding,True
-C6,text,enc_type_valid: x temporal on a date field,True
-C6,text,enc_type_valid: y quantitative on a numeric field,True
-C6,text,"no log scale (log_q, area_bar_with_log)",True
-C6,text,same_field_x_and_y: different fields,True
-C6,text,color_with_cardinality_gt_twenty: 2 colours,True
-C6,text,text mark if and only if text channel,True
-C6,text,stack_without_summative_agg: no stacking of means or medians,True
+C4,rect,no_encodings: at least one encoding,True
+C4,rect,"no log scale (log_q, area_bar_with_log)",True
+C4,rect,text mark if and only if text channel,True
+C4,rect,stack_without_summative_agg: no stacking of means or medians,True
+C4,rule,no_encodings: at least one encoding,True
+C4,rule,enc_type_valid: x quantitative on a numeric field,True
+C4,rule,"no log scale (log_q, area_bar_with_log)",True
+C4,rule,same_field_x_and_y: different fields,True
+C4,rule,text mark if and only if text channel,True
+C4,rule,stack_without_summative_agg: no stacking of means or medians,True
+C4,point,no_encodings: at least one encoding,True
+C4,point,enc_type_valid: x quantitative on a numeric field,True
+C4,point,"no log scale (log_q, area_bar_with_log)",True
+C4,point,point_tick_bar_without_x_or_y: has x or y,True
+C4,point,same_field_x_and_y: different fields,True
+C4,point,color_with_cardinality_gt_twenty: 2 colours,True
+C4,point,shape_without_point: shape only with point marks,True
+C4,point,shape_discrete_non_ordered: shape on a nominal field,True
+C4,point,shape_with_cardinality_gt_eight: 2 shapes,True
+C4,point,size_nominal: size not on a nominal field,True
+C4,point,text mark if and only if text channel,True
+C4,point,stack_without_summative_agg: no stacking of means or medians,True
+C9,circle,no_encodings: at least one encoding,True
+C9,circle,enc_type_valid: size quantitative on a numeric field,True
+C9,circle,enc_type_valid: x quantitative on a numeric field,True
+C9,circle,enc_type_valid: y quantitative on a numeric field,True
+C9,circle,"no log scale (log_q, area_bar_with_log)",True
+C9,circle,same_field_x_and_y: different fields,True
+C9,circle,size_nominal: size not on a nominal field,True
+C9,circle,text mark if and only if text channel,True
+C9,circle,stack_without_summative_agg: no stacking of means or medians,True
+C9,text,no_encodings: at least one encoding,True
+C9,text,"no log scale (log_q, area_bar_with_log)",True
+C9,text,text mark if and only if text channel,True
+C9,text,stack_without_summative_agg: no stacking of means or medians,True
+C9,line,no_encodings: at least one encoding,True
+C9,line,enc_type_valid: order quantitative on a numeric field,True
+C9,line,enc_type_valid: x quantitative on a numeric field,True
+C9,line,enc_type_valid: y quantitative on a numeric field,True
+C9,line,"no log scale (log_q, area_bar_with_log)",True
+C9,line,line_area_without_x_y: has x and y,True
+C9,line,line_area_with_discrete: x and y not both discrete,True
+C9,line,same_field_x_and_y: different fields,True
+C9,line,text mark if and only if text channel,True
+C9,line,stack_without_summative_agg: no stacking of means or medians,True
+C9,point,no_encodings: at least one encoding,True
+C9,point,enc_type_valid: x quantitative on a numeric field,True
+C9,point,enc_type_valid: y quantitative on a numeric field,True
+C9,point,"no log scale (log_q, area_bar_with_log)",True
+C9,point,point_tick_bar_without_x_or_y: has x or y,True
+C9,point,same_field_x_and_y: different fields,True
+C9,point,text mark if and only if text channel,True
+C9,point,stack_without_summative_agg: no stacking of means or medians,True
+C9,circle,no_encodings: at least one encoding,True
+C9,circle,enc_type_valid: order quantitative on a numeric field,True
+C9,circle,enc_type_valid: size quantitative on a numeric field,True
+C9,circle,enc_type_valid: x quantitative on a numeric field,True
+C9,circle,enc_type_valid: y quantitative on a numeric field,True
+C9,circle,"no log scale (log_q, area_bar_with_log)",True
+C9,circle,same_field_x_and_y: different fields,True
+C9,circle,size_nominal: size not on a nominal field,True
+C9,circle,text mark if and only if text channel,True
+C9,circle,stack_without_summative_agg: no stacking of means or medians,True
+C9,text,no_encodings: at least one encoding,True
+C9,text,enc_type_valid: x quantitative on a numeric field,True
+C9,text,enc_type_valid: y quantitative on a numeric field,True
+C9,text,"no log scale (log_q, area_bar_with_log)",True
+C9,text,same_field_x_and_y: different fields,True
+C9,text,text mark if and only if text channel,True
+C9,text,stack_without_summative_agg: no stacking of means or medians,True
+C9,text,no_encodings: at least one encoding,True
+C9,text,enc_type_valid: x quantitative on a numeric field,True
+C9,text,enc_type_valid: y quantitative on a numeric field,True
+C9,text,"no log scale (log_q, area_bar_with_log)",True
+C9,text,same_field_x_and_y: different fields,True
+C9,text,text mark if and only if text channel,True
+C9,text,stack_without_summative_agg: no stacking of means or medians,True
+C7,rect,no_encodings: at least one encoding,True
+C7,rect,"no log scale (log_q, area_bar_with_log)",True
+C7,rect,text mark if and only if text channel,True
+C7,rect,stack_without_summative_agg: no stacking of means or medians,True
+C7,rule,no_encodings: at least one encoding,True
+C7,rule,enc_type_valid: x quantitative on a numeric field,True
+C7,rule,"no log scale (log_q, area_bar_with_log)",True
+C7,rule,same_field_x_and_y: different fields,True
+C7,rule,text mark if and only if text channel,True
+C7,rule,stack_without_summative_agg: no stacking of means or medians,True
 C7,bar,no_encodings: at least one encoding,True
 C7,bar,enc_type_valid: x quantitative on a numeric field,True
 C7,bar,"no log scale (log_q, area_bar_with_log)",True
@@ -178,6 +194,24 @@ C7,bar,point_tick_bar_without_x_or_y: has x or y,True
 C7,bar,same_field_x_and_y: different fields,True
 C7,bar,text mark if and only if text channel,True
 C7,bar,stack_without_summative_agg: no stacking of means or medians,True
+C7,tick,no_encodings: at least one encoding,True
+C7,tick,enc_type_valid: x quantitative on a numeric field,True
+C7,tick,"no log scale (log_q, area_bar_with_log)",True
+C7,tick,bar_tick_continuous_x_y: not continuous on both x and y,True
+C7,tick,point_tick_bar_without_x_or_y: has x or y,True
+C7,tick,same_field_x_and_y: different fields,True
+C7,tick,text mark if and only if text channel,True
+C7,tick,stack_without_summative_agg: no stacking of means or medians,True
+C8,rect,no_encodings: at least one encoding,True
+C8,rect,"no log scale (log_q, area_bar_with_log)",True
+C8,rect,text mark if and only if text channel,True
+C8,rect,stack_without_summative_agg: no stacking of means or medians,True
+C8,rule,no_encodings: at least one encoding,True
+C8,rule,enc_type_valid: x quantitative on a numeric field,True
+C8,rule,"no log scale (log_q, area_bar_with_log)",True
+C8,rule,same_field_x_and_y: different fields,True
+C8,rule,text mark if and only if text channel,True
+C8,rule,stack_without_summative_agg: no stacking of means or medians,True
 C8,bar,no_encodings: at least one encoding,True
 C8,bar,enc_type_valid: x quantitative on a numeric field,True
 C8,bar,"no log scale (log_q, area_bar_with_log)",True
@@ -187,6 +221,14 @@ C8,bar,point_tick_bar_without_x_or_y: has x or y,True
 C8,bar,same_field_x_and_y: different fields,True
 C8,bar,text mark if and only if text channel,True
 C8,bar,stack_without_summative_agg: no stacking of means or medians,True
+C8,tick,no_encodings: at least one encoding,True
+C8,tick,enc_type_valid: x quantitative on a numeric field,True
+C8,tick,"no log scale (log_q, area_bar_with_log)",True
+C8,tick,bar_tick_continuous_x_y: not continuous on both x and y,True
+C8,tick,point_tick_bar_without_x_or_y: has x or y,True
+C8,tick,same_field_x_and_y: different fields,True
+C8,tick,text mark if and only if text channel,True
+C8,tick,stack_without_summative_agg: no stacking of means or medians,True
 "C5 (map, outside DRACO)",geoshape,no_encodings: a base-map layer draws its own outlines (geometry is the data),True
 "C5 (map, outside DRACO)",geoshape,"no log scale (log_q, area_bar_with_log)",True
 "C5 (map, outside DRACO)",geoshape,text mark if and only if text channel,True

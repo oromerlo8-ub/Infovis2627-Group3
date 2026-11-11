@@ -1,0 +1,21 @@
+issue,fields,kind,rows,needs_rule,% of rows
+Row identical to an earlier row,all fields,duplicate,31994,Yes,26.8
+company = NULL (no company),company,placeholder,112593,Yes,94.31
+agent = NULL (no agency),agent,placeholder,16340,Yes,13.69
+adr = 0,adr,odd value,1959,Yes,1.64
+meal = Undefined (= SC?),meal,placeholder,1169,Yes,0.98
+country = CN (CHN also used),country,incoherence,1279,Yes,1.07
+0 nights,"stays_in_weekend_nights, stays_in_week_nights",odd value,715,Yes,0.6
+country = NULL (real gap),country,placeholder,488,Yes,0.41
+0 adults,adults,odd value,403,Yes,0.34
+0 guests in total,"adults, children, babies",odd value,180,Yes,0.15
+Check-Out status date is not arrival + nights,reservation_status_date,incoherence,27,Yes,0.02
+distribution_channel = Undefined,distribution_channel,placeholder,5,Yes,0.0
+children = NA,children,placeholder,4,Yes,0.0
+market_segment = Undefined,market_segment,placeholder,2,Yes,0.0
+babies = 9 or 10,babies,odd value,2,Yes,0.0
+adr below 0,adr,odd value,1,Yes,0.0
+"adr = 5,400 (next highest: 510)",adr,odd value,1,Yes,0.0
+Week number is not the ISO week (coherent Sunday rule),arrival_date_week_number,incoherence,64054,"No, only document",53.65
+Status date before the first arrival (early cancellations),reservation_status_date,incoherence,2350,"No, it is correct",1.97
+reservation_status repeats is_canceled,"reservation_status, is_canceled",redundancy,119390,"No, but never use it to explain cancellations",100.0

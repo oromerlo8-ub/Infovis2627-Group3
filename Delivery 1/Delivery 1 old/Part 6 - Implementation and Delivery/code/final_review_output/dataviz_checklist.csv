@@ -1,0 +1,9 @@
+item,result,evidence
+The dashboard title says what it shows,met,"""Hotel guests in Lisbon and the Algarve"" and a subtitle per screen"
+Every chart has a descriptive title and axis labels with units,met,"Titles are Natalia's questions; axes: guests, %, € per night, nights, days"
+Colour-blind-safe palette,met,"Paul Tol bright blue and purple, dark blue and dark orange; deuteranopia checked in Part 4 and task 6.3"
+Tooltips with units and useful information,met,"Month, hotel, value with separators and unit; checked in the browser"
+Data source and date visible,met,"Header subtitle (source, period) and footer (full citation, date made, notes)"
+Works on mobile without sideways scrolling,not applicable (adapted),Computer or tablet only (architecture.md); at 200 % zoom and tablet widths no sideways scrolling
+An initial state with data visible,met,"Both hotels, all years, Portugal selected; all charts and KPIs at first load"
+Filters have a reset option,met,Reset button always visible on both screens

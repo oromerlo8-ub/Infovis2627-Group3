@@ -1,41 +1,43 @@
 # Part 4. Selection of Charts and Encoding
 
-Group 3, Presentation and Visualization, Infovis2627
+Group 3
 
-## Charts for each question
+## Seasonal demand
 
-Each chart answers one of Natalia's questions and was chosen by its function in the Visual Vocabulary. Every chart passes the DRACO hard rules that apply to it; the map is outside DRACO and is judged with the course's GeoHandout.
+To compare the hotels’ busy seasons, we plotted monthly guest numbers on the same axes. We gave this chart 46% of the main screen so the peaks in the two lines are easy to compare (Figure 1). We used the same timeline for nightly rates, from July 2015 to August 2017, because only 2016 has a full year of observations. For cancellations, we gave each hotel and year its own row in a calendar heatmap. August always falls in the same column, making it easy to compare that month across hotels and years.
 
-| Question | Function | Chart |
-|----------------|----------------|----------------------------------------|
-| Q1 busiest months | Evolution over time | C1 line chart of guests per month, July 2015 to August 2017, one line per hotel |
-| Q5 cancellations | Evolution over time | C2 line chart of the cancellation rate per month |
-| Q7 price | Evolution over time | C3 line chart of the median price per night per month |
-| Q2 countries | Ranking, spatial | C4 sorted horizontal bars, top 10 countries and Other, one panel per hotel; C5 small map |
-| Q3 season per market | Evolution over time | C6 line chart of the selected country's guests per month against all guests |
-| Q4 length of stay | Magnitude | C7 sorted bars of median nights per country |
-| Q6 booking advance | Magnitude | C8 sorted bars of median lead time per country |
+| Question | Chart | What we show |
+|---|---|---|
+| Q1. Busiest months | Line chart | Monthly guest numbers for each hotel |
+| Q5. Cancellations | Calendar heatmap | Percentage of bookings cancelled each month |
+| Q7. Nightly rate | Line chart | Median price per night for each hotel |
+| Q2. Guest origins | Paired dots or map | Each country’s share of guests at each hotel |
+| Q3. Travel season | Animated bubbles | Monthly arrivals and booking lead time by market |
+| Q4. Length of stay | Box plots | Median and spread of nights per stay |
+| Q6. Booking lead time | Box plots | Median and spread of days booked ahead |
 
-C1 to C3 use the full timeline instead of pooled calendar months, because only 2016 is complete; C6 pools months, but it compares a country with all guests over the same months, so the extra July and August weigh on both lines alike. Bars start at zero and are sorted, so position and length, the most accurate channels, carry every value, and medians are used because the data is skewed.
+## Guest origins and travel habits
 
-## Encoding, colour and accessibility
+On the detail screen, we put the two hotels’ dots on the same row for each market. If the dots sit close together, that country accounts for a similar share of guests at both hotels. The same space can display a map when the question is where those markets are located (Figure 2).
 
-The two hotels use blue and purple from Paul Tol's bright palette (Figure 3). Both pass the 3:1 contrast for graphics, but with Natalia's deuteranopia they are almost equally light, so each hotel also has its own line style, point shape and a direct label at the end of its line: redundant coding (Ware G5.11) and Gestalt proximity replace the legend. Bars use a single dark blue, so no fill patterns are needed. C2 and C3 repeat the time axis of C1 directly below it, so a month is read in the same place in the three charts (Gestalt proximity and similarity), and the country panels share one scale, so the hotels are compared by position. All 28 items of our accessibility plan were reviewed: twelve are solved by this design and the rest are planned for Parts 5 and 6.
+In the animation, each bubble represents a market. As the months advance, its position shows how far ahead guests booked and what share of that market’s annual guests arrived that month, while its size shows the guest count. We placed the box plots side by side to show, for example, whether guests from one market tend to stay a similar number of nights even when they book at very different times. This gives the detail screen three chart areas, the largest taking 39% of the available space, just below our 40% target.
 
-## Prototype
+## Colour and readability
 
-Both screens share one frame (Figures 1 and 2): title, skip and help links, four KPIs, a filter panel on the right with the active filters and a reset button, and a footer with the source and the duplicates note. The main screen answers Q1, Q5 and Q7 with C1 as its focal point, taking 46 % of the content area. The detail screen answers Q2 and Q3 with C4 and C6; Q4, Q6 and the map wait behind "Show more", so no screen shows more than three charts, following the cognitive accessibility limits.
+Where the two hotel lines cross, their colours can be hard to distinguish. We gave each hotel a distinct line style, point shape and label as well as its own colour, blue for the city hotel and vermilion for the resort. We used the same cues on both screens. Denser dots mark higher cancellation rates on the heatmap’s seven purple shades. An outline, stripes or a bold label identifies the selected country alongside its green highlight. Each chart also has a table for exact values.
+
+We checked both themes with simulated deuteranopia (Figure 3). All data colours reached a contrast ratio of at least 3 to 1 against their backgrounds. The charts passed the applicable DRACO design checks, and we reviewed the map separately.
 
 ## Figures
 
-![Wireframe of the main screen: header, four KPI boxes, a large line chart, two smaller line charts and a filter panel on the right.](images/lowfi_main_screen.png)
+![Wireframe of the main screen: header, four KPI boxes, a large line chart, a calendar heatmap and a smaller line chart, and a filter panel on the right.](images/lowfi_main_screen.png)
 
-*Figure 1. Low-fidelity prototype of the main screen, 1280 × 800 px. Source: our design; code: lowfi_prototype.ipynb.*
+*Figure 1. Our main screen layout at 1536 × 864 pixels.*
 
-![Wireframe of the detail screen: header, four KPI boxes, country bars in two panels, a line chart and a Show more button.](images/lowfi_detail_screen.png)
+![Wireframe of the detail screen: header, four KPI boxes, a dumbbell chart with Chart and Map buttons, a bubble chart with a Play button and slider, two box plots side by side, and a filter panel with the selected country.](images/lowfi_detail_screen.png)
 
-*Figure 2. Low-fidelity prototype of the detail screen. Source: as Figure 1.*
+*Figure 2. Our layout for exploring guest origins and comparing markets.*
 
-![Colour swatches of the dashboard with hex codes and contrast ratios, shown with normal vision and with simulated deuteranopia.](images/palette_check.png)
+![Colour swatches of the dashboard with contrast ratios, in the light and night themes, with normal vision and with simulated deuteranopia, and the seven heatmap classes.](images/palette_check.png)
 
-*Figure 3. Dashboard colours with normal vision and simulated deuteranopia. Source: encoding_checks.ipynb.*
+*Figure 3. Hotel colours and heatmap shades in light and night mode, including simulated deuteranopia.*

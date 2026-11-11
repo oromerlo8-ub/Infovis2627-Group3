@@ -39,83 +39,197 @@ C4,Both,All,22,22,True
 C7,Both,All,11,11,True
 C8,Both,All,11,11,True
 C5,Both,All,136,136,True
-C6 (Portugal),Both,All,24,24,True
-C6 (United Kingdom),Both,All,24,24,True
-C6 (Other),Both,All,24,24,True
+C9 (month 01),Both,All,10,10,True
+C9 (month 02),Both,All,10,10,True
+C9 (month 03),Both,All,10,10,True
+C9 (month 04),Both,All,10,10,True
+C9 (month 05),Both,All,10,10,True
+C9 (month 06),Both,All,10,10,True
+C9 (month 07),Both,All,10,10,True
+C9 (month 08),Both,All,10,10,True
+C9 (month 09),Both,All,10,10,True
+C9 (month 10),Both,All,10,10,True
+C9 (month 11),Both,All,10,10,True
+C9 (month 12),Both,All,10,10,True
+C4 (Brazil selected),Both,All,24,24,True
+C7 (Brazil selected),Both,All,12,12,True
+"C9 (Brazil selected, August)",Both,All,11,11,True
 C4,Both,2015,22,22,True
 C7,Both,2015,11,11,True
 C8,Both,2015,11,11,True
 C5,Both,2015,89,89,True
-C6 (Portugal),Both,2015,12,12,True
-C6 (United Kingdom),Both,2015,12,12,True
-C6 (Other),Both,2015,12,12,True
+C9 (month 07),Both,2015,5,5,True
+C9 (month 08),Both,2015,5,5,True
+C9 (month 09),Both,2015,5,5,True
+C9 (month 10),Both,2015,5,5,True
+C9 (month 11),Both,2015,5,5,True
+C9 (month 12),Both,2015,5,5,True
+C4 (Brazil selected),Both,2015,24,24,True
+C7 (Brazil selected),Both,2015,12,12,True
+"C9 (Brazil selected, August)",Both,2015,5,5,True
 C4,Both,2016,22,22,True
 C7,Both,2016,11,11,True
 C8,Both,2016,11,11,True
 C5,Both,2016,116,116,True
-C6 (Portugal),Both,2016,24,24,True
-C6 (United Kingdom),Both,2016,24,24,True
-C6 (Other),Both,2016,24,24,True
+C9 (month 01),Both,2016,10,10,True
+C9 (month 02),Both,2016,10,10,True
+C9 (month 03),Both,2016,10,10,True
+C9 (month 04),Both,2016,10,10,True
+C9 (month 05),Both,2016,10,10,True
+C9 (month 06),Both,2016,10,10,True
+C9 (month 07),Both,2016,10,10,True
+C9 (month 08),Both,2016,10,10,True
+C9 (month 09),Both,2016,10,10,True
+C9 (month 10),Both,2016,10,10,True
+C9 (month 11),Both,2016,10,10,True
+C9 (month 12),Both,2016,10,10,True
+C4 (Brazil selected),Both,2016,24,24,True
+C7 (Brazil selected),Both,2016,12,12,True
+"C9 (Brazil selected, August)",Both,2016,11,11,True
 C4,Both,2017,22,22,True
 C7,Both,2017,11,11,True
 C8,Both,2017,11,11,True
 C5,Both,2017,117,117,True
-C6 (Portugal),Both,2017,16,16,True
-C6 (United Kingdom),Both,2017,16,16,True
-C6 (Other),Both,2017,16,16,True
+C9 (month 01),Both,2017,10,10,True
+C9 (month 02),Both,2017,10,10,True
+C9 (month 03),Both,2017,10,10,True
+C9 (month 04),Both,2017,10,10,True
+C9 (month 05),Both,2017,10,10,True
+C9 (month 06),Both,2017,10,10,True
+C9 (month 07),Both,2017,10,10,True
+C9 (month 08),Both,2017,10,10,True
+C4 (Brazil selected),Both,2017,24,24,True
+C7 (Brazil selected),Both,2017,12,12,True
+"C9 (Brazil selected, August)",Both,2017,11,11,True
 C4,City Hotel,All,11,11,True
 C7,City Hotel,All,11,11,True
 C8,City Hotel,All,11,11,True
 C5,City Hotel,All,127,127,True
-C6 (Portugal),City Hotel,All,24,24,True
-C6 (United Kingdom),City Hotel,All,24,24,True
-C6 (Other),City Hotel,All,24,24,True
+C9 (month 01),City Hotel,All,10,10,True
+C9 (month 02),City Hotel,All,10,10,True
+C9 (month 03),City Hotel,All,10,10,True
+C9 (month 04),City Hotel,All,10,10,True
+C9 (month 05),City Hotel,All,10,10,True
+C9 (month 06),City Hotel,All,10,10,True
+C9 (month 07),City Hotel,All,10,10,True
+C9 (month 08),City Hotel,All,10,10,True
+C9 (month 09),City Hotel,All,10,10,True
+C9 (month 10),City Hotel,All,10,10,True
+C9 (month 11),City Hotel,All,10,10,True
+C9 (month 12),City Hotel,All,10,10,True
+C4 (Brazil selected),City Hotel,All,12,12,True
+C7 (Brazil selected),City Hotel,All,12,12,True
+"C9 (Brazil selected, August)",City Hotel,All,11,11,True
 C4,City Hotel,2015,11,11,True
 C7,City Hotel,2015,11,11,True
 C8,City Hotel,2015,11,11,True
 C5,City Hotel,2015,80,80,True
-C6 (Portugal),City Hotel,2015,12,12,True
-C6 (United Kingdom),City Hotel,2015,12,12,True
-C6 (Other),City Hotel,2015,12,12,True
+C9 (month 07),City Hotel,2015,1,1,True
+C9 (month 08),City Hotel,2015,1,1,True
+C9 (month 09),City Hotel,2015,1,1,True
+C9 (month 10),City Hotel,2015,1,1,True
+C9 (month 11),City Hotel,2015,1,1,True
+C9 (month 12),City Hotel,2015,1,1,True
+C4 (Brazil selected),City Hotel,2015,12,12,True
+C7 (Brazil selected),City Hotel,2015,12,12,True
+"C9 (Brazil selected, August)",City Hotel,2015,1,1,True
 C4,City Hotel,2016,11,11,True
 C7,City Hotel,2016,11,11,True
 C8,City Hotel,2016,11,11,True
 C5,City Hotel,2016,110,110,True
-C6 (Portugal),City Hotel,2016,24,24,True
-C6 (United Kingdom),City Hotel,2016,24,24,True
-C6 (Other),City Hotel,2016,24,24,True
+C9 (month 01),City Hotel,2016,7,7,True
+C9 (month 02),City Hotel,2016,7,7,True
+C9 (month 03),City Hotel,2016,7,7,True
+C9 (month 04),City Hotel,2016,7,7,True
+C9 (month 05),City Hotel,2016,7,7,True
+C9 (month 06),City Hotel,2016,7,7,True
+C9 (month 07),City Hotel,2016,7,7,True
+C9 (month 08),City Hotel,2016,7,7,True
+C9 (month 09),City Hotel,2016,7,7,True
+C9 (month 10),City Hotel,2016,7,7,True
+C9 (month 11),City Hotel,2016,7,7,True
+C9 (month 12),City Hotel,2016,7,7,True
+C4 (Brazil selected),City Hotel,2016,12,12,True
+C7 (Brazil selected),City Hotel,2016,12,12,True
+"C9 (Brazil selected, August)",City Hotel,2016,8,8,True
 C4,City Hotel,2017,11,11,True
 C7,City Hotel,2017,11,11,True
 C8,City Hotel,2017,11,11,True
 C5,City Hotel,2017,110,110,True
-C6 (Portugal),City Hotel,2017,16,16,True
-C6 (United Kingdom),City Hotel,2017,16,16,True
-C6 (Other),City Hotel,2017,16,16,True
+C9 (month 01),City Hotel,2017,9,9,True
+C9 (month 02),City Hotel,2017,9,9,True
+C9 (month 03),City Hotel,2017,9,9,True
+C9 (month 04),City Hotel,2017,9,9,True
+C9 (month 05),City Hotel,2017,9,9,True
+C9 (month 06),City Hotel,2017,9,9,True
+C9 (month 07),City Hotel,2017,9,9,True
+C9 (month 08),City Hotel,2017,9,9,True
+C4 (Brazil selected),City Hotel,2017,12,12,True
+C7 (Brazil selected),City Hotel,2017,12,12,True
+"C9 (Brazil selected, August)",City Hotel,2017,10,10,True
 C4,Resort Hotel,All,11,11,True
 C7,Resort Hotel,All,11,11,True
 C8,Resort Hotel,All,11,11,True
 C5,Resort Hotel,All,105,105,True
-C6 (Portugal),Resort Hotel,All,24,24,True
-C6 (United Kingdom),Resort Hotel,All,24,24,True
-C6 (Other),Resort Hotel,All,24,24,True
+C9 (month 01),Resort Hotel,All,6,6,True
+C9 (month 02),Resort Hotel,All,6,6,True
+C9 (month 03),Resort Hotel,All,6,6,True
+C9 (month 04),Resort Hotel,All,6,6,True
+C9 (month 05),Resort Hotel,All,6,6,True
+C9 (month 06),Resort Hotel,All,6,6,True
+C9 (month 07),Resort Hotel,All,6,6,True
+C9 (month 08),Resort Hotel,All,6,6,True
+C9 (month 09),Resort Hotel,All,6,6,True
+C9 (month 10),Resort Hotel,All,6,6,True
+C9 (month 11),Resort Hotel,All,6,6,True
+C9 (month 12),Resort Hotel,All,6,6,True
+C4 (Brazil selected),Resort Hotel,All,12,12,True
+C7 (Brazil selected),Resort Hotel,All,12,12,True
+"C9 (Brazil selected, August)",Resort Hotel,All,6,6,True
 C4,Resort Hotel,2015,11,11,True
 C7,Resort Hotel,2015,11,11,True
 C8,Resort Hotel,2015,11,11,True
 C5,Resort Hotel,2015,67,67,True
-C6 (Portugal),Resort Hotel,2015,12,12,True
-C6 (United Kingdom),Resort Hotel,2015,12,12,True
-C6 (Other),Resort Hotel,2015,12,12,True
+C9 (month 07),Resort Hotel,2015,3,3,True
+C9 (month 08),Resort Hotel,2015,3,3,True
+C9 (month 09),Resort Hotel,2015,3,3,True
+C9 (month 10),Resort Hotel,2015,3,3,True
+C9 (month 11),Resort Hotel,2015,3,3,True
+C9 (month 12),Resort Hotel,2015,3,3,True
+C4 (Brazil selected),Resort Hotel,2015,12,12,True
+C7 (Brazil selected),Resort Hotel,2015,12,12,True
+"C9 (Brazil selected, August)",Resort Hotel,2015,3,3,True
 C4,Resort Hotel,2016,11,11,True
 C7,Resort Hotel,2016,11,11,True
 C8,Resort Hotel,2016,11,11,True
 C5,Resort Hotel,2016,86,86,True
-C6 (Portugal),Resort Hotel,2016,24,24,True
-C6 (United Kingdom),Resort Hotel,2016,24,24,True
-C6 (Other),Resort Hotel,2016,24,24,True
+C9 (month 01),Resort Hotel,2016,5,5,True
+C9 (month 02),Resort Hotel,2016,5,5,True
+C9 (month 03),Resort Hotel,2016,5,5,True
+C9 (month 04),Resort Hotel,2016,5,5,True
+C9 (month 05),Resort Hotel,2016,5,5,True
+C9 (month 06),Resort Hotel,2016,5,5,True
+C9 (month 07),Resort Hotel,2016,5,5,True
+C9 (month 08),Resort Hotel,2016,5,5,True
+C9 (month 09),Resort Hotel,2016,5,5,True
+C9 (month 10),Resort Hotel,2016,5,5,True
+C9 (month 11),Resort Hotel,2016,5,5,True
+C9 (month 12),Resort Hotel,2016,5,5,True
+C4 (Brazil selected),Resort Hotel,2016,12,12,True
+C7 (Brazil selected),Resort Hotel,2016,12,12,True
+"C9 (Brazil selected, August)",Resort Hotel,2016,5,5,True
 C4,Resort Hotel,2017,11,11,True
 C7,Resort Hotel,2017,11,11,True
 C8,Resort Hotel,2017,11,11,True
 C5,Resort Hotel,2017,79,79,True
-C6 (Portugal),Resort Hotel,2017,16,16,True
-C6 (United Kingdom),Resort Hotel,2017,16,16,True
-C6 (Other),Resort Hotel,2017,16,16,True
+C9 (month 01),Resort Hotel,2017,5,5,True
+C9 (month 02),Resort Hotel,2017,5,5,True
+C9 (month 03),Resort Hotel,2017,5,5,True
+C9 (month 04),Resort Hotel,2017,5,5,True
+C9 (month 05),Resort Hotel,2017,5,5,True
+C9 (month 06),Resort Hotel,2017,5,5,True
+C9 (month 07),Resort Hotel,2017,5,5,True
+C9 (month 08),Resort Hotel,2017,5,5,True
+C4 (Brazil selected),Resort Hotel,2017,12,12,True
+C7 (Brazil selected),Resort Hotel,2017,12,12,True
+"C9 (Brazil selected, August)",Resort Hotel,2017,5,5,True

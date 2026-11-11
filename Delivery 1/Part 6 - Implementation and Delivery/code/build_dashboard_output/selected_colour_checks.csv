@@ -1,4 +1,11 @@
-use,hex,contrast on white,compared with,CIELAB distance with deuteranopia,passes 3:1
-"Selected country (bars, C6 line)",#B35900,4.83,bar blue,90.13,True
-All guests (C6 line),#595959,7.0,selected orange,58.1,True
-Bars,#1F4E79,8.66,selected orange,90.13,True
+use,theme,hex,contrast on the chart box,compared with,CIELAB distance with deuteranopia,passes 3:1
+City Hotel,light,#0072B2,5.19,Resort Hotel,108.4,True
+City Hotel,dark,#56B4E9,7.22,Resort Hotel,111.4,True
+Resort Hotel,light,#D55E00,3.87,City Hotel,108.4,True
+Resort Hotel,dark,#E69F00,7.4,City Hotel,111.4,True
+Selected country,light,#009E73,3.42,fill of the other bubbles,26.5,True
+Selected country,dark,#009E73,4.87,fill of the other bubbles,24.9,True
+Selected country,light,#009E73,3.42,City Hotel,55.7,True
+Selected country,dark,#009E73,4.87,City Hotel,48.9,True
+Outline of the other bubbles,light,#595959,7.0,selected country,20.3,True
+Outline of the other bubbles,dark,#B3B3B3,7.95,selected country,19.5,True

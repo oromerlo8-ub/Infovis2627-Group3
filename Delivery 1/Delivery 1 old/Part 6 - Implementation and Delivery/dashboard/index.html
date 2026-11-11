@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotel guests in Lisbon and the Algarve: main screen</title>
+  <meta name="description" content="When the city hotel and the resort hotel receive guests, how many bookings are cancelled and how the price changes, July 2015 to August 2017.">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <a class="skip-link" href="#charts">Skip to the charts</a>
+  <a class="skip-link" href="#filters">Skip to the filters</a>
+
+  <div class="page">
+    <header class="site-header">
+      <div>
+        <h1>Hotel guests in Lisbon and the Algarve</h1>
+        <p class="subtitle">Guests, cancellations and price per month · Data: July 2015 to August 2017, Antonio et al. (2019)</p>
+      </div>
+      <nav aria-label="Dashboard screens">
+        <ul>
+          <li><a href="index.html" aria-current="page">Main screen</a></li>
+          <li><a href="detail.html" id="link-other-screen">Countries of the guests</a></li>
+          <li><a href="accessibility.html">Accessibility help</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section aria-labelledby="kpi-heading">
+        <h2 id="kpi-heading" class="sr-only">Key figures for the selected filters</h2>
+        <dl class="kpis">
+          <div class="kpi">
+            <dt>Stays</dt>
+            <dd><span class="kpi-value" id="kpi-stays">–</span><span class="kpi-context" id="kpi-stays-context"></span></dd>
+          </div>
+          <div class="kpi">
+            <dt>Guests</dt>
+            <dd><span class="kpi-value" id="kpi-guests">–</span><span class="kpi-context" id="kpi-guests-context"></span></dd>
+          </div>
+          <div class="kpi">
+            <dt>Bookings cancelled</dt>
+            <dd><span class="kpi-value" id="kpi-cancel">–</span><span class="kpi-context" id="kpi-cancel-context"></span></dd>
+          </div>
+          <div class="kpi">
+            <dt>Median price per night</dt>
+            <dd><span class="kpi-value" id="kpi-price">–</span><span class="kpi-context" id="kpi-price-context"></span></dd>
+          </div>
+        </dl>
+      </section>
+
+      <section id="charts" aria-labelledby="charts-heading" tabindex="-1">
+        <h2 id="charts-heading" class="sr-only">Charts</h2>
+        <div class="chart-grid main-screen">
+          <figure class="chart chart-main" aria-labelledby="c1-title" aria-describedby="c1-description">
+            <h3 id="c1-title" class="sr-only">In which months do the city and the resort receive most guests?</h3>
+            <div id="c1" class="chart-container"></div>
+            <details class="data-table">
+              <summary>Data table of this chart</summary>
+              <div id="c1-table"></div>
+            </details>
+            <figcaption id="c1-description" class="sr-only"><span id="c1-short">Line chart of the number of guests per month in the city hotel and the resort hotel.</span> <span id="c1-long"></span></figcaption>
+          </figure>
+          <figure class="chart" aria-labelledby="c2-title" aria-describedby="c2-description">
+            <h3 id="c2-title" class="sr-only">In which months are most bookings cancelled?</h3>
+            <div id="c2" class="chart-container"></div>
+            <details class="data-table">
+              <summary>Data table of this chart</summary>
+              <div id="c2-table"></div>
+            </details>
+            <figcaption id="c2-description" class="sr-only"><span id="c2-short">Line chart of the percentage of bookings cancelled per month in each hotel.</span> <span id="c2-long"></span></figcaption>
+          </figure>
+          <figure class="chart" aria-labelledby="c3-title" aria-describedby="c3-description">
+            <h3 id="c3-title" class="sr-only">How does the price per night change through the year?</h3>
+            <div id="c3" class="chart-container"></div>
+            <details class="data-table">
+              <summary>Data table of this chart</summary>
+              <div id="c3-table"></div>
+            </details>
+            <figcaption id="c3-description" class="sr-only"><span id="c3-short">Line chart of the median price per night per month in each hotel.</span> <span id="c3-long"></span></figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <aside class="filters" id="filters" aria-labelledby="filters-heading" tabindex="-1">
+      <h2 id="filters-heading">Filters</h2>
+      <fieldset>
+        <legend>Hotel</legend>
+        <div class="radio"><input type="radio" id="hotel-both" name="hotel" value="Both" checked><label for="hotel-both">Both hotels</label></div>
+        <div class="radio"><input type="radio" id="hotel-city" name="hotel" value="City Hotel"><label for="hotel-city">City Hotel (Lisbon)</label></div>
+        <div class="radio"><input type="radio" id="hotel-resort" name="hotel" value="Resort Hotel"><label for="hotel-resort">Resort Hotel (Algarve)</label></div>
+      </fieldset>
+      <div class="field">
+        <label class="field-label" for="year">Year of arrival</label>
+        <select id="year" name="year" aria-describedby="year-hint">
+          <option value="All" selected>All years</option>
+          <option value="2015">2015 (Jul – Dec)</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017 (Jan – Aug)</option>
+        </select>
+        <p class="hint" id="year-hint">2015 and 2017 are partial years: compare their totals with care.</p>
+      </div>
+      <p class="active-filters" role="status" aria-live="polite">Showing: <strong id="active-filters-text">Both hotels · All years</strong></p>
+      <button type="button" class="button" id="reset-filters">Reset filters</button>
+      <section class="selection-box" aria-labelledby="month-heading">
+        <h3 id="month-heading">Selected month</h3>
+        <div id="month-details" role="status" aria-live="polite" aria-atomic="true">
+          <p>Point at a month in any chart to compare the guests, cancellations and price of that month; a dashed line marks it in the three charts.</p>
+        </div>
+      </section>
+    </aside>
+
+    <div id="announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+    <footer class="site-footer">
+      <p>Source: Antonio, N., de Almeida, A. and Nunes, L. (2019). Hotel booking demand datasets. <i>Data in Brief</i>, 22, 41–49. Two hotels in Portugal: a city hotel in Lisbon and a resort in the Algarve.</p>
+      <p>Data: arrivals from 1 July 2015 to 31 August 2017 (2015 and 2017 are partial years). Dashboard made on 5 November 2026 by Group 3, Presentation and Visualization.</p>
+      <p>Note: 26.8&nbsp;% of the rows repeat an earlier row and are kept, so counts and cancellation rates may be too high. Prices: the currency is not stated; euros are assumed.</p>
+    </footer>
+  </div>
+
+  <!-- Data, chart specs and the local copies of the Vega libraries (no internet needed) -->
+  <script src="data.js"></script>
+  <script src="specs.js"></script>
+  <script src="lib/vega-6.2.0.min.js"></script>
+  <script src="lib/vega-lite-6.4.1.min.js"></script>
+  <script src="lib/vega-embed-7.1.0.min.js"></script>
+  <script src="dashboard.js"></script>
+  <script>
+    startDashboard(['c1', 'c2', 'c3']);
+  </script>
+</body>
+</html>
